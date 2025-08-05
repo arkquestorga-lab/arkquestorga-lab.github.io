@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/fragezeichen_abberation.png">
+<link rel="stylesheet" type="text/css" href="./styles/wide.css">
+<script src="./scripts/expandCategory.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans"	rel="stylesheet">
+<style type="text/css">
+body {
+	font-family: 'Oswald';
+}
+</style>
+<title>Quest 2 - Karte</title>
+</head>
+<body>
+		<nav class="header">
+			<div class="menuLogo">
+				<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/AberrationA.png"
+					style="width: 64px; padding-top: 16px">
+			</div>
+			<div class="menuButton clickable"
+				onclick="location.href='index.html'">
+				<div class="menuButtonText">Start</div>
+			</div>
+			<div class="menuButton clickable"
+				onclick="location.href='teams.html'">
+				<div class="menuButtonText">Teams</div>
+			</div>
+			<div class="menuButton clickable"
+				onclick="location.href='quests.html'">
+				<div class="menuButtonText">Quests</div>
+			</div>
+			<div class="menuButton clickable" onclick="location.href='map.html'">
+				<div class="menuButtonText">Map</div>
+			</div>
+			<div class="menuButton clickable"
+				onclick="location.href='story.html'">
+				<div class="menuButtonText">Story</div>
+			</div>
+			<div class="menuButton clickable"
+				onclick="location.href='highlights.html'">
+				<div class="menuButtonText">Highlights</div>
+			</div>
+			<div class="menuButton clickable" onclick="location.href='orga.html'" style="display: none">
+				<div class="menuButtonText">About Us</div>
+			</div>
+		</nav>
+  <div class="main">
+		<div class="mapBox">
+      <div style="margin: auto">
+        <div class="mapContainer" style="margin-right: 75px;">
+				<!-- Base Layer of the Map -->
+				<img class="mapBase" alt="baselayer" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/abeMap.png" style="display: block;">
+				<!-- add each Team Base on Top -->
+				<img id="layerbase1" class="mapOverlay" alt="basen" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/baseRed.png" style="display: none; top:220px; left:460px;">
+				<img id="layerbase2" class="mapOverlay" alt="basen" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/baseGreen.png" style="display: none; top:100px; left:320px;">
+				<img id="layerbase3"	class="mapOverlay" alt="basen" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/baseBlue.png" style="display: none; top:370px; left:260px;">
+				<!-- add each NPC Location --> 
+				<img id="layernpc1" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 65px; left: 360px;">
+				<img id="layernpc2" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 350px; left: 195px;">
+				<img id="layernpc3" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 400px; left: 320px;">
+				<img id="layernpc4" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 650px; left: 560px;">
+          <!-- add each Challenge Location -->
+				<img id="layerchallenge1" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 190px; left: 415px;">
+        <!-- top: 190; left: 415px-->
+				<img id="layerchallenge2" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 390px; left: 360px;">
+				<!-- top: 390px; left: 360px-->
+        <img id="layerchallenge3" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 195px; left:310px;">
+				<!-- top: 225px; left: 215px-->
+        <img id="layerchallenge4" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 345px; left: 645px;">
+				<!-- top: 360px; left: 590px-->
+        <img id="layerchallenge5" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 360px; left: 590px;">
+				<!-- -->
+        <img id="layerchallenge6" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 335px; left: 220px;">
+				<!-- -->
+        <img id="layerchallenge7" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 505px; left: 355px;">
+				<!-- top: 625px; left: 288px; -->
+        <img id="layerchallenge8" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 625px; left: 288px;">
+				<!-- top: 275px; left: 498px; -->
+        <img id="layerchallenge9" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 275px; left: 498px;">
+			</div>
+			<div class="mapLegend">
+        <div class="mapLegendBox">
+          <div class="legendItem">
+					<div id="checkbase" class=" clickable" onclick="toggleAll('base',3);"
+						style="float: left;">&#9744;</div>
+					<div style="float: left;">Team Basen</div>
+					<div id="extendBase" class=" clickable" onclick="expand('Base');">&#9662;</div>
+					<div id="submenuBase" style="display: none;">
+						<div class="submenuItem">
+							<div id="checkbase1" class=" clickable"
+								onclick="toggle('base1'); checkAll('base',3);" style="float: left;">&#9744;</div>
+							<div>Base Rot</div>
+						</div>
+						<div class="submenuItem">
+							<div id="checkbase2" class=" clickable"
+								onclick="toggle('base2'); checkAll('base',3);" style="float: left;">&#9744;</div>
+							<div>Base Grün</div>
+						</div>
+						<div class="submenuItem">
+							<div id="checkbase3" class=" clickable"
+								onclick="toggle('base3'); checkAll('base',3);" style="float: left;">&#9744;</div>
+							<div>Base Blau</div>
+						</div>
+					</div>
+				</div>
+				<div class="legendItem">
+					<div id="checknpc" class=" clickable" onclick="toggleAll('npc',4);"
+						style="float: left;">&#9744;</div>
+					<div style="float: left;">NPCs</div>
+					<div id="extendNpc" class=" clickable" onclick="expand('Npc');">&#9662;</div>
+					<div id="submenuNpc" style="display: none;">
+						<div class="submenuItem">
+							<div id="checknpc1" class=" clickable" onclick="toggle('npc1'); checkAll('npc',4);"
+								style="float: left;">&#9744;</div>
+							<div>Alasie</div>
+						</div>
+						<div class="submenuItem">
+							<div id="checknpc2" class=" clickable" onclick="toggle('npc2'); checkAll('npc',4);"
+								style="float: left;">&#9744;</div>
+							<div>Nerva</div>
+						</div>
+						<div class="submenuItem">
+							<div id="checknpc3" class=" clickable" onclick="toggle('npc3'); checkAll('npc',4);"
+								style="float: left;">&#9744;</div>
+							<div>Henry</div>
+						</div>
+						<div class="submenuItem">
+							<div id="checknpc4" class=" clickable" onclick="toggle('npc4'); checkAll('npc',4);"
+								style="float: left;">&#9744;</div>
+							<div>Einstein</div>
+						</div>
+					</div>
+				</div>
+				<div class="legendItem">
+					<div style="width: 100%;">
+						<div id="checkchallenge" class=" clickable"
+							onclick="toggleAll('challenge',9);" style="float: left;">&#9744;</div>
+						<div style="float: left;">Challenges</div>
+						<div id="extendChallenge" class="clickable"
+							onclick="expand('Challenge');">&#9662;</div>
+					</div>
+					<div id="submenuChallenge" style="display: none;">
+						<div class="submenuItem">
+							<div id="checkchallenge1" class=" clickable"
+								onclick="toggle('challenge1'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>Rollrat</div><!-- Rollrat -->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge2" class=" clickable"
+								onclick="toggle('challenge2'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>Cosmo Swing</div><!-- Cosmo Swing-->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge3" class=" clickable"
+								onclick="toggle('challenge3'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>Zipline</div><!-- Zipline -->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge4" class=" clickable"
+								onclick="toggle('challenge4'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>Shooting Range</div><!-- Shooting Range -->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge5" class=" clickable"
+								onclick="toggle('challenge5'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>JnR Easy</div><!-- JnR Easy -->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge6" class=" clickable"
+								onclick="toggle('challenge6'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>JnR Hard</div><!-- JnR Hard -->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge7" class=" clickable"
+								onclick="toggle('challenge7'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>Freethrow</div><!-- Freethrow -->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge8" class=" clickable"
+								onclick="toggle('challenge8'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							<div>Climb&Fly</div><!-- Climb&Fly-->
+						</div>
+						<div class="submenuItem">
+							<div id="checkchallenge9" class=" clickable"
+								onclick="toggle('challenge9'); checkAll('challenge',9);" style="float: left;">&#9744;</div>
+							  <div>Goo Gun</div><!-- Goo Gun -->
+						  </div>
+					  </div>
+				  </div>  
+        </div>
+			  </div>
+      </div>
+		</div>
+	</div>
+</body>
+</html>

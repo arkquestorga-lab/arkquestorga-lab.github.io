@@ -1,0 +1,852 @@
+@charset "UTF-8";
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.main {
+	padding-top: 80px;
+}
+
+.header {
+	height: 80px;
+	width: 100%;
+	padding-left: 50px;
+  padding-right: 50px;
+	background-color: black;
+	position: fixed;
+	z-index: 3;
+  overflow-y: scroll;
+	top: 0;
+	left: 0;
+}
+
+.menuLogo {
+	width: 64px;
+	height: 64px;
+	margin-left: -16px;
+	margin-right: 10px;
+	float: left;
+}
+
+.menuButton {
+	height: 64px;
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	background-color: black;
+	float: left;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.highlight {
+  filter: brightness(70%);
+}
+
+.highlight:hover {
+  filter: brightness(100%);
+}
+
+.menuButtonText {
+	vertical-align: center;
+	padding-top: 6px;
+	font-size: 36px;
+	color: white;
+}
+
+.questLogoBig {
+	width: 100%;
+	height: 900px;
+	text-align: center;
+	/*background-color: white;
+	/* background-image: url("https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/abeBackgroundTemp.png"); */
+}
+
+.questLogoBigContent {
+	vertical-align: center;
+	color: #000000;
+	font-size: 68px;
+	/*letter-spacing: 12px;
+	/*text-shadow: 4px 4px 10px #000000;*/
+}
+
+.textcolorLight {
+	/*
+ background-image:linear-gradient(180deg,#47185d,#47185d,#e5a8fc,#e5a8fc);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ */
+	color: #e5a8fc;
+	text-shadow: 0px 0px 8px #000000, 0px 0px 16px #e5a8fc, 0px 0px 24px
+		#47185d;
+}
+
+.textcolorDark {
+	/*
+ background-image:linear-gradient(180deg,#47185d,#47185d,#e5a8fc,#e5a8fc);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
+ color: #e5a8fc;
+ text-shadow: 0px 0px 8px #000000, 0px 0px 16px #e5a8fc, 0px 0px 24px #47185d;
+ */
+	color: #000000;
+	text-shadow: 0px 0px 8px #ff0000, 0px 0px 16px #aa0000, 0px 0px 24px
+		#660000;
+}
+
+.horizontalBoxes {
+	width: 100%;
+	display: flex;
+	position: relative;
+	left: 0;
+	align-items: top;
+	justify-content: center;
+	flex-wrap: wrap;
+  padding: 120px 0px 120px 0px;
+}
+
+.flexBoxThird {
+	margin: 10px;
+	width: 542px;
+	height: 859px;
+	padding-left: 1px;
+	padding-top: 1px;
+	position: relative;
+	/*background-color: darkgrey;*/
+}
+
+.flexBoxQuart {
+	margin: 12.5px;
+	width: 382px;
+	height: 617px;
+	/*background-color: rgb(95,95,95);*/
+}
+
+.grey {
+	background-color: rgb(95, 95, 95);
+	height: 375px;
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
+
+.box {
+	background-color: rgb(95, 95, 95);
+	width: 400px;
+	height: 775px;
+	border-radius: 15px;
+}
+
+.boxBox {
+	width: 380px;
+	margin-left: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.boxInABox {
+	width: 320px;
+	margin-left: 24px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.boxInABox::-webkit-scrollbar {
+	display: none;
+}
+
+&
+::-webkit-scrollbar {
+	width: 10px;
+	margin-left: -30px;
+}
+
+&
+::-webkit-scrollbar-track {
+	background: rgb(75, 75, 75);
+}
+
+&
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 5px;
+}
+
+&
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.boxInABoxTicker {
+	width: 299px;
+	height: 78px;
+	padding-top: 1px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.boxInABoxTickerSmall {
+	width: 299px;
+	height: 39px;
+	padding-top: 1px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.infoboxHeadline {
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.infoboxContentLeft {
+	width: 40px;
+	padding-left: 12%;
+	margin-bottom: 10px;
+	font-size: 24px;
+	float: left;
+}
+
+.infoboxContentMid {
+	width: 100px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	float: left;
+}
+
+.infoboxContent {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.infoboxContentTicker {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 1px;
+	margin-top: 11px;
+	margin-bottom: -12px;
+}
+
+.infoboxContentLeaderboard {
+	font-size: 24px;
+	text-align: center;
+}
+
+.blankLine {
+	height: 70px;
+}
+
+.greyHue {
+	background-color: rgb(75, 75, 75);
+}
+
+.redHue {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/tickerRed.png);
+	background-size: 100% 100%;
+}
+
+.greenHue {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/tickerGreen.png);
+	background-size: 100% 100%;
+}
+
+.blueHue {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/tickerBlue.png);
+	background-size: 100% 100%;
+}
+
+.adminsHue, .OrgaHue, .orgaHue {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/tickerAdmins.png?v=1727451339227);
+	background-size: 100% 100%;
+}
+
+.teamRed {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/redBox.png);
+	background-size: 100% 100%;
+}
+
+.teamGreen {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/greenBox.png);
+	background-size: 100% 100%;
+}
+
+.teamBlue {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/blueBox.png);
+	background-size: 100% 100%;
+}
+
+.teamRedPlayer {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/redPlayerBox.png);
+	background-size: 100% 100%;
+}
+
+.teamGreenPlayer {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/greenPlayerBox.png);
+	background-size: 100% 100%;
+}
+
+.teamBluePlayer {
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/bluePlayerBox.png);
+	background-size: 100% 100%;
+}
+
+.teamHeaderName {
+	width: 240px;
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	float: left;
+}
+
+.teamHeaderPoints {
+	width: 136px;
+	color: white;
+	float: right;
+	font-size: 55px;
+	text-align: right;
+	position: absolute;
+	top: 20px;
+	left: 380px;
+}
+
+.teamPlayer {
+	color: black;
+	text-align: left;
+	font-size: 40px;
+}
+
+.flexPlayer {
+	width: 413px;
+	height: 53px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 4px;
+}
+
+.playerImg {
+	width: 51px;
+	height: 51px;
+	margin-left: 10px;
+	margin-top: -14px;
+}
+
+.playerName {
+	height: 53px;
+	width: 265px;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 4px;
+	margin-top: -14px;
+}
+
+.teamCaptain {
+	height: 53px;
+	color: white;
+	font-size: 30px;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 4px;
+	margin-top: -14px;
+}
+
+.onlineIndicator {
+	margin-top: 14px;
+	height: 58px;
+	width: 80px;
+}
+
+.offlineIndicator {
+	margin-top: 14px;
+	height: 58px;
+	width: 80px;
+}
+
+.scoreDetails {
+	display: none;
+}
+
+.flexScore {
+	width: 397px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: justify;
+	gap: 12px;
+}
+
+.flexFull {
+	width: 381px;
+}
+
+.flexThird {
+	width: 119px;
+}
+
+.grayBar {
+	height: 10px;
+	width: 100%;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+.redBar {
+	margin-top: -10px;
+	height: 10px;
+	width: 80%;
+	background-color: rgb(219,88,193);
+	border-radius: 10px;
+}
+
+.greenBar {
+	margin-top: -10px;
+	height: 10px;
+	width: 80%;
+	background-color: rgb(130,209,115);
+	border-radius: 10px;
+}
+
+.cyanBar {
+	margin-top: -10px;
+	height: 10px;
+	width: 80%;
+	background-color: rgb(53,173,208);
+	border-radius: 10px;
+}
+
+.grayBigBar {
+	margin-top: 10px;
+	height: 20px;
+	border-radius: 20px;
+	width: 100%;
+	background-color: gray;
+}
+
+.redBigBar {
+	margin-top: -20px;
+	border-radius: 20px 0 0 20px;
+	height: 20px;
+	background-color: rgb(219,88,193);
+}
+
+.yellowBigBar {
+	margin-top: -20px;
+	height: 20px;
+	background-color: yellow;
+}
+
+.greenBigRoundBar {
+	margin-top: -20px;
+	border-radius: 0 20px 20px 0;
+	height: 20px;
+	background-color: rgb(130,209,115);
+}
+
+.greenBigBar {
+	margin-top: -20px;
+	height: 20px;
+	background-color: rgb(130,209,115);
+}
+
+.cyanBigBar {
+	margin-top: -20px;
+	margin-bottom: 10px;
+	border-radius: 0 20px 20px 0;
+	height: 20px;
+	background-color: rgb(53,173,208);
+}
+
+.textBar {
+	width: 100%;
+	font-size: 95%;
+	height: 25px;
+	text-align: center;
+}
+
+.titleBar {
+	width: 100%;
+	font-size: 22px;
+	height: 30px;
+}
+
+.record {
+	color: yellow;
+	
+}
+
+.second {
+	color: silver;
+	
+}
+
+.noRecord {
+	color: white;
+	
+}
+
+.teamName {
+	width: 400px;
+	height: 400px;
+	color: white;
+	font-size: 72px;
+	margin-left: 100px;
+}
+
+.portrait {
+	width: 400px;
+	height: 400px;
+	color: white;
+	font-size: 24px;
+	margin: -1px;
+}
+
+.teamText {
+	width: 400px;
+	height: 400px;
+	color: white;
+	font-size: 24px;
+}
+
+.innerPortrait {
+	width: 60%;
+	margin-left: 20%;
+	height: 80%;
+	margin-top: 5%;
+}
+
+.portraitNameplate {
+	width: 80%;
+	margin-left: 5%;
+	height: 10%;
+	margin-top: -5%;
+	text-align: right;
+}
+
+.nameplateStyle {
+	background-color: rgb(90, 90, 90);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+}
+
+.bigShell {
+	background-color: rgba(45, 45, 45, 0.75);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	display: none;
+	overflow-y: scroll;
+}
+
+.closeLayer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.innerShell {
+	width: 980px;
+	height: 670px;
+	margin: auto;
+	margin-top: 160px;
+	position: relative;
+}
+
+.innerShellName {
+	width: 100%;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.innerShellImg {
+	width: 400px;
+	height: 534px;
+	position: absolute;
+	top: 76px;
+	left: 71px;
+}
+
+.innerShellInfo {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	top: 76px;
+	right: 71px;
+	width: 400px;
+	height: 144px;
+	font-size: 15px;
+}
+/*somehow split 474 between info and progress in height trying 174 - 300*/
+.innerShellProgress {
+	position: absolute;
+	bottom: 60px;
+	right: 71px;
+	width: 400px;
+	height: 334px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	font-size: 15px;
+}
+
+.innerShellProgressFull {
+	width: 100%;
+	text-align: center;
+}
+
+.innerShellProgressHalf {
+	width: 50%;
+	text-align: center;
+}
+
+.innerShellProgressThird {
+	width: 33%;
+	text-align: center;
+}
+
+.topButton {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.topButton:hover {
+	background-color: #555;
+}
+
+.selectorButton {
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	margin: 5px;
+}
+
+.questMenuBar {
+	width: 1880px;
+	margin: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+	gap: 10px;
+	align-items: center;
+	position: relative;
+}
+
+.questMenuBarExp {
+	width: 98vw;
+  height: 44vw;
+  margin: 0px;
+  padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: justify;
+	align-items: center;
+	position: relative;
+}
+
+.questMenuBox {
+	width: 930px;
+	height: 410px;
+	text-align: center;
+	font-size: 100px;
+	position: relative;
+}
+
+.questMenuBoxExp {
+	width: 48%;
+  height: 49%;
+  margin: 0.5% 1% 0.5% 1%;
+	/*height: 410px;*/
+	text-align: center;
+	position: relative;
+}
+
+.questMenuBoxImg {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+}
+
+.bgimg {
+  width: 100%;
+	height: 100%;
+	filter: brightness(40%);
+	transition-duration: 0.4s;
+	transition-timing-function: ease;
+  size: 100% 100%;
+}
+
+.portraitChallenge {
+	width: 496px;
+	height: 241px;
+	color: white;
+	font-size: 25px;
+	margin-bottom: -28px;
+}
+
+.portraitNPC {
+	background-color: darkgray;
+	width: 300px;
+	/*height: 400px;*/
+	color: white;
+	font-size: 24px;
+	margin: -1px;
+}
+
+.mapBox {
+	display: flex;
+  justify-content: center;  
+  width: 100vw;
+  height: 93vh;
+  margin: -1vw;
+  background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/mapbg.png);
+}
+
+.mapContainer {
+	position: relative;
+	float: left;
+	width: 800px;
+	height: 800px;
+}
+
+.mapBase {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 800px;
+	z-index: 1;
+}
+
+.mapOverlay {
+	position: absolute;
+  z-index: 2;
+}
+
+.mapLegend {
+	font-size: 30px;
+  margin-left: 75px;
+  float: left;
+	background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/mapmenu.png);
+	width: 421px;
+	height: 796px;
+  position: relative;
+}
+
+.mapLegendBox {
+  overflow-y: scroll;
+  position: absolute;
+  left: 60px;
+	width: 321px;
+  top: 70px;
+	height: 656px;
+  scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.mapLegendBox::-webkit-scrollbar {
+	display: none;
+}
+
+.legendItem {
+	width: 100%;
+	user-select: none;
+}
+
+.submenuItem {
+	font-size: 75%;
+	margin-left: 15px;
+}
+
+.clip {
+	background-color: purple;
+	float: left;
+	margin: auto;
+}
+
+.highlightBox {
+  width: 310px;
+  height: 254px;
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  position: relative;
+  background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/highlightsBox.png?v=1727433703966);
+  background-size: 100% 100%;
+}
+
+.highlightName {
+  width: 155px;
+  height: 25px;
+  font-size: 17px;
+  position: absolute;
+  top: 0px;
+  left: 77.5px;
+  text-align: center;
+}
+
+.highlightTitle {
+  width: 290px;
+  height: 40px;
+  font-size: 17px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+
+.highlightTitleLong {
+  width: 290px;
+  height: 40px;
+  font-size: 17px;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  line-height: 19px;
+}
+
+.highlightImg {
+  width: 305px;
+  height: 171px;
+  position: absolute;
+  top: 81px;
+  left: 2px;
+}
+
+.nodebug {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+}

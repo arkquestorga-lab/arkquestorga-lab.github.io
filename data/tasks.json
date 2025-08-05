@@ -1,0 +1,3036 @@
+[
+  {
+    "Id": 10,
+    "Name": "Rollrat Race",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/08/a-yi-qi-a-feathered-winged-dinosaur-sits-by-a-waterfall-in-a-screenshot-from-asa-aberration.jpg",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 4,
+    "MaxValue": 20,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "GaTo": [
+        {
+          "Id": "fb807ce7-ad59-4da0-ad64-f515bb0db60c",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=-05h59m15s",
+          "TimeStamp": "2024-09-28T16:48:48.3143919+02:00",
+          "RunType": 1,
+          "Value": "00:03:07.6190000"
+        },
+        {
+          "Id": "fb7ac4d9-8db3-4795-b5af-956fc9dfc8c8",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=-06h33m06s",
+          "TimeStamp": "2024-09-28T17:01:57.5274275+02:00",
+          "RunType": 1,
+          "Value": "00:50:07.6190000"
+        },
+        {
+          "Id": "f895d2df-41a5-4721-99d9-57b280d8672f",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=02h30m18s",
+          "TimeStamp": "2024-09-28T17:05:22.6025292+02:00",
+          "RunType": 1,
+          "Value": "00:50:07.6190000"
+        }
+      ],
+      "MrMoregame": [
+        {
+          "Id": "f943e6f7-c294-4bac-b3d5-9d002ad2d177",
+          "Clip": "https://www.twitch.tv/videos/2261739041?t=22h44m56s",
+          "TimeStamp": "2024-09-28T17:34:59.2096422+02:00",
+          "RunType": 1,
+          "Value": "00:02:55.1470000"
+        },
+        {
+          "Id": "138bd587-4391-48c1-a27c-7f31dea24983",
+          "Clip": "https://www.twitch.tv/videos/2261739041?t=23h16m56s",
+          "TimeStamp": "2024-09-28T18:06:43.7513091+02:00",
+          "RunType": 1,
+          "Value": "00:02:39.2390000"
+        },
+        {
+          "Id": "ab634a85-b926-4503-8a0f-98cb22877ea4",
+          "Clip": "https://www.twitch.tv/videos/2261739041?t=23h29m26s",
+          "TimeStamp": "2024-09-28T18:19:19.533187+02:00",
+          "RunType": 1,
+          "Value": "00:02:45.0230000"
+        },
+        {
+          "Id": "c5740c14-5e8e-4d95-867d-5334c4b0c846",
+          "Clip": "",
+          "TimeStamp": "2024-09-28T18:59:34.301263+02:00",
+          "RunType": 1,
+          "Value": "00:02:38.3140000"
+        },
+        {
+          "Id": "3e22b7c0-37e2-4f0e-bd64-1dbc67a0580b",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T22:34:01.0126564+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.3350000"
+        },
+        {
+          "Id": "9b17696f-9b23-4814-9416-2a1a0822c609",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T22:34:01.639246+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.3350000"
+        },
+        {
+          "Id": "c06de286-60ae-4b84-a2f1-0f6de102e898",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T22:34:02.0847904+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.3350000"
+        },
+        {
+          "Id": "6356b3aa-03b4-43ff-8d21-160062870ef0",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T22:34:03.300926+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.3350000"
+        },
+        {
+          "Id": "24f12788-a4e0-4b49-a266-efb26b693a21",
+          "Clip": "https://www.twitch.tv/videos/2265655672?t=30h06m35s",
+          "TimeStamp": "2024-10-03T17:36:38.002246+02:00",
+          "RunType": 1,
+          "Value": "00:02:13.1430000"
+        }
+      ],
+      "RealOrchid": [
+        {
+          "Id": "d6e77110-f821-4609-ba0f-bcbc1c79532a",
+          "Clip": "https://www.twitch.tv/videos/2264216695?t=04h19m46s",
+          "TimeStamp": "2024-09-30T21:34:15.9170776+02:00",
+          "RunType": 1,
+          "Value": "00:04:09.8810000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "146c52ae-89a4-4a6b-a450-aff3ffe93f69",
+          "Clip": "https://www.twitch.tv/videos/2264816453?t=01h16m53s",
+          "TimeStamp": "2024-10-01T11:30:26.274376+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.4760000"
+        },
+        {
+          "Id": "f65391fc-e0cc-4f25-9148-7e86eac11995",
+          "Clip": "https://www.twitch.tv/videos/2264816453?t=01h16m54s",
+          "TimeStamp": "2024-10-01T11:30:27.4562362+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.4760000"
+        },
+        {
+          "Id": "937679ea-5366-4717-b539-60ead781ae32",
+          "Clip": "https://www.twitch.tv/videos/2264816453?t=01h16m56s",
+          "TimeStamp": "2024-10-01T11:30:28.7463657+02:00",
+          "RunType": 1,
+          "Value": "00:02:52.4760000"
+        },
+        {
+          "Id": "a3f7371a-9a25-4aeb-a3d9-519a92ea86ee",
+          "Clip": "https://www.twitch.tv/videos/2265901076?t=02h21m15s",
+          "TimeStamp": "2024-10-02T21:52:05.0902234+02:00",
+          "RunType": 1,
+          "Value": "00:02:40.0840000"
+        }
+      ],
+      "Simi": [
+        {
+          "Id": "de95898f-5fe3-487a-971a-f79dd8a2eb55",
+          "Clip": "https://www.twitch.tv/videos/2264990974?t=01h58m52s",
+          "TimeStamp": "2024-10-01T19:19:06.8414028+02:00",
+          "RunType": 1,
+          "Value": "00:03:33.2490000"
+        }
+      ],
+      "Fluffo": [
+        {
+          "Id": "80084c1c-58d2-4923-aec3-54241d5e7962",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T19:19:30.7680426+02:00",
+          "RunType": 1,
+          "Value": "00:03:02.6050000"
+        }
+      ],
+      "Xanti": [
+        {
+          "Id": "fda1e9ce-5b33-435b-a1bd-ef47c24a6fdc",
+          "Clip": "https://www.twitch.tv/videos/2265005384?t=01h44m03s",
+          "TimeStamp": "2024-10-01T19:29:09.0514418+02:00",
+          "RunType": 1,
+          "Value": "00:03:27.8900000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "b924e25f-ef95-47f7-ac13-3c9f6b08f701",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=02h03m35s",
+          "TimeStamp": "2024-10-01T20:41:46.4871459+02:00",
+          "RunType": 1,
+          "Value": "00:03:07.0550000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "995e5dd2-bde0-4766-81a6-de11183d0ebf",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=06h38m17s",
+          "TimeStamp": "2024-10-01T20:41:57.2901669+02:00",
+          "RunType": 1,
+          "Value": "00:03:28.1200000"
+        },
+        {
+          "Id": "65253951-34f1-470b-8f25-a8fb31ba5d78",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=06h38m18s",
+          "TimeStamp": "2024-10-01T20:41:58.6143603+02:00",
+          "RunType": 1,
+          "Value": "00:03:28.1200000"
+        },
+        {
+          "Id": "a239c421-6e0a-4a95-8ace-47a068cfa688",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h13m57s",
+          "TimeStamp": "2024-10-01T21:16:26.9664482+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "49de72e8-7816-483e-ba60-fa34927d1328",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h13m58s",
+          "TimeStamp": "2024-10-01T21:16:27.5676229+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "6c3d541c-e0d1-46ce-8d98-bd718a05502d",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h13m58s",
+          "TimeStamp": "2024-10-01T21:16:28.1567804+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "a622e47d-320f-4c66-9b33-a48992b13ed3",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h13m59s",
+          "TimeStamp": "2024-10-01T21:16:29.3879383+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "712cac31-0e3e-4f7d-b0b8-5ca7094fa3f5",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m00s",
+          "TimeStamp": "2024-10-01T21:16:29.897091+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "d1bbfe56-47cc-4644-a634-e08bf8e3c370",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m02s",
+          "TimeStamp": "2024-10-01T21:16:31.6370542+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "76006c48-5d7b-4fc0-966b-fb10644da140",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m02s",
+          "TimeStamp": "2024-10-01T21:16:32.3111629+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "0fb4044e-294e-4b5a-a958-bdac55e58660",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m03s",
+          "TimeStamp": "2024-10-01T21:16:32.7663138+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "8d88e79f-e77c-452e-9695-e5932a3b33a7",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m04s",
+          "TimeStamp": "2024-10-01T21:16:34.3629026+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "a6f97d7e-30db-42a8-b58b-51d19e4181b4",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m05s",
+          "TimeStamp": "2024-10-01T21:16:34.8277648+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "f5e95daa-986c-42ba-90fd-f5a51aac31fe",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=07h14m06s",
+          "TimeStamp": "2024-10-01T21:16:35.7955229+02:00",
+          "RunType": 1,
+          "Value": "00:02:17.5210000"
+        },
+        {
+          "Id": "9efd8c6d-af9a-4cfa-a6b2-2afdfc947147",
+          "Clip": "https://www.twitch.tv/videos/2266616862?t=12h03m09s",
+          "TimeStamp": "2024-10-04T05:10:15.1670295+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.1120000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "a9389d5f-c2f7-4549-abc0-f9837cb0a9b0",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T21:30:21.481294+02:00",
+          "RunType": 1,
+          "Value": "00:02:51.0750000"
+        },
+        {
+          "Id": "b3a3a45c-84fe-4597-9cb3-ef8eebaefbb4",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T02:33:24.6016505+02:00",
+          "RunType": 1,
+          "Value": "00:02:32.2380000"
+        },
+        {
+          "Id": "629a09fd-0365-4695-aaf2-38706c9cd04a",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T04:33:41.8630917+02:00",
+          "RunType": 1,
+          "Value": "00:02:20.1940000"
+        },
+        {
+          "Id": "2ae20a1d-bbc6-4870-92b8-55abdccb0a49",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:41:47.9891514+02:00",
+          "RunType": 1,
+          "Value": "00:02:11.6800000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "ce569de1-79f2-46bc-b143-3784c2e80caf",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=05h25m13s",
+          "TimeStamp": "2024-10-02T21:31:18.2694514+02:00",
+          "RunType": 1,
+          "Value": "00:06:26.2940000"
+        }
+      ],
+      "Leyla": [
+        {
+          "Id": "694d1bec-df8b-43dd-9fe9-6c5d0c3f39f7",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T00:14:10.2079323+02:00",
+          "RunType": 1,
+          "Value": "00:05:08.9370000"
+        },
+        {
+          "Id": "f846a430-f6aa-47ca-ba34-27680ca03ec3",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T00:14:10.6246048+02:00",
+          "RunType": 1,
+          "Value": "00:05:08.9370000"
+        },
+        {
+          "Id": "bf65f0cd-bf91-48e0-9e2b-01cdcc0919db",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T00:14:11.3828007+02:00",
+          "RunType": 1,
+          "Value": "00:05:08.9370000"
+        },
+        {
+          "Id": "01779866-573d-4ce2-a52b-56333db10eff",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T00:14:11.9723986+02:00",
+          "RunType": 1,
+          "Value": "00:05:08.9370000"
+        },
+        {
+          "Id": "3da1c349-ad59-4add-9150-3d02f7c8a9fe",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T00:14:13.5988609+02:00",
+          "RunType": 1,
+          "Value": "00:05:08.9370000"
+        },
+        {
+          "Id": "73d74190-c8c5-4e35-802d-80240d4b30d3",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T00:14:14.4430635+02:00",
+          "RunType": 1,
+          "Value": "00:05:08.9370000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "c401d3a1-adac-4ece-8c37-76757df32efe",
+          "Clip": "https://www.twitch.tv/videos/2266616860?t=08h10m48s",
+          "TimeStamp": "2024-10-04T01:19:50.4458969+02:00",
+          "RunType": 1,
+          "Value": "00:04:14.1710000"
+        },
+        {
+          "Id": "2d83e02e-3cf7-42af-a997-8602c7ab581d",
+          "Clip": "https://www.twitch.tv/videos/2266616860?t=08h10m49s",
+          "TimeStamp": "2024-10-04T01:19:51.5038029+02:00",
+          "RunType": 1,
+          "Value": "00:04:14.1710000"
+        },
+        {
+          "Id": "8070dd75-f7f2-4af3-83d1-478f142d2ce8",
+          "Clip": "https://www.twitch.tv/videos/2266616860?t=08h10m50s",
+          "TimeStamp": "2024-10-04T01:19:52.7705419+02:00",
+          "RunType": 1,
+          "Value": "00:04:14.1710000"
+        }
+      ],
+      "DefinitivOrfn": [
+        {
+          "Id": "fb13625e-2f92-4d58-83a9-7e40381eeb08",
+          "Clip": "https://www.twitch.tv/videos/2266594203?t=11h34m12s",
+          "TimeStamp": "2024-10-04T04:04:18.7893383+02:00",
+          "RunType": 1,
+          "Value": "00:06:16.7860000"
+        },
+        {
+          "Id": "c23d6648-e189-42f7-ba89-96ccbf238b0c",
+          "Clip": "https://www.twitch.tv/videos/2266594203?t=11h34m13s",
+          "TimeStamp": "2024-10-04T04:04:20.3483585+02:00",
+          "RunType": 1,
+          "Value": "00:06:16.7860000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "f7a4fad2-9368-4164-bbc5-449fb1fc19fd",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=02h08m19s",
+          "TimeStamp": "2024-10-04T13:35:47.2472593+02:00",
+          "RunType": 1,
+          "Value": "00:03:28.7100000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 20,
+    "Name": "Cosmo Swing",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://cdn.discordapp.com/attachments/1288106919285882893/1288467578855100517/20240925134645_1.jpg?ex=66f7ed71\u0026is=66f69bf1\u0026hm=78e2fbfb2fc3bdd6b20c47cafbe4303270dfc32c15cdb36508fcaef36c2fd54b\u0026",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 7,
+    "MaxValue": 35,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "Rubyduby": [
+        {
+          "Id": "28427e09-d3e3-4c43-9918-787b0bb75e72",
+          "Clip": "",
+          "TimeStamp": "2024-09-29T07:12:52.7638428+02:00",
+          "RunType": 1,
+          "Value": "00:07:42.7910000"
+        },
+        {
+          "Id": "5cee4433-e162-4e65-b051-f668bebc1ece",
+          "Clip": "",
+          "TimeStamp": "2024-09-29T07:12:55.927083+02:00",
+          "RunType": 1,
+          "Value": "00:07:42.7910000"
+        },
+        {
+          "Id": "5848f2de-7699-4ac7-b8e4-88b2cecd6965",
+          "Clip": "",
+          "TimeStamp": "2024-09-29T07:12:59.6330443+02:00",
+          "RunType": 1,
+          "Value": "00:07:42.7910000"
+        },
+        {
+          "Id": "83ffa94b-d939-41d0-b8b5-02d4819b57a4",
+          "Clip": "",
+          "TimeStamp": "2024-09-29T07:13:02.199942+02:00",
+          "RunType": 1,
+          "Value": "00:07:42.7910000"
+        }
+      ],
+      "GaTo": [
+        {
+          "Id": "aa5f3d84-cdc6-455a-8bd1-0b5861d8fae4",
+          "Clip": "https://www.twitch.tv/videos/2263547522?t=02h21m09s",
+          "TimeStamp": "2024-09-29T22:06:04.60151+02:00",
+          "RunType": 1,
+          "Value": "00:04:57.4830000"
+        },
+        {
+          "Id": "eebe06bf-9f2d-4537-b3ec-fc3d8308fa98",
+          "Clip": "https://www.twitch.tv/videos/2264245034?t=00h31m22s",
+          "TimeStamp": "2024-09-30T18:35:09.0577804+02:00",
+          "RunType": 1,
+          "Value": "00:04:36.9760000"
+        },
+        {
+          "Id": "477969a3-d655-4d40-a80b-ed3c7bf6696b",
+          "Clip": "https://www.twitch.tv/videos/2264245034?t=00h31m24s",
+          "TimeStamp": "2024-09-30T18:35:10.9861542+02:00",
+          "RunType": 1,
+          "Value": "00:04:36.9760000"
+        },
+        {
+          "Id": "05248809-4942-4f80-a886-c56bac057ff0",
+          "Clip": "https://www.twitch.tv/videos/2264245034?t=00h31m24s",
+          "TimeStamp": "2024-09-30T18:35:11.4965793+02:00",
+          "RunType": 1,
+          "Value": "00:04:36.9760000"
+        },
+        {
+          "Id": "1e3e75ad-59e4-4a7f-a0f6-76c352866769",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=20h51m42s",
+          "TimeStamp": "2024-10-04T14:30:55.2417304+02:00",
+          "RunType": 1,
+          "Value": "00:02:51.2110000"
+        },
+        {
+          "Id": "636fa7e2-3308-425a-b066-9cd1f3980f4a",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=20h51m42s",
+          "TimeStamp": "2024-10-04T14:30:55.7313712+02:00",
+          "RunType": 1,
+          "Value": "00:02:51.2110000"
+        },
+        {
+          "Id": "a4e6c797-9a06-4f51-9937-4683a1320ba1",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=20h51m44s",
+          "TimeStamp": "2024-10-04T14:30:57.3345908+02:00",
+          "RunType": 1,
+          "Value": "00:02:51.2110000"
+        },
+        {
+          "Id": "1a046d92-7195-4fc9-8fa3-6e0d649e1ab9",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=21h22m10s",
+          "TimeStamp": "2024-10-04T15:00:34.2516488+02:00",
+          "RunType": 1,
+          "Value": "00:02:01.4150000"
+        },
+        {
+          "Id": "fd831aa4-b57e-401b-9032-efb82fdbbfb0",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=21h34m36s",
+          "TimeStamp": "2024-10-04T15:12:48.3945872+02:00",
+          "RunType": 1,
+          "Value": "00:01:50.2990000"
+        },
+        {
+          "Id": "f142887e-a25d-4ffe-8ef1-54737fc18890",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=23h33m38s",
+          "TimeStamp": "2024-10-04T17:12:45.1760715+02:00",
+          "RunType": 1,
+          "Value": "00:02:44.9460000"
+        },
+        {
+          "Id": "b368f96f-ea6c-4c95-bafa-adabdd7dcf02",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=23h33m38s",
+          "TimeStamp": "2024-10-04T17:12:45.6837582+02:00",
+          "RunType": 1,
+          "Value": "00:02:44.9460000"
+        },
+        {
+          "Id": "9a8c5cf1-01f2-4f39-ae10-2a6dec6caf36",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=23h33m40s",
+          "TimeStamp": "2024-10-04T17:12:47.1759797+02:00",
+          "RunType": 1,
+          "Value": "00:02:44.9460000"
+        },
+        {
+          "Id": "7e0ee7fd-e35a-4892-9b33-c58433ea1761",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=23h33m41s",
+          "TimeStamp": "2024-10-04T17:12:48.4521272+02:00",
+          "RunType": 1,
+          "Value": "00:02:44.9460000"
+        },
+        {
+          "Id": "a9163ebb-b309-4a40-8eba-ae3de6054d6d",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:46:22.1501454+02:00",
+          "RunType": 1,
+          "Value": "00:01:41.2820000"
+        },
+        {
+          "Id": "51972191-d81d-4b10-921f-1b9dfd1c8815",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:49:59.075769+02:00",
+          "RunType": 1,
+          "Value": "00:02:11.5270000"
+        },
+        {
+          "Id": "e1944d32-5738-4b97-af6c-92d961c8beb1",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=24h20m10s",
+          "TimeStamp": "2024-10-04T17:58:14.4259638+02:00",
+          "RunType": 1,
+          "Value": "00:01:37.4420000"
+        },
+        {
+          "Id": "271db533-4d95-4c8c-8624-1447ef9c56d0",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:58:14.954163+02:00",
+          "RunType": 1,
+          "Value": "00:01:37.4420000"
+        },
+        {
+          "Id": "f50f8f8e-a957-4dc3-b748-bdeec55aa0a2",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:58:15.9674054+02:00",
+          "RunType": 1,
+          "Value": "00:01:37.4420000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "79a14f62-b835-4c2d-a85a-f06116839515",
+          "Clip": "https://www.twitch.tv/videos/2264267591?t=01h27m02s",
+          "TimeStamp": "2024-09-30T20:04:08.9418945+02:00",
+          "RunType": 1,
+          "Value": "00:04:41.5590000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "66d68fcb-8dc5-496c-9207-0b3f3ec3a829",
+          "Clip": "https://www.twitch.tv/videos/2264226395?t=02h40m23s",
+          "TimeStamp": "2024-09-30T20:11:58.354539+02:00",
+          "RunType": 1,
+          "Value": "00:03:47.7480000"
+        },
+        {
+          "Id": "6fa81577-9931-4e51-8395-98728a5204bf",
+          "Clip": "https://www.twitch.tv/videos/2264226395?t=02h40m24s",
+          "TimeStamp": "2024-09-30T20:11:59.605708+02:00",
+          "RunType": 1,
+          "Value": "00:03:47.7480000"
+        }
+      ],
+      "MrMoregame": [
+        {
+          "Id": "1b1e0de8-08ff-4bc5-b310-65105cb50ac1",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T17:19:25.1358137+02:00",
+          "RunType": 1,
+          "Value": "00:03:19.7150000"
+        },
+        {
+          "Id": "4c8f9748-4092-4673-b761-0b59f12c983d",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T17:53:32.222843+02:00",
+          "RunType": 1,
+          "Value": "00:02:09.4320000"
+        },
+        {
+          "Id": "f046c39f-3a2c-4dc1-ad7a-69baf144c1d1",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T17:53:32.7117189+02:00",
+          "RunType": 1,
+          "Value": "00:02:09.4320000"
+        },
+        {
+          "Id": "263be7b3-39b2-4562-ba31-f4cae406e159",
+          "Clip": "https://www.twitch.tv/videos/2267244663?t=02h36m23s",
+          "TimeStamp": "2024-10-04T13:06:13.1598421+02:00",
+          "RunType": 1,
+          "Value": "00:02:20.2910000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "8231b229-2a48-46ed-b254-a187ef8e8f0a",
+          "Clip": "https://www.twitch.tv/videos/2264910982?t=02h36m17s",
+          "TimeStamp": "2024-10-01T17:30:52.3466221+02:00",
+          "RunType": 1,
+          "Value": "00:05:42.7120000"
+        },
+        {
+          "Id": "eea60ae2-df7a-4a43-9f5b-b524c0a5eca0",
+          "Clip": "https://www.twitch.tv/videos/2264910982?t=02h46m58s",
+          "TimeStamp": "2024-10-01T17:38:12.1952759+02:00",
+          "RunType": 1,
+          "Value": "00:02:21.4370000"
+        },
+        {
+          "Id": "17fb4bc2-cc34-4af3-a813-dd7c74ddc364",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=00h12m49s",
+          "TimeStamp": "2024-10-02T16:15:14.755127+02:00",
+          "RunType": 1,
+          "Value": "00:02:47.6990000"
+        },
+        {
+          "Id": "98fc3f7a-6dfc-41e4-a560-14e91287ce76",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=01h03m03s",
+          "TimeStamp": "2024-10-02T17:04:37.2933075+02:00",
+          "RunType": 1,
+          "Value": "00:01:56.0210000"
+        },
+        {
+          "Id": "449fb890-cfb0-4cb2-a674-f1bb4f72cdf4",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=01h03m03s",
+          "TimeStamp": "2024-10-02T17:04:37.7779139+02:00",
+          "RunType": 1,
+          "Value": "00:01:56.0210000"
+        },
+        {
+          "Id": "179cd3cf-4350-47b1-879f-2aad88c2aae1",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=01h08m26s",
+          "TimeStamp": "2024-10-02T17:10:00.7483258+02:00",
+          "RunType": 1,
+          "Value": "00:01:55.9140000"
+        },
+        {
+          "Id": "39095395-b635-42ea-97b4-39b0270d4910",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=01h18m19s",
+          "TimeStamp": "2024-10-02T17:19:52.0482458+02:00",
+          "RunType": 1,
+          "Value": "00:01:54.5720000"
+        },
+        {
+          "Id": "5285035d-228c-4de2-9907-b5650fb2a82b",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=01h18m19s",
+          "TimeStamp": "2024-10-02T17:19:52.5472929+02:00",
+          "RunType": 1,
+          "Value": "00:01:54.5720000"
+        },
+        {
+          "Id": "a7a37ffd-a956-4cd5-8384-040016019acf",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=01h18m21s",
+          "TimeStamp": "2024-10-02T17:19:53.9192707+02:00",
+          "RunType": 1,
+          "Value": "00:01:54.5720000"
+        },
+        {
+          "Id": "2cfc3736-5ff2-4f3f-83b7-27d710dfece8",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=02h41m36s",
+          "TimeStamp": "2024-10-04T15:57:53.8752247+02:00",
+          "RunType": 1,
+          "Value": "00:03:07.2900000"
+        },
+        {
+          "Id": "60822763-c08b-426c-b63d-ec0f76e832b7",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=02h51m09s",
+          "TimeStamp": "2024-10-04T16:06:16.8414571+02:00",
+          "RunType": 1,
+          "Value": "00:01:57.6520000"
+        },
+        {
+          "Id": "0272d796-208e-4a3c-996b-e12f0516d0e5",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=02h51m09s",
+          "TimeStamp": "2024-10-04T16:06:17.4440105+02:00",
+          "RunType": 1,
+          "Value": "00:01:57.6520000"
+        },
+        {
+          "Id": "d59ec5ec-f4a3-49b1-a3a6-e6f0ddbfe602",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h00m19s",
+          "TimeStamp": "2024-10-04T16:15:21.6082943+02:00",
+          "RunType": 1,
+          "Value": "00:01:51.8850000"
+        },
+        {
+          "Id": "0cb42ddd-2380-42db-bd6f-f53b64791259",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h00m20s",
+          "TimeStamp": "2024-10-04T16:15:22.1269051+02:00",
+          "RunType": 1,
+          "Value": "00:01:51.8850000"
+        },
+        {
+          "Id": "5477011f-5811-4090-86f1-0dd0356c00d8",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h00m21s",
+          "TimeStamp": "2024-10-04T16:15:23.3211959+02:00",
+          "RunType": 1,
+          "Value": "00:01:51.8850000"
+        },
+        {
+          "Id": "9484100e-7768-4a20-927f-d801d86f8144",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h03m41s",
+          "TimeStamp": "2024-10-04T16:18:33.1708708+02:00",
+          "RunType": 1,
+          "Value": "00:01:41.9980000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "59e20a31-b487-4541-9bad-27e350a154fa",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=00h30m00s",
+          "TimeStamp": "2024-10-01T19:07:43.4223942+02:00",
+          "RunType": 1,
+          "Value": "00:02:38.8520000"
+        },
+        {
+          "Id": "569d5ad4-9351-4273-b190-feb2616ba0ed",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=00h36m06s",
+          "TimeStamp": "2024-10-01T19:13:40.8673702+02:00",
+          "RunType": 1,
+          "Value": "00:02:30.8360000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "9c4f2222-966a-42bb-b1a4-7695145b05b0",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=05h27m05s",
+          "TimeStamp": "2024-10-01T19:31:31.094752+02:00",
+          "RunType": 1,
+          "Value": "00:04:13.2820000"
+        }
+      ],
+      "Fluffo": [
+        {
+          "Id": "f476e7cc-76ab-4e63-b7b7-c012a25b8d55",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T12:45:00.4474437+02:00",
+          "RunType": 1,
+          "Value": "00:05:43.5150000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "004ba943-0831-4cd3-8c32-5a2f94fdf4e8",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=01h43m11s",
+          "TimeStamp": "2024-10-03T15:11:22.1144254+02:00",
+          "RunType": 1,
+          "Value": "00:03:33.4760000"
+        },
+        {
+          "Id": "a922fff6-c9b3-4e94-b60d-df9e5eeea4af",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=01h43m12s",
+          "TimeStamp": "2024-10-03T15:11:22.5393832+02:00",
+          "RunType": 1,
+          "Value": "00:03:33.4760000"
+        },
+        {
+          "Id": "6dbc249b-7bfa-4442-98ba-7b25e3592127",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=01h43m13s",
+          "TimeStamp": "2024-10-03T15:11:24.0071957+02:00",
+          "RunType": 1,
+          "Value": "00:03:33.4760000"
+        },
+        {
+          "Id": "c73e627b-26d7-46f3-b278-c1fc55de1a91",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=01h47m21s",
+          "TimeStamp": "2024-10-03T15:14:41.9582616+02:00",
+          "RunType": 1,
+          "Value": "00:02:43.0630000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "d320add8-8818-4673-acbd-aed5b00e4577",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T23:34:37.6287253+02:00",
+          "RunType": 1,
+          "Value": "00:06:38.6010000"
+        }
+      ],
+      "Beni": [
+        {
+          "Id": "48632101-ad96-4ec3-9beb-2db10913c3a7",
+          "Clip": "https://www.twitch.tv/videos/2267228980?t=00h41m35s",
+          "TimeStamp": "2024-10-04T10:16:55.5530743+02:00",
+          "RunType": 1,
+          "Value": "00:04:16.9060000"
+        }
+      ],
+      "Simi": [
+        {
+          "Id": "0db65bd4-b1a1-4e02-9686-eccc635d8b49",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:08:59.7260894+02:00",
+          "RunType": 1,
+          "Value": "00:04:45.8590000"
+        },
+        {
+          "Id": "b1b63404-5096-49fd-a3bc-b0267bd4eb57",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T17:09:00.674272+02:00",
+          "RunType": 1,
+          "Value": "00:04:45.8590000"
+        }
+      ],
+      "Mounty": [
+        {
+          "Id": "12165a81-0955-4bce-a134-e35dfbdad99f",
+          "Clip": "https://www.twitch.tv/videos/2267315869?t=03h39m43s",
+          "TimeStamp": "2024-10-04T17:49:22.6521544+02:00",
+          "RunType": 1,
+          "Value": "00:06:50.3740000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 30,
+    "Name": "Zipline Parkour",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://cdn.discordapp.com/attachments/1288106919285882893/1288601103897854084/20240925222019_1.jpg?ex=66f869cc\u0026is=66f7184c\u0026hm=4333bdd0379b9aee81306539e515a681cb23e685de198cd0279c4d87f9051ce7\u0026",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 3,
+    "MaxValue": 15,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "GaTo": [
+        {
+          "Id": "1f4f4650-e21a-48f6-aebb-5ea3a27b09e8",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=08h34m46s",
+          "TimeStamp": "2024-09-28T22:30:56.2331699+02:00",
+          "RunType": 1,
+          "Value": "00:11:13.2770000"
+        },
+        {
+          "Id": "8799612b-b15f-4acb-bce5-80b77d02cb16",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=08h34m47s",
+          "TimeStamp": "2024-09-28T22:30:56.7072039+02:00",
+          "RunType": 1,
+          "Value": "00:11:13.2770000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "d177f6e0-6520-41b0-9c7a-b8181696d8ed",
+          "Clip": "https://www.twitch.tv/videos/2262444135?t=08h44m13s",
+          "TimeStamp": "2024-09-28T22:46:49.7799542+02:00",
+          "RunType": 1,
+          "Value": "00:03:17.5190000"
+        },
+        {
+          "Id": "f2534c50-f88b-4022-8e13-5b067ffd5743",
+          "Clip": "https://www.twitch.tv/videos/2262444135?t=09h51m40s",
+          "TimeStamp": "2024-09-28T23:54:15.0044151+02:00",
+          "RunType": 1,
+          "Value": "00:03:15.4900000"
+        },
+        {
+          "Id": "19bb2d27-24c8-4bd9-97ef-4ed45d9aecc3",
+          "Clip": "https://www.twitch.tv/videos/2262444135?t=09h51m41s",
+          "TimeStamp": "2024-09-28T23:54:15.5007563+02:00",
+          "RunType": 1,
+          "Value": "00:03:15.4900000"
+        },
+        {
+          "Id": "fcaf24e6-e159-4c96-afbe-866773e483b4",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=01h34m56s",
+          "TimeStamp": "2024-10-04T13:01:50.4508718+02:00",
+          "RunType": 1,
+          "Value": "00:02:55.2090000"
+        },
+        {
+          "Id": "8515e6f4-f2f5-4ca2-b215-f2ebec2e43fa",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=01h44m05s",
+          "TimeStamp": "2024-10-04T13:10:17.0491877+02:00",
+          "RunType": 1,
+          "Value": "00:02:12.6030000"
+        },
+        {
+          "Id": "0c0ca9b2-6d21-415f-87c7-c793645ebc2f",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=05h09m13s",
+          "TimeStamp": "2024-10-04T16:35:20.5618831+02:00",
+          "RunType": 1,
+          "Value": "00:02:08.1560000"
+        },
+        {
+          "Id": "f06e0e80-62f9-4079-966e-1a22f2d8b0a3",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=05h49m58s",
+          "TimeStamp": "2024-10-04T17:16:04.7195602+02:00",
+          "RunType": 1,
+          "Value": "00:02:07.4210000"
+        },
+        {
+          "Id": "41c74618-5d95-4b75-918f-bd7e0a8d20bf",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=05h49m58s",
+          "TimeStamp": "2024-10-04T17:16:05.2638304+02:00",
+          "RunType": 1,
+          "Value": "00:02:07.4210000"
+        },
+        {
+          "Id": "ab96e384-550f-4b6a-8530-2cdcfa91fcb9",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=05h50m00s",
+          "TimeStamp": "2024-10-04T17:16:07.246306+02:00",
+          "RunType": 1,
+          "Value": "00:02:07.4210000"
+        },
+        {
+          "Id": "e28ab870-dbf6-487e-9a89-3011f8df3e45",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=06h25m23s",
+          "TimeStamp": "2024-10-04T17:51:28.6902152+02:00",
+          "RunType": 1,
+          "Value": "00:02:06.5790000"
+        },
+        {
+          "Id": "abb8dc90-2dc2-4ba2-88e0-4d22ca8ffa3a",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=06h25m23s",
+          "TimeStamp": "2024-10-04T17:51:29.476547+02:00",
+          "RunType": 1,
+          "Value": "00:02:06.5790000"
+        },
+        {
+          "Id": "b9d775c3-511e-4f0a-93d4-d53657dbcf09",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=06h32m46s",
+          "TimeStamp": "2024-10-04T17:58:52.0874644+02:00",
+          "RunType": 1,
+          "Value": "00:02:06.3030000"
+        },
+        {
+          "Id": "7b8c5125-0cc3-49b0-aad3-b785f40569c6",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=06h32m47s",
+          "TimeStamp": "2024-10-04T17:58:52.9355386+02:00",
+          "RunType": 1,
+          "Value": "00:02:06.3030000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "5a7d7edb-bea4-4c1a-987e-3fb62167cc4d",
+          "Clip": "https://www.twitch.tv/videos/2263549724?t=01h29m38s",
+          "TimeStamp": "2024-09-29T21:17:44.9389995+02:00",
+          "RunType": 1,
+          "Value": "00:05:22.5940000"
+        },
+        {
+          "Id": "7a81e049-bced-48ff-be8b-a0c199ba3cad",
+          "Clip": "https://www.twitch.tv/videos/2263549724?t=01h29m40s",
+          "TimeStamp": "2024-09-29T21:17:46.7947523+02:00",
+          "RunType": 1,
+          "Value": "00:05:22.5940000"
+        }
+      ],
+      "katisaurier": [
+        {
+          "Id": "e1cd5b32-4490-445d-85c9-c7cff22e4b2d",
+          "Clip": "https://www.twitch.tv/videos/2263666056?t=09h20m35s",
+          "TimeStamp": "2024-09-30T07:28:39.4575689+02:00",
+          "RunType": 1,
+          "Value": "00:05:20.7380000"
+        },
+        {
+          "Id": "b6cafafa-eea0-4373-a307-10ccf3c4f509",
+          "Clip": "https://www.twitch.tv/videos/2263666056?t=09h20m36s",
+          "TimeStamp": "2024-09-30T07:28:39.9532954+02:00",
+          "RunType": 1,
+          "Value": "00:05:20.7380000"
+        },
+        {
+          "Id": "63abc4aa-40b1-4a98-9e7d-fe4354e8a3bd",
+          "Clip": "https://www.twitch.tv/videos/2263666056?t=09h20m37s",
+          "TimeStamp": "2024-09-30T07:28:41.2311103+02:00",
+          "RunType": 1,
+          "Value": "00:05:20.7380000"
+        },
+        {
+          "Id": "ac7bde06-9377-4ccf-9306-c7dace7e9d10",
+          "Clip": "https://www.twitch.tv/videos/2263666056?t=09h20m38s",
+          "TimeStamp": "2024-09-30T07:28:42.6847788+02:00",
+          "RunType": 1,
+          "Value": "00:05:20.7380000"
+        },
+        {
+          "Id": "cac829bb-08c1-46c5-99f5-9b7b8e88e568",
+          "Clip": "https://www.twitch.tv/videos/2263666056?t=09h20m40s",
+          "TimeStamp": "2024-09-30T07:28:44.2506331+02:00",
+          "RunType": 1,
+          "Value": "00:05:20.7380000"
+        }
+      ],
+      "DefinitivOrfn": [
+        {
+          "Id": "26ad0aa3-1ad6-4706-a269-ed8264a60819",
+          "Clip": "https://www.twitch.tv/videos/2264866054?t=02h19m52s",
+          "TimeStamp": "2024-10-01T15:27:55.9948653+02:00",
+          "RunType": 1,
+          "Value": "00:07:00.2650000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "d146cd4f-efb9-4194-9a86-9c7c2da28f89",
+          "Clip": "https://www.twitch.tv/videos/2265605889?t=01h37m31s",
+          "TimeStamp": "2024-10-02T10:13:56.8267581+02:00",
+          "RunType": 1,
+          "Value": "00:04:45.9730000"
+        },
+        {
+          "Id": "11e038ae-69d5-46f0-9d66-25fdd0feba6f",
+          "Clip": "https://www.twitch.tv/videos/2265605889?t=01h37m32s",
+          "TimeStamp": "2024-10-02T10:13:57.967496+02:00",
+          "RunType": 1,
+          "Value": "00:04:45.9730000"
+        }
+      ],
+      "Rubyduby": [
+        {
+          "Id": "dafa963f-6085-4a10-863b-68497ff5c36a",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h40m59s",
+          "TimeStamp": "2024-10-02T14:45:49.1534269+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "8f8b96b1-841c-42ff-b061-dedae387d0ba",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h40m59s",
+          "TimeStamp": "2024-10-02T14:45:49.6153698+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "c46a9b86-3d20-46c0-96f9-4ac62b7b1811",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m00s",
+          "TimeStamp": "2024-10-02T14:45:50.7071371+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "75969980-01bb-4924-ab0e-d14a978a6a6f",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m01s",
+          "TimeStamp": "2024-10-02T14:45:51.20063+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "58701a36-b934-42cb-b1d1-9ce46f97386c",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m03s",
+          "TimeStamp": "2024-10-02T14:45:53.3681538+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "5cb11b85-306a-4af1-9093-832d1a189947",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m04s",
+          "TimeStamp": "2024-10-02T14:45:54.4548298+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "1ca8b1b7-f0f5-49af-8140-033bbe4e586c",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m05s",
+          "TimeStamp": "2024-10-02T14:45:55.0749394+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "7eede91b-ba79-4599-a249-9a61e8ab9d41",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m06s",
+          "TimeStamp": "2024-10-02T14:45:56.5952507+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "df38610d-06b0-4c0f-ac6b-c4e66fe5f3f9",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m08s",
+          "TimeStamp": "2024-10-02T14:45:58.2526736+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "65120af5-e8e7-42c8-abc0-0eacc484831f",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m09s",
+          "TimeStamp": "2024-10-02T14:45:59.5838388+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "db444be4-8ef8-48fe-8244-6add1158b695",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m10s",
+          "TimeStamp": "2024-10-02T14:46:00.2294061+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "2a4296d5-745a-4bc5-b27a-0105b2e24cf2",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m12s",
+          "TimeStamp": "2024-10-02T14:46:02.3820347+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        },
+        {
+          "Id": "a1dacd9f-ec77-4598-9684-c8b913e9c134",
+          "Clip": "https://www.twitch.tv/videos/2265703583?t=00h41m13s",
+          "TimeStamp": "2024-10-02T14:46:03.6435724+02:00",
+          "RunType": 1,
+          "Value": "00:10:43.7180000"
+        }
+      ],
+      "Collins": [
+        {
+          "Id": "35fd147d-5214-4864-bb08-0ffb472180a4",
+          "Clip": "https://www.twitch.tv/videos/2265871414?t=07h09m31s",
+          "TimeStamp": "2024-10-03T02:06:58.9309007+02:00",
+          "RunType": 1,
+          "Value": "00:07:04.6260000"
+        },
+        {
+          "Id": "d6bd301f-7dd4-4762-b642-c1b02c68a877",
+          "Clip": "https://www.twitch.tv/videos/2265871414?t=07h09m31s",
+          "TimeStamp": "2024-10-03T02:06:59.4363967+02:00",
+          "RunType": 1,
+          "Value": "00:07:04.6260000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "200a0ca0-48b3-41e3-986c-ad81d2c633fd",
+          "Clip": "https://www.twitch.tv/videos/2266562240?t=03h58m13s",
+          "TimeStamp": "2024-10-03T19:27:17.6565978+02:00",
+          "RunType": 1,
+          "Value": "00:04:52.7500000"
+        },
+        {
+          "Id": "2d3c1191-f728-4852-90c8-5e6b2e480ecd",
+          "Clip": "https://www.twitch.tv/videos/2266562240?t=03h58m14s",
+          "TimeStamp": "2024-10-03T19:27:18.1725894+02:00",
+          "RunType": 1,
+          "Value": "00:04:52.7500000"
+        },
+        {
+          "Id": "975a08ce-49d0-4121-9375-96fa506e19bb",
+          "Clip": "https://www.twitch.tv/videos/2266562240?t=04h06m24s",
+          "TimeStamp": "2024-10-03T19:32:53.4695038+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.3000000"
+        },
+        {
+          "Id": "309b9c6d-b4fc-4464-9287-5ec398291e14",
+          "Clip": "https://www.twitch.tv/videos/2266562240?t=04h06m24s",
+          "TimeStamp": "2024-10-03T19:32:54.0511368+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.3000000"
+        },
+        {
+          "Id": "18b098c9-efe7-40cd-aa12-ae912fd1f6d9",
+          "Clip": "https://www.twitch.tv/videos/2266562240?t=04h06m29s",
+          "TimeStamp": "2024-10-03T19:32:58.930932+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.3000000"
+        }
+      ],
+      "SaladOfHumanFlesh": [
+        {
+          "Id": "8f3f49d9-3a62-45f7-93f4-60d0b9bdc409",
+          "Clip": "https://www.twitch.tv/videos/2266731209?t=04h33m02s",
+          "TimeStamp": "2024-10-04T00:35:34.8502745+02:00",
+          "RunType": 1,
+          "Value": "00:03:53.6680000"
+        },
+        {
+          "Id": "92d9f095-3681-4e37-874e-2daf10aa3856",
+          "Clip": "https://www.twitch.tv/videos/2266731209?t=04h33m02s",
+          "TimeStamp": "2024-10-04T00:35:35.3663414+02:00",
+          "RunType": 1,
+          "Value": "00:03:53.6680000"
+        },
+        {
+          "Id": "0bb99c65-cbd0-407f-aa31-a583ce880350",
+          "Clip": "https://www.twitch.tv/videos/2266731209?t=04h33m04s",
+          "TimeStamp": "2024-10-04T00:35:36.8354935+02:00",
+          "RunType": 1,
+          "Value": "00:03:53.6680000"
+        }
+      ],
+      "Beni": [
+        {
+          "Id": "d219f938-41d5-42e5-9350-43f2ceda49e1",
+          "Clip": "https://www.twitch.tv/videos/2266432416?t=15h42m46s",
+          "TimeStamp": "2024-10-04T01:09:47.1467003+02:00",
+          "RunType": 1,
+          "Value": "00:03:35.3730000"
+        },
+        {
+          "Id": "d42706ea-a888-4f7b-abc2-de27d53a88ad",
+          "Clip": "https://www.twitch.tv/videos/2266432416?t=15h42m48s",
+          "TimeStamp": "2024-10-04T01:09:49.1724593+02:00",
+          "RunType": 1,
+          "Value": "00:03:35.3730000"
+        },
+        {
+          "Id": "04190da5-d96b-4b04-935b-c6c6b77312d9",
+          "Clip": "https://www.twitch.tv/videos/2266432416?t=15h42m49s",
+          "TimeStamp": "2024-10-04T01:09:50.2334644+02:00",
+          "RunType": 1,
+          "Value": "00:03:35.3730000"
+        },
+        {
+          "Id": "fbe26237-69c4-4f43-9f27-85bbd31ff67a",
+          "Clip": "https://www.twitch.tv/videos/2267228980?t=06h00m04s",
+          "TimeStamp": "2024-10-04T15:33:20.7499227+02:00",
+          "RunType": 1,
+          "Value": "00:02:13.7270000"
+        },
+        {
+          "Id": "41846dfe-ce0f-4093-9cd0-7ed74a916cc0",
+          "Clip": "https://www.twitch.tv/videos/2267228980?t=06h16m28s",
+          "TimeStamp": "2024-10-04T15:49:43.6141424+02:00",
+          "RunType": 1,
+          "Value": "00:02:11.6300000"
+        },
+        {
+          "Id": "23172ec9-2dbb-4260-8980-8668a7f81950",
+          "Clip": "https://www.twitch.tv/videos/2267228980?t=06h47m40s",
+          "TimeStamp": "2024-10-04T16:20:58.4475636+02:00",
+          "RunType": 1,
+          "Value": "00:02:15.2940000"
+        },
+        {
+          "Id": "a1a11112-b8d2-4f97-a879-f2e6cbf8d71d",
+          "Clip": "https://www.twitch.tv/videos/2267228980?t=07h21m57s",
+          "TimeStamp": "2024-10-04T16:55:05.5311565+02:00",
+          "RunType": 1,
+          "Value": "00:02:05.4180000"
+        },
+        {
+          "Id": "4874b2a2-35ff-4852-add8-4ed2aa30f659",
+          "Clip": "https://www.twitch.tv/videos/2267228980?t=07h22m04s",
+          "TimeStamp": "2024-10-04T16:55:13.143027+02:00",
+          "RunType": 1,
+          "Value": "00:02:05.4180000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "63d92ada-a309-4720-a50e-832165411d47",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=17h02m50s",
+          "TimeStamp": "2024-10-04T06:34:30.4543359+02:00",
+          "RunType": 1,
+          "Value": "00:07:02.9310000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "bd4efdb1-55b4-4518-9c54-e2a2238a9143",
+          "Clip": "https://www.twitch.tv/videos/2267303374?t=00h19m21s",
+          "TimeStamp": "2024-10-04T13:57:20.3284711+02:00",
+          "RunType": 1,
+          "Value": "00:03:42.3390000"
+        },
+        {
+          "Id": "e7142a68-2aaf-4b90-95d1-2057e2f10ef1",
+          "Clip": "https://www.twitch.tv/videos/2267303374?t=00h35m45s",
+          "TimeStamp": "2024-10-04T14:13:01.269628+02:00",
+          "RunType": 1,
+          "Value": "00:02:59.5960000"
+        },
+        {
+          "Id": "94495aa0-2b5d-4de5-a008-05845b487107",
+          "Clip": "https://www.twitch.tv/videos/2267303374?t=00h44m44s",
+          "TimeStamp": "2024-10-04T14:21:35.3787804+02:00",
+          "RunType": 1,
+          "Value": "00:02:34.6050000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "b6fde3cc-6832-4353-adc4-fd4b38a4aecc",
+          "Clip": "https://www.twitch.tv/videos/2267291804?t=03h58m10s",
+          "TimeStamp": "2024-10-04T17:05:02.5974534+02:00",
+          "RunType": 1,
+          "Value": "00:03:44.0550000"
+        },
+        {
+          "Id": "f9108ee8-b6ea-4cac-b131-ca1d6ca1086b",
+          "Clip": "https://www.twitch.tv/videos/2267291804?t=03h58m11s",
+          "TimeStamp": "2024-10-04T17:05:03.1136995+02:00",
+          "RunType": 1,
+          "Value": "00:03:44.0550000"
+        },
+        {
+          "Id": "8bf294f6-a4ff-4c9c-9c44-97d9ee8e5aa2",
+          "Clip": "https://www.twitch.tv/videos/2267291804?t=03h58m13s",
+          "TimeStamp": "2024-10-04T17:05:05.1020563+02:00",
+          "RunType": 1,
+          "Value": "00:03:44.0550000"
+        },
+        {
+          "Id": "8f7927de-8e14-49a3-9cd9-bd1aad80f7b8",
+          "Clip": "https://www.twitch.tv/videos/2267291804?t=03h58m14s",
+          "TimeStamp": "2024-10-04T17:05:07.0461991+02:00",
+          "RunType": 1,
+          "Value": "00:03:44.0550000"
+        },
+        {
+          "Id": "ab04ee38-f9cc-4326-8e71-cd85f8dbe40c",
+          "Clip": "https://www.twitch.tv/videos/2267291804?t=03h58m16s",
+          "TimeStamp": "2024-10-04T17:05:08.1412921+02:00",
+          "RunType": 1,
+          "Value": "00:03:44.0550000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 40,
+    "Name": "Shooting Range",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://cdn.discordapp.com/attachments/1288106919285882893/1288480739775610950/20240925143531_1.png?ex=66f7f9b3\u0026is=66f6a833\u0026hm=602851cca4b3d43c5e610040baaaff344fa9da963ff05a7c6de702c934237400\u0026",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 3,
+    "MaxValue": 15,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "GaTo": [
+        {
+          "Id": "05eba2da-b020-4afd-9087-f592fc4e2730",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=05h26m19s",
+          "TimeStamp": "2024-09-28T19:12:34.4101219+02:00",
+          "RunType": 1,
+          "Value": "00:01:18.5220000"
+        },
+        {
+          "Id": "e3a6763d-bf89-4bc4-9be6-b9e0acc95f59",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=05h28m46s",
+          "TimeStamp": "2024-09-28T19:15:13.060033+02:00",
+          "RunType": 1,
+          "Value": "00:01:30.0790000"
+        },
+        {
+          "Id": "3bbcbe46-66b5-4e9c-88c4-341959f0dd5b",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=05h31m07s",
+          "TimeStamp": "2024-09-28T19:17:18.3797296+02:00",
+          "RunType": 1,
+          "Value": "00:01:15.2120000"
+        },
+        {
+          "Id": "8ca7dc75-fee6-4fb3-b6ed-4620737fd6d3",
+          "Clip": "https://www.twitch.tv/videos/2264245034?t=04h40m35s",
+          "TimeStamp": "2024-09-30T22:40:52.9020763+02:00",
+          "RunType": 1,
+          "Value": "00:01:07.3760000"
+        },
+        {
+          "Id": "65d88449-25a8-45be-ad38-0628b0e5d23e",
+          "Clip": "https://www.twitch.tv/videos/2264245034?t=04h46m20s",
+          "TimeStamp": "2024-09-30T22:46:29.6981794+02:00",
+          "RunType": 1,
+          "Value": "00:00:58.7660000"
+        },
+        {
+          "Id": "c24ba893-d62c-4f57-9674-f99e087962b8",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=00h06m33s",
+          "TimeStamp": "2024-10-02T17:51:03.0194727+02:00",
+          "RunType": 1,
+          "Value": "00:01:03.4270000"
+        },
+        {
+          "Id": "58f7d2f6-e365-47b4-b8ff-6ba0a38caddf",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=00h13m21s",
+          "TimeStamp": "2024-10-02T17:57:43.5381714+02:00",
+          "RunType": 1,
+          "Value": "00:00:55.5410000"
+        },
+        {
+          "Id": "72408d7d-1a1e-47a6-951c-6969ddc34835",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=00h16m54s",
+          "TimeStamp": "2024-10-02T18:01:15.6050398+02:00",
+          "RunType": 1,
+          "Value": "00:00:55.5250000"
+        },
+        {
+          "Id": "7f68e16b-a27d-4e60-a276-c8637848e801",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=00h19m20s",
+          "TimeStamp": "2024-10-02T18:03:39.4465509+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.8470000"
+        },
+        {
+          "Id": "1e3d303f-e16d-4f12-8f2a-e71353235cc7",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=21h45m22s",
+          "TimeStamp": "2024-10-04T15:24:11.7690085+02:00",
+          "RunType": 1,
+          "Value": "00:02:27.2660000"
+        }
+      ],
+      "Rubyduby": [
+        {
+          "Id": "4ea691d0-08e1-464e-b99b-31ffc3fb0cc6",
+          "Clip": "",
+          "TimeStamp": "2024-09-30T18:45:36.0908238+02:00",
+          "RunType": 1,
+          "Value": "00:01:44.0120000"
+        },
+        {
+          "Id": "148731ba-0eaa-49df-9c32-c9424f782345",
+          "Clip": "https://www.twitch.tv/videos/2264893584?t=02h35m25s",
+          "TimeStamp": "2024-10-01T16:47:06.2546496+02:00",
+          "RunType": 1,
+          "Value": "00:01:46.5850000"
+        },
+        {
+          "Id": "eac893a6-c1cc-4abb-957e-390e7b1fd193",
+          "Clip": "https://www.twitch.tv/videos/2264893584?t=02h39m06s",
+          "TimeStamp": "2024-10-01T16:50:35.2515129+02:00",
+          "RunType": 1,
+          "Value": "00:01:34.9510000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "3e6c7db1-5427-43ac-bae9-dc9ce74771af",
+          "Clip": "https://www.twitch.tv/videos/2264226395?t=04h55m44s",
+          "TimeStamp": "2024-09-30T22:26:00.2301416+02:00",
+          "RunType": 1,
+          "Value": "00:02:29.0800000"
+        },
+        {
+          "Id": "5f64d5d8-4dcb-4f52-852f-9794ace99964",
+          "Clip": "https://www.twitch.tv/videos/2264226395?t=05h02m22s",
+          "TimeStamp": "2024-09-30T22:31:40.4250038+02:00",
+          "RunType": 1,
+          "Value": "00:01:30.4590000"
+        },
+        {
+          "Id": "8cfdec44-21a1-453f-9223-763bc665a669",
+          "Clip": "https://www.twitch.tv/videos/2264226395?t=05h08m47s",
+          "TimeStamp": "2024-09-30T22:37:43.3745474+02:00",
+          "RunType": 1,
+          "Value": "00:01:08.8260000"
+        },
+        {
+          "Id": "6ff22dcd-0eef-4ee3-9ce6-6dbdcde21997",
+          "Clip": "https://www.twitch.tv/videos/2264226395?t=05h15m33s",
+          "TimeStamp": "2024-09-30T22:44:31.1021064+02:00",
+          "RunType": 1,
+          "Value": "00:01:10.1870000"
+        }
+      ],
+      "Xanti": [
+        {
+          "Id": "e19cec84-c3e2-40aa-9f8f-26da321a1761",
+          "Clip": "https://www.twitch.tv/videos/2265005384?t=04h20m49s",
+          "TimeStamp": "2024-10-01T22:07:46.3243064+02:00",
+          "RunType": 1,
+          "Value": "00:05:18.8690000"
+        }
+      ],
+      "Leyla": [
+        {
+          "Id": "ded4b35e-0c47-4a4f-9d32-b17666db33ce",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T23:11:27.2829305+02:00",
+          "RunType": 1,
+          "Value": "00:05:13.3580000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "3be311c9-a2a3-4ecf-95df-75797887ea0a",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h10m08s",
+          "TimeStamp": "2024-10-02T14:16:37.3754959+02:00",
+          "RunType": 1,
+          "Value": "00:02:41.1540000"
+        },
+        {
+          "Id": "a71c9d6f-1a47-45bf-b0ba-4e6b8454925e",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h17m49s",
+          "TimeStamp": "2024-10-02T14:22:58.9285505+02:00",
+          "RunType": 1,
+          "Value": "00:01:21.7040000"
+        },
+        {
+          "Id": "aa3bcbbe-019a-44aa-b1c2-6199166e5267",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h21m32s",
+          "TimeStamp": "2024-10-02T14:26:42.3464854+02:00",
+          "RunType": 1,
+          "Value": "00:01:21.9240000"
+        },
+        {
+          "Id": "a7ed8f22-7854-47e1-a117-19b1cb58c63f",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h24m02s",
+          "TimeStamp": "2024-10-02T14:28:53.6801524+02:00",
+          "RunType": 1,
+          "Value": "00:01:02.6920000"
+        },
+        {
+          "Id": "08803438-8eac-4fb7-8a2a-f168331707fb",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h25m22s",
+          "TimeStamp": "2024-10-02T14:30:18.0335863+02:00",
+          "RunType": 1,
+          "Value": "00:01:07.3590000"
+        },
+        {
+          "Id": "97e6e1a8-7937-4751-96bc-a1c79a31a3e4",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h30m28s",
+          "TimeStamp": "2024-10-02T14:35:13.4504264+02:00",
+          "RunType": 1,
+          "Value": "00:00:56.9270000"
+        },
+        {
+          "Id": "b5bf053c-c2de-487f-8303-4688a4fc328d",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h33m10s",
+          "TimeStamp": "2024-10-02T14:37:57.9827861+02:00",
+          "RunType": 1,
+          "Value": "00:00:59.9820000"
+        },
+        {
+          "Id": "5d42cbd9-f034-4c66-9e87-b030f46a58f4",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h40m56s",
+          "TimeStamp": "2024-10-02T14:45:45.253484+02:00",
+          "RunType": 1,
+          "Value": "00:01:00.3220000"
+        },
+        {
+          "Id": "5ab13706-40b0-4e4c-98df-9a2a94d518bc",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=01h43m37s",
+          "TimeStamp": "2024-10-02T14:48:19.9513978+02:00",
+          "RunType": 1,
+          "Value": "00:00:54.7490000"
+        },
+        {
+          "Id": "9f19c0b1-8cba-4450-aabf-51216c23ae3e",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=08h25m24s",
+          "TimeStamp": "2024-10-02T21:30:07.2037356+02:00",
+          "RunType": 1,
+          "Value": "00:00:55.0270000"
+        },
+        {
+          "Id": "4c61b250-6fda-4ffa-b293-cdcfa1ae9eec",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=10h26m22s",
+          "TimeStamp": "2024-10-02T23:31:03.4324923+02:00",
+          "RunType": 1,
+          "Value": "00:00:53.2310000"
+        },
+        {
+          "Id": "200ad211-d433-4a94-9cd0-04d5eae3e140",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=10h29m15s",
+          "TimeStamp": "2024-10-02T23:33:56.9136748+02:00",
+          "RunType": 1,
+          "Value": "00:00:53.6950000"
+        },
+        {
+          "Id": "15166672-c9e4-4319-a391-c6b068103e15",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=10h33m40s",
+          "TimeStamp": "2024-10-02T23:38:21.7320452+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.7410000"
+        },
+        {
+          "Id": "4774ce88-28c8-4720-b40f-9e1b0e52205a",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h09m37s",
+          "TimeStamp": "2024-10-03T00:14:17.7521042+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.2960000"
+        },
+        {
+          "Id": "75ae91bd-b996-4545-97d0-5814871684b0",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h12m51s",
+          "TimeStamp": "2024-10-03T00:17:31.7261174+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.6710000"
+        },
+        {
+          "Id": "ee5336ee-21df-47d0-aa52-cf53993efca0",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h14m29s",
+          "TimeStamp": "2024-10-03T00:19:10.6830865+02:00",
+          "RunType": 1,
+          "Value": "00:00:53.3150000"
+        },
+        {
+          "Id": "080b5497-aafd-4b3a-8471-f9fe472747d8",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h17m28s",
+          "TimeStamp": "2024-10-03T00:22:09.823132+02:00",
+          "RunType": 1,
+          "Value": "00:00:53.2400000"
+        },
+        {
+          "Id": "44153aef-5ae5-46e1-8fd0-1b0e604e67ed",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h20m44s",
+          "TimeStamp": "2024-10-03T00:25:25.8539532+02:00",
+          "RunType": 1,
+          "Value": "00:00:53.1880000"
+        },
+        {
+          "Id": "1a25a51b-f7b5-4be9-b10e-f708a69c3bf0",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h22m40s",
+          "TimeStamp": "2024-10-03T00:27:29.6286424+02:00",
+          "RunType": 1,
+          "Value": "00:01:01.3610000"
+        },
+        {
+          "Id": "a16207f4-77e5-4fc8-ab26-9141b5cbfcab",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h25m06s",
+          "TimeStamp": "2024-10-03T00:29:46.506465+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.3320000"
+        },
+        {
+          "Id": "25a970cf-be2b-4aff-9d58-c450187d0eb8",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h32m23s",
+          "TimeStamp": "2024-10-03T00:37:03.8764236+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.7720000"
+        },
+        {
+          "Id": "608a9c1d-3b80-4a49-a0b3-b8b92cb87df9",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h35m07s",
+          "TimeStamp": "2024-10-03T00:39:47.7059744+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.5640000"
+        },
+        {
+          "Id": "f44bfcee-a909-43d2-a7b2-7c13786c0704",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h56m36s",
+          "TimeStamp": "2024-10-03T01:01:16.0470377+02:00",
+          "RunType": 1,
+          "Value": "00:00:51.2800000"
+        },
+        {
+          "Id": "7a038986-73d5-497a-9527-1111c3e19e85",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=11h58m41s",
+          "TimeStamp": "2024-10-03T01:03:21.6304702+02:00",
+          "RunType": 1,
+          "Value": "00:00:51.6650000"
+        },
+        {
+          "Id": "e1072493-5ec7-4b74-b9f6-a1cecb9a8a19",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=12h03m59s",
+          "TimeStamp": "2024-10-03T01:08:39.1399815+02:00",
+          "RunType": 1,
+          "Value": "00:00:51.6550000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "9fe0e9cb-ba85-43ba-942e-df67cfebb7f5",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T19:21:56.3836735+02:00",
+          "RunType": 1,
+          "Value": "00:01:22.2430000"
+        }
+      ],
+      "HappySelli": [
+        {
+          "Id": "6a16200c-6c75-4d7d-a00a-6c0d1ec137f1",
+          "Clip": "https://www.twitch.tv/videos/2265800638?t=02h23m07s",
+          "TimeStamp": "2024-10-02T19:27:41.8599913+02:00",
+          "RunType": 1,
+          "Value": "00:04:26.2710000"
+        }
+      ],
+      "Schobi": [
+        {
+          "Id": "fbaa95b9-318a-4b77-8c5e-c1eef9fb8055",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T19:32:23.2178387+02:00",
+          "RunType": 1,
+          "Value": "00:01:42.1880000"
+        }
+      ],
+      "Kirayli": [
+        {
+          "Id": "6a4a9a58-e7de-47de-b119-a564ad121747",
+          "Clip": "https://www.twitch.tv/videos/2265691638?t=07h18m51s",
+          "TimeStamp": "2024-10-02T20:45:36.6933333+02:00",
+          "RunType": 1,
+          "Value": "00:04:34.4960000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "201acd41-4a86-4c9a-bc4b-169dd3d04ae5",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=11h58m12s",
+          "TimeStamp": "2024-10-03T03:59:32.5807731+02:00",
+          "RunType": 1,
+          "Value": "00:01:42.4940000"
+        },
+        {
+          "Id": "0e1ef443-5ec7-4905-ad13-ced19185c663",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=12h01m29s",
+          "TimeStamp": "2024-10-03T04:02:25.4321246+02:00",
+          "RunType": 1,
+          "Value": "00:01:17.5950000"
+        }
+      ],
+      "Themi": [
+        {
+          "Id": "4957eb38-1cb0-44c4-92d1-f80fc3f45f02",
+          "Clip": "https://www.twitch.tv/videos/2266496561?t=01h40m08s",
+          "TimeStamp": "2024-10-03T14:41:05.0286293+02:00",
+          "RunType": 1,
+          "Value": "00:01:40.4680000"
+        },
+        {
+          "Id": "11c3db46-6ae7-4539-8140-376f757b76b1",
+          "Clip": "https://www.twitch.tv/videos/2266496561?t=02h07m59s",
+          "TimeStamp": "2024-10-03T15:08:51.1577005+02:00",
+          "RunType": 1,
+          "Value": "00:01:35.7300000"
+        }
+      ],
+      "Smilow": [
+        {
+          "Id": "18417d46-e6d5-46a8-923c-93478d42801c",
+          "Clip": "https://www.twitch.tv/videos/2266905632?t=00h14m47s",
+          "TimeStamp": "2024-10-04T00:20:57.5046816+02:00",
+          "RunType": 1,
+          "Value": "00:01:58.9530000"
+        }
+      ],
+      "katisaurier": [
+        {
+          "Id": "71a9c431-fb45-4f3d-98fc-aaf5165b1245",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T00:25:43.4802577+02:00",
+          "RunType": 1,
+          "Value": "00:02:08.9040000"
+        }
+      ],
+      "DefinitivOrfn": [
+        {
+          "Id": "95860a2d-2988-49a3-b46a-fa0268240bbc",
+          "Clip": "https://www.twitch.tv/videos/2266594203?t=08h44m31s",
+          "TimeStamp": "2024-10-04T01:14:58.1021017+02:00",
+          "RunType": 1,
+          "Value": "00:06:36.2410000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 50,
+    "Name": "Jump \u0026 Run Easy",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://cdn.discordapp.com/attachments/1288106919285882893/1289360171675418704/20240928005545_1.png?ex=66f889bc\u0026is=66f7383c\u0026hm=187d66e5bccafc6480d17450efea2d1d83f1b6682db0046b8531086f4f580e6f\u0026",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 2,
+    "MaxValue": 10,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "GaTo": [
+        {
+          "Id": "aefb41d8-d7cb-4cbf-85c5-603edd190d14",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=04h14m09s",
+          "TimeStamp": "2024-09-28T18:00:59.4130005+02:00",
+          "RunType": 1,
+          "Value": "00:01:54.1190000"
+        }
+      ],
+      "Rubyduby": [
+        {
+          "Id": "0f7e5fda-6586-425f-85d9-9cac4e1bd75d",
+          "Clip": "",
+          "TimeStamp": "2024-09-29T02:29:36.0343535+02:00",
+          "RunType": 1,
+          "Value": "00:01:14.8830000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "6f601827-10af-4425-8961-c8444bfeed88",
+          "Clip": "https://www.twitch.tv/videos/2262952326?t=00h58m35s",
+          "TimeStamp": "2024-09-29T02:52:40.586418+02:00",
+          "RunType": 1,
+          "Value": "00:00:56.9350000"
+        },
+        {
+          "Id": "bd12b78a-c69f-4e31-9672-56778d1f4589",
+          "Clip": "https://www.twitch.tv/videos/2264910982?t=03h08m13s",
+          "TimeStamp": "2024-10-01T17:57:46.7814938+02:00",
+          "RunType": 1,
+          "Value": "00:00:41.7610000"
+        },
+        {
+          "Id": "521eef38-b4b1-487d-bad8-7474c0f20df4",
+          "Clip": "https://www.twitch.tv/videos/2264910982?t=03h12m16s",
+          "TimeStamp": "2024-10-01T18:01:38.3801207+02:00",
+          "RunType": 1,
+          "Value": "00:00:29.9680000"
+        },
+        {
+          "Id": "d65c646d-5cee-4c8c-b5c0-f961c480e38a",
+          "Clip": "https://www.twitch.tv/videos/2264910982?t=03h12m26s",
+          "TimeStamp": "2024-10-01T18:01:48.2930958+02:00",
+          "RunType": 1,
+          "Value": "00:00:29.9680000"
+        }
+      ],
+      "Beni": [
+        {
+          "Id": "3ab1dc00-ddfe-4ccf-8965-5b07ea56d18b",
+          "Clip": "https://www.twitch.tv/videos/2262436172?t=13h18m02s",
+          "TimeStamp": "2024-09-29T03:02:34.993545+02:00",
+          "RunType": 1,
+          "Value": "00:01:19.3960000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "3a196701-9463-485c-910d-0c894eac6f8b",
+          "Clip": "https://www.twitch.tv/videos/2263520440?t=04h37m18s",
+          "TimeStamp": "2024-09-29T23:43:27.0079446+02:00",
+          "RunType": 1,
+          "Value": "00:00:41.8540000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "fce74670-a9d7-4b28-a2cb-3557d8041376",
+          "Clip": "https://www.twitch.tv/videos/2263549724?t=04h05m37s",
+          "TimeStamp": "2024-09-29T23:49:50.0892441+02:00",
+          "RunType": 1,
+          "Value": "00:01:28.8880000"
+        }
+      ],
+      "MrMoregame": [
+        {
+          "Id": "fab8f779-1974-4d99-9702-fb2df5cf4cac",
+          "Clip": "",
+          "TimeStamp": "2024-09-30T16:08:09.1470585+02:00",
+          "RunType": 1,
+          "Value": "00:00:33.1740000"
+        },
+        {
+          "Id": "32f6b62c-3daf-44ae-a130-9c79224b3a48",
+          "Clip": "",
+          "TimeStamp": "2024-09-30T16:33:28.3349024+02:00",
+          "RunType": 1,
+          "Value": "00:00:27.4740000"
+        },
+        {
+          "Id": "9131703b-9c49-4930-8faf-66971242e312",
+          "Clip": "https://www.twitch.tv/videos/2264206134?t=29h15m26s",
+          "TimeStamp": "2024-10-01T20:57:44.0519828+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.9320000"
+        },
+        {
+          "Id": "c4566842-b5f3-4072-b048-f014bfe36d21",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T20:57:44.6588625+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.9320000"
+        },
+        {
+          "Id": "7b21da0d-4d12-4248-826e-51c1adcadfd1",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T21:15:05.130679+02:00",
+          "RunType": 1,
+          "Value": "00:00:34.6420000"
+        },
+        {
+          "Id": "01218fe0-77f1-4276-be40-57c079685804",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T22:09:16.4324801+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.6050000"
+        },
+        {
+          "Id": "fb86d7f7-decc-4bf1-ab80-a56299081e12",
+          "Clip": "",
+          "TimeStamp": "2024-10-01T22:09:17.2605672+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.6050000"
+        },
+        {
+          "Id": "db952ed1-d587-4a61-bcf5-c6eae2616915",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T16:50:33.6222277+02:00",
+          "RunType": 1,
+          "Value": "00:00:24.5150000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "8310d750-8a2d-4582-b2cb-e70a6f5f6599",
+          "Clip": "https://www.twitch.tv/videos/2264254151?t=02h18m51s",
+          "TimeStamp": "2024-09-30T20:30:38.2219961+02:00",
+          "RunType": 1,
+          "Value": "00:00:32.2300000"
+        },
+        {
+          "Id": "2cf681d4-edda-4605-9787-4687d7f95d3c",
+          "Clip": "https://www.twitch.tv/videos/2264900522?t=03h45m38s",
+          "TimeStamp": "2024-10-01T18:11:54.1833119+02:00",
+          "RunType": 1,
+          "Value": "00:00:29.2280000"
+        }
+      ],
+      "Xanti": [
+        {
+          "Id": "6eb97211-d61d-4e4c-88f6-1c7138661974",
+          "Clip": "https://www.twitch.tv/videos/2265005384?t=00h14m29s",
+          "TimeStamp": "2024-10-01T17:57:40.0980792+02:00",
+          "RunType": 1,
+          "Value": "00:01:32.4320000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "d6d2c5dc-9529-477d-bd38-616f6570172d",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=04h11m37s",
+          "TimeStamp": "2024-10-01T18:12:12.8050536+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.7770000"
+        },
+        {
+          "Id": "809352a3-8e0f-4ea3-9366-9174f83ad870",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=11h11m17s",
+          "TimeStamp": "2024-10-02T01:11:55.280716+02:00",
+          "RunType": 1,
+          "Value": "00:00:25.5910000"
+        },
+        {
+          "Id": "e55619b0-5fbe-4a7f-ba63-7db6c6682259",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=11h24m14s",
+          "TimeStamp": "2024-10-02T01:24:51.8813515+02:00",
+          "RunType": 1,
+          "Value": "00:00:25.3610000"
+        },
+        {
+          "Id": "4460118b-f894-4b20-a53e-02ad456fac95",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=11h24m53s",
+          "TimeStamp": "2024-10-02T01:25:30.3515488+02:00",
+          "RunType": 1,
+          "Value": "00:00:24.7920000"
+        },
+        {
+          "Id": "3ca512e7-1837-41d4-9432-f8d1bc643089",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=11h26m24s",
+          "TimeStamp": "2024-10-02T01:27:00.937077+02:00",
+          "RunType": 1,
+          "Value": "00:00:24.2910000"
+        },
+        {
+          "Id": "e574beca-0df4-4592-9132-e1ee05b49e90",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=11h29m58s",
+          "TimeStamp": "2024-10-02T01:30:35.3353511+02:00",
+          "RunType": 1,
+          "Value": "00:00:24.3450000"
+        },
+        {
+          "Id": "4c7de01a-41e6-4365-afa0-10aef06f69b5",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=11h51m15s",
+          "TimeStamp": "2024-10-02T01:51:50.6326889+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.4520000"
+        },
+        {
+          "Id": "42054171-6f2d-4b02-8be3-bd3a1e1df3a3",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=12h20m55s",
+          "TimeStamp": "2024-10-02T02:21:30.8222837+02:00",
+          "RunType": 1,
+          "Value": "00:00:23.7950000"
+        },
+        {
+          "Id": "d3d62d85-1c5a-4e09-a4b2-75768c565d33",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=12h22m08s",
+          "TimeStamp": "2024-10-02T02:22:43.4125099+02:00",
+          "RunType": 1,
+          "Value": "00:00:22.5730000"
+        },
+        {
+          "Id": "6f318130-2aff-4db8-9dba-be5c91c3ebd6",
+          "Clip": "https://youtu.be/O968yTKuXPM",
+          "TimeStamp": "2024-10-02T02:23:49.6429783+02:00",
+          "RunType": 1,
+          "Value": "00:00:22.5040000"
+        },
+        {
+          "Id": "5aa58734-a1ab-4b74-9013-bde17932fe17",
+          "Clip": "https://www.twitch.tv/videos/2264888575?t=12h27m13s",
+          "TimeStamp": "2024-10-02T02:27:47.8410136+02:00",
+          "RunType": 1,
+          "Value": "00:00:22.5720000"
+        },
+        {
+          "Id": "fcba8c95-9602-4660-b681-3d8ba64d0b20",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=00h26m29s",
+          "TimeStamp": "2024-10-02T13:30:42.0342587+02:00",
+          "RunType": 1,
+          "Value": "00:00:24.0360000"
+        },
+        {
+          "Id": "8ac1fca4-b94b-4453-8385-81c77d531d62",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=00h59m35s",
+          "TimeStamp": "2024-10-02T14:03:46.1770709+02:00",
+          "RunType": 1,
+          "Value": "00:00:22.5340000"
+        },
+        {
+          "Id": "d4e37402-2836-4211-866f-46fada8b6497",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=05h27m38s",
+          "TimeStamp": "2024-10-02T18:31:49.2749062+02:00",
+          "RunType": 1,
+          "Value": "00:00:22.9790000"
+        },
+        {
+          "Id": "c9fe3bea-cade-441e-8eca-d249bfa8dec2",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=05h27m45s",
+          "TimeStamp": "2024-10-02T18:31:56.0258201+02:00",
+          "RunType": 1,
+          "Value": "00:00:22.9790000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "f42c27b2-4110-454f-a4a5-463759a58e60",
+          "Clip": "https://www.twitch.tv/videos/2265605889?t=01h58m53s",
+          "TimeStamp": "2024-10-02T10:32:32.0169393+02:00",
+          "RunType": 1,
+          "Value": "00:01:59.0550000"
+        }
+      ],
+      "Fluffo": [
+        {
+          "Id": "aa770031-e482-4bbb-bd9b-4abb7308c7b0",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T21:56:47.7805739+02:00",
+          "RunType": 1,
+          "Value": "00:00:36.8640000"
+        },
+        {
+          "Id": "40b75d23-6a50-4d7a-b399-c1ae8238a275",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T21:56:48.1760995+02:00",
+          "RunType": 1,
+          "Value": "00:00:36.8640000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "1aa0579c-635d-40fa-b939-962496cccf2c",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=14h49m39s",
+          "TimeStamp": "2024-10-04T04:15:11.50402+02:00",
+          "RunType": 1,
+          "Value": "00:00:55.2570000"
+        },
+        {
+          "Id": "924578f9-69df-4dc0-bfca-a9bb7fd9829b",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=14h49m39s",
+          "TimeStamp": "2024-10-04T04:15:11.9291746+02:00",
+          "RunType": 1,
+          "Value": "00:00:55.2570000"
+        },
+        {
+          "Id": "5744b3c5-7d5c-4578-835e-0bb35f48e868",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=22h41m20s",
+          "TimeStamp": "2024-10-04T12:06:35.9636237+02:00",
+          "RunType": 1,
+          "Value": "00:00:38.1000000"
+        }
+      ],
+      "HappySelli": [
+        {
+          "Id": "fc68e140-62d2-49b6-a9b0-347e27b187d5",
+          "Clip": "https://www.twitch.tv/videos/2267270982?t=03h04m42s",
+          "TimeStamp": "2024-10-04T15:06:12.7132029+02:00",
+          "RunType": 1,
+          "Value": "00:01:18.5680000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 60,
+    "Name": "Jump \u0026 Run Hard",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/08/a-yi-qi-a-feathered-winged-dinosaur-sits-by-a-waterfall-in-a-screenshot-from-asa-aberration.jpg",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 5,
+    "MaxValue": 25,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "kay": [
+        {
+          "Id": "f37dee49-be9f-4728-a328-bfa0ed519560",
+          "Clip": "https://www.twitch.tv/videos/2264099657?t=04h28m50s",
+          "TimeStamp": "2024-09-30T17:43:38.8234057+02:00",
+          "RunType": 1,
+          "Value": "00:12:09.0990000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "eda87103-3e21-4d74-b545-033fd20f904f",
+          "Clip": "https://www.twitch.tv/videos/2264103455?t=4h49m37s",
+          "TimeStamp": "2024-09-30T18:03:18.3475068+02:00",
+          "RunType": 1,
+          "Value": "00:05:37.6420000"
+        },
+        {
+          "Id": "b439a1ba-f1cb-4a58-a21d-7f0bd5ae8b6f",
+          "Clip": "",
+          "TimeStamp": "2024-09-30T18:03:18.7771386+02:00",
+          "RunType": 1,
+          "Value": "00:05:37.6420000"
+        }
+      ],
+      "GaTo": [
+        {
+          "Id": "47abb1ba-8e35-46da-a730-b965496244b6",
+          "Clip": "https://www.twitch.tv/videos/2264245034?t=03h41m35s",
+          "TimeStamp": "2024-09-30T21:42:54.8195823+02:00",
+          "RunType": 1,
+          "Value": "00:02:09.7610000"
+        }
+      ],
+      "MrMoregame": [
+        {
+          "Id": "767f3f66-10d6-4071-b694-0d283015e283",
+          "Clip": "https://www.twitch.tv/videos/2264206134?t=21h00m49s",
+          "TimeStamp": "2024-10-01T13:55:33.7152206+02:00",
+          "RunType": 1,
+          "Value": "00:01:19.6270000"
+        },
+        {
+          "Id": "eb31df38-af3a-4b55-9615-a903a532956a",
+          "Clip": "https://www.twitch.tv/videos/2264206134?t=22h20m34s",
+          "TimeStamp": "2024-10-01T15:15:22.1195511+02:00",
+          "RunType": 1,
+          "Value": "00:01:23.1160000"
+        },
+        {
+          "Id": "7fc602cd-e487-4ed0-9d4f-bb799534d103",
+          "Clip": "https://www.twitch.tv/videos/2264206134?t=22h52m10s",
+          "TimeStamp": "2024-10-01T15:46:39.6039197+02:00",
+          "RunType": 1,
+          "Value": "00:01:03.6550000"
+        },
+        {
+          "Id": "bc3588b3-8161-4af8-a9a5-12707e334bad",
+          "Clip": "https://www.twitch.tv/videos/2267244663?t=00h27m39s",
+          "TimeStamp": "2024-10-04T10:56:03.2727939+02:00",
+          "RunType": 1,
+          "Value": "00:00:54.8960000"
+        }
+      ],
+      "Simi": [
+        {
+          "Id": "79dab23e-0974-4725-b9ca-67e8b3df0d8a",
+          "Clip": "https://www.twitch.tv/videos/2264990974?t=00h57m43s",
+          "TimeStamp": "2024-10-01T18:26:06.8076077+02:00",
+          "RunType": 1,
+          "Value": "00:11:42.1140000"
+        }
+      ],
+      "Fluffo": [
+        {
+          "Id": "1f8346de-6084-459e-805b-5eb49a551947",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T21:30:29.4578281+02:00",
+          "RunType": 1,
+          "Value": "00:03:26.8140000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "1e9a2d30-34af-431d-a5f1-9b15c29a2318",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=06h57m54s",
+          "TimeStamp": "2024-10-02T23:01:19.4952014+02:00",
+          "RunType": 1,
+          "Value": "00:03:47.3170000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "13c7af12-ff56-4dc2-98c0-b6e5ecf58b13",
+          "Clip": "https://www.twitch.tv/videos/2265848948?t=05h20m52s",
+          "TimeStamp": "2024-10-02T23:41:29.8056534+02:00",
+          "RunType": 1,
+          "Value": "00:04:30.3500000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "11206e59-f2fc-42c4-a5da-2ff9909e648e",
+          "Clip": "https://www.twitch.tv/videos/2265901076?t=05h19m58s",
+          "TimeStamp": "2024-10-03T01:02:26.8098289+02:00",
+          "RunType": 1,
+          "Value": "00:14:18.4400000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "2294acb2-6d3e-401e-a34d-bbc85eefc5e2",
+          "Clip": "https://www.twitch.tv/videos/2266545616?t=04h25m45s",
+          "TimeStamp": "2024-10-03T19:24:55.379764+02:00",
+          "RunType": 1,
+          "Value": "00:05:37.7740000"
+        },
+        {
+          "Id": "30ec9a59-c3bb-439c-9fd2-954b8e73ed73",
+          "Clip": "https://www.twitch.tv/videos/2266545616?t=04h42m48s",
+          "TimeStamp": "2024-10-03T19:37:18.8315775+02:00",
+          "RunType": 1,
+          "Value": "00:00:58.7920000"
+        },
+        {
+          "Id": "5e96199e-1944-46fa-aaf8-95240b3ffd95",
+          "Clip": "https://www.twitch.tv/videos/2266545616?t=04h45m24s",
+          "TimeStamp": "2024-10-03T19:39:53.880115+02:00",
+          "RunType": 1,
+          "Value": "00:00:57.5530000"
+        }
+      ],
+      "Beni": [
+        {
+          "Id": "794eddcc-ab74-4ceb-ab49-ce10790107e4",
+          "Clip": "https://www.twitch.tv/videos/2266432416?t=14h12m51s",
+          "TimeStamp": "2024-10-03T23:39:00.6003272+02:00",
+          "RunType": 1,
+          "Value": "00:02:44.1430000"
+        }
+      ],
+      "DefinitivOrfn": [
+        {
+          "Id": "e9775798-d1ac-478f-96cc-276995223d7a",
+          "Clip": "https://www.twitch.tv/videos/2266594203?t=07h57m31s",
+          "TimeStamp": "2024-10-04T00:30:17.1634545+02:00",
+          "RunType": 1,
+          "Value": "00:08:55.6960000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "69d4bfbf-d7f4-4b9d-9adb-a4656c9baed7",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=16h24m12s",
+          "TimeStamp": "2024-10-04T05:51:23.2357648+02:00",
+          "RunType": 1,
+          "Value": "00:02:33.4650000"
+        }
+      ],
+      "Rubyduby": [
+        {
+          "Id": "191f8ba1-6ade-408b-acdc-36ee4ca7aec7",
+          "Clip": "https://www.twitch.tv/videos/2266715877?t=18h58m03s",
+          "TimeStamp": "2024-10-04T14:39:38.5326564+02:00",
+          "RunType": 1,
+          "Value": "00:04:13.9870000"
+        }
+      ],
+      "Xanti": [
+        {
+          "Id": "4fb033f6-5f35-4a2b-94f5-4405fbba5401",
+          "Clip": "https://www.twitch.tv/videos/2267220038?t=07h33m30s",
+          "TimeStamp": "2024-10-04T16:38:38.6731913+02:00",
+          "RunType": 1,
+          "Value": "00:04:34.6440000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 70,
+    "Name": "Freethrow",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/08/a-yi-qi-a-feathered-winged-dinosaur-sits-by-a-waterfall-in-a-screenshot-from-asa-aberration.jpg",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 3,
+    "MaxValue": 15,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "Nekatus": [
+        {
+          "Id": "9b8aeb05-6784-490e-ad60-f0af65b57035",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=21h27m56s",
+          "TimeStamp": "2024-10-02T16:04:02.903539+02:00",
+          "RunType": 1,
+          "Value": "00:01:02.2430000"
+        },
+        {
+          "Id": "fa3d48ce-6c51-4e7a-8ac2-af76be09c8d0",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=21h33m44s",
+          "TimeStamp": "2024-10-02T16:09:41.3780957+02:00",
+          "RunType": 1,
+          "Value": "00:00:53.0360000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "69146302-b46c-4ce6-96fa-25568c3cea07",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=03h22m07s",
+          "TimeStamp": "2024-10-02T16:26:46.6800639+02:00",
+          "RunType": 1,
+          "Value": "00:00:51.2190000"
+        }
+      ],
+      "GaTo": [
+        {
+          "Id": "d4f5b385-bdd2-4901-8517-d353f1e775bc",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=01h34m54s",
+          "TimeStamp": "2024-10-02T19:19:29.734979+02:00",
+          "RunType": 1,
+          "Value": "00:01:08.9170000"
+        },
+        {
+          "Id": "45f28e04-ec62-469a-8930-36510a79ea43",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=05h20m05s",
+          "TimeStamp": "2024-10-02T23:04:24.347746+02:00",
+          "RunType": 1,
+          "Value": "00:00:52.8840000"
+        },
+        {
+          "Id": "41d84af2-f30c-4112-897f-eb1b5715abb0",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=05h37m10s",
+          "TimeStamp": "2024-10-02T23:21:25.7530452+02:00",
+          "RunType": 1,
+          "Value": "00:00:49.6150000"
+        }
+      ],
+      "Fluffo": [
+        {
+          "Id": "fe7a7ab4-fc25-4e45-aa7d-7b81426ab2ec",
+          "Clip": "",
+          "TimeStamp": "2024-10-02T23:51:04.7203968+02:00",
+          "RunType": 1,
+          "Value": "00:01:19.1610000"
+        },
+        {
+          "Id": "b0dec366-86d1-4573-8493-864884678f43",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T13:44:52.9103403+02:00",
+          "RunType": 1,
+          "Value": "00:01:11.7760000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "accffe75-f232-46bf-886a-92533bc1ec27",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=11h41m07s",
+          "TimeStamp": "2024-10-03T03:42:11.0654117+02:00",
+          "RunType": 1,
+          "Value": "00:01:25.7070000"
+        }
+      ],
+      "Xanti": [
+        {
+          "Id": "f1e2de2f-459b-4c8a-829e-4a506e6c3d12",
+          "Clip": "https://www.twitch.tv/videos/2266497193?t=05h31m10s",
+          "TimeStamp": "2024-10-03T18:33:05.4069723+02:00",
+          "RunType": 1,
+          "Value": "00:01:26.0340000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "94e8f84d-0fbf-41e6-ae03-0f42964f70bc",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T20:00:06.4739641+02:00",
+          "RunType": 1,
+          "Value": "00:01:50.3080000"
+        }
+      ],
+      "Beni": [
+        {
+          "Id": "5a2f4846-1065-4a67-b086-7d3eb34a54bc",
+          "Clip": "https://www.twitch.tv/videos/2266432416?t=12h06m41s",
+          "TimeStamp": "2024-10-03T21:32:33.6011542+02:00",
+          "RunType": 1,
+          "Value": "00:02:27.2760000"
+        }
+      ],
+      "Rubyduby": [
+        {
+          "Id": "49f82eed-c434-4826-b8b6-5c855177c087",
+          "Clip": "https://www.twitch.tv/videos/2266715877?t=03h56m37s",
+          "TimeStamp": "2024-10-03T23:35:23.5124854+02:00",
+          "RunType": 1,
+          "Value": "00:01:25.0450000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "fb2b1c26-772c-4883-ab70-6cf0bf68dd2a",
+          "Clip": "https://www.twitch.tv/videos/2266616860?t=08h04m34s",
+          "TimeStamp": "2024-10-04T01:10:57.9793684+02:00",
+          "RunType": 1,
+          "Value": "00:01:35.6280000"
+        }
+      ],
+      "Collins": [
+        {
+          "Id": "84e34d03-d824-4fb7-aeb7-0bcc6f9b3731",
+          "Clip": "https://www.twitch.tv/videos/2266568993?t=11h07m39s",
+          "TimeStamp": "2024-10-04T02:46:24.1677494+02:00",
+          "RunType": 1,
+          "Value": "00:01:44.7280000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "88668f0a-8ce9-4894-a969-f8181d5be946",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=14h30m24s",
+          "TimeStamp": "2024-10-04T03:56:47.0234869+02:00",
+          "RunType": 1,
+          "Value": "00:01:45.6900000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "8d8304b1-7336-4842-abd7-f4ad85db893a",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=00h07m15s",
+          "TimeStamp": "2024-10-04T11:32:42.5916088+02:00",
+          "RunType": 1,
+          "Value": "00:01:28.3840000"
+        }
+      ],
+      "MrMoregame": [
+        {
+          "Id": "6fe2bac8-cc36-47cf-89a2-9406cffab805",
+          "Clip": "https://www.twitch.tv/videos/2267244663?t=04h16m07s",
+          "TimeStamp": "2024-10-04T14:44:55.1212784+02:00",
+          "RunType": 1,
+          "Value": "00:01:18.8300000"
+        }
+      ],
+      "katisaurier": [
+        {
+          "Id": "478dc3e3-2b20-4302-993b-e60917347e2c",
+          "Clip": "https://www.twitch.tv/videos/2267257147?t=04h47m17s",
+          "TimeStamp": "2024-10-04T16:00:07.3063027+02:00",
+          "RunType": 1,
+          "Value": "00:01:44.0230000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 80,
+    "Name": "Climb \u0026 Fly",
+    "Description": "defaultDescription",
+    "ImageUrl": "https://cdn.discordapp.com/attachments/1288106919285882893/1288470088327893012/20240925135858_1.jpg?ex=66f7efc7\u0026is=66f69e47\u0026hm=f82f9f73c83ed88150e87fcaa16d3c59062b3a1dd602da243b177df3f9245fbd\u0026",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 3,
+    "MaxValue": 15,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "kay": [
+        {
+          "Id": "1fb4244d-e1ec-46c4-ab32-6069c263291a",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=04h03m30s",
+          "TimeStamp": "2024-10-02T17:17:07.4026662+02:00",
+          "RunType": 1,
+          "Value": "00:09:49.1410000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "6f1a0c7f-4250-4a21-b32d-dd144832ac77",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=22h45m08s",
+          "TimeStamp": "2024-10-02T17:24:14.3101171+02:00",
+          "RunType": 1,
+          "Value": "00:04:02.2330000"
+        }
+      ],
+      "GaTo": [
+        {
+          "Id": "fd14d9d4-0814-4a0f-9999-e23f1676ec6d",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=06h20m59s",
+          "TimeStamp": "2024-10-03T00:06:45.3389662+02:00",
+          "RunType": 1,
+          "Value": "00:02:19.8480000"
+        },
+        {
+          "Id": "7e093832-4069-4f23-82aa-4c50306ccaa9",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=06h20m59s",
+          "TimeStamp": "2024-10-03T00:06:45.7783458+02:00",
+          "RunType": 1,
+          "Value": "00:02:19.8480000"
+        },
+        {
+          "Id": "5d39674c-ea15-4a2e-b2c9-423516be1aec",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=15h08m05s",
+          "TimeStamp": "2024-10-04T08:47:22.2140135+02:00",
+          "RunType": 1,
+          "Value": "00:02:54.8510000"
+        },
+        {
+          "Id": "f46ae78d-9d41-4932-8da6-5dd6ac6c433a",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=15h08m05s",
+          "TimeStamp": "2024-10-04T08:47:22.7397106+02:00",
+          "RunType": 1,
+          "Value": "00:02:54.8510000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "4897236b-d501-4165-8fe9-337ae794b607",
+          "Clip": "https://www.twitch.tv/videos/2265848948?t=05h56m17s",
+          "TimeStamp": "2024-10-03T00:17:36.4833095+02:00",
+          "RunType": 1,
+          "Value": "00:05:12.1800000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "b5506d64-20f5-4bd4-9573-85ceae3a39c6",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=12h36m49s",
+          "TimeStamp": "2024-10-03T04:38:15.3322368+02:00",
+          "RunType": 1,
+          "Value": "00:01:47.9990000"
+        },
+        {
+          "Id": "49a754dc-198c-44f3-88ea-4fd55467d80c",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=12h36m50s",
+          "TimeStamp": "2024-10-03T04:38:16.1571364+02:00",
+          "RunType": 1,
+          "Value": "00:01:47.9990000"
+        },
+        {
+          "Id": "00edad4f-b94c-4cea-a795-165c04720160",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=12h47m07s",
+          "TimeStamp": "2024-10-03T04:48:16.5565502+02:00",
+          "RunType": 1,
+          "Value": "00:01:31.1400000"
+        },
+        {
+          "Id": "c81a14bb-310f-4691-9a96-01e56eb7e4c9",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=12h47m08s",
+          "TimeStamp": "2024-10-03T04:48:17.288867+02:00",
+          "RunType": 1,
+          "Value": "00:01:31.1400000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "f75e4b31-dde3-453d-86e2-1abe763dea7e",
+          "Clip": "https://www.twitch.tv/videos/2265901076?t=19h25m11s",
+          "TimeStamp": "2024-10-03T15:03:49.2346422+02:00",
+          "RunType": 1,
+          "Value": "00:10:28.0550000"
+        }
+      ],
+      "Leyla": [
+        {
+          "Id": "535aad3c-488a-4474-9ef3-4d2503e7221c",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T21:24:21.8029729+02:00",
+          "RunType": 1,
+          "Value": "00:12:05.0610000"
+        },
+        {
+          "Id": "6b171684-43df-4ccb-9b7e-095819655483",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T21:24:22.2384846+02:00",
+          "RunType": 1,
+          "Value": "00:12:05.0610000"
+        }
+      ],
+      "Collins": [
+        {
+          "Id": "d2729152-9d42-4b97-a3ef-0bdb54cc4b63",
+          "Clip": "https://www.twitch.tv/videos/2266568993?t=06h58m35s",
+          "TimeStamp": "2024-10-03T22:42:38.8477876+02:00",
+          "RunType": 1,
+          "Value": "00:07:03.4270000"
+        }
+      ],
+      "ChrisTheArrrow": [
+        {
+          "Id": "0b2fbcf5-4958-4798-a7b6-2848e9aa39e4",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T22:47:12.0642913+02:00",
+          "RunType": 1,
+          "Value": "00:44:26.4740000"
+        }
+      ],
+      "Rubyduby": [
+        {
+          "Id": "789a13a9-2faf-449f-abbf-dddc578c9eda",
+          "Clip": "https://www.twitch.tv/videos/2266715877?t=04h09m00s",
+          "TimeStamp": "2024-10-03T23:57:03.7264771+02:00",
+          "RunType": 1,
+          "Value": "00:10:42.0360000"
+        }
+      ],
+      "Pustefix": [
+        {
+          "Id": "89c349fa-5c13-4bcf-af04-b2506bad811a",
+          "Clip": "https://www.twitch.tv/videos/2266506172?t=14h33m17s",
+          "TimeStamp": "2024-10-04T04:06:10.0861575+02:00",
+          "RunType": 1,
+          "Value": "00:08:15.2210000"
+        }
+      ],
+      "DefinitivOrfn": [
+        {
+          "Id": "fc1e0a6f-11ab-4847-8f14-48fc9493f5de",
+          "Clip": "https://www.twitch.tv/videos/2266594203?t=12h17m23s",
+          "TimeStamp": "2024-10-04T04:55:50.5950658+02:00",
+          "RunType": 1,
+          "Value": "00:14:37.3020000"
+        }
+      ],
+      "Nini": [
+        {
+          "Id": "d26a4708-ae4f-4b4e-988f-de65eed2d80b",
+          "Clip": "https://www.twitch.tv/videos/2267201429?t=01h03m58s",
+          "TimeStamp": "2024-10-04T09:08:46.1521181+02:00",
+          "RunType": 1,
+          "Value": "00:04:16.8130000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "fc2d4f53-001e-4806-af76-2c90a5898077",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=01h20m27s",
+          "TimeStamp": "2024-10-04T12:48:21.4606902+02:00",
+          "RunType": 1,
+          "Value": "00:03:55.1630000"
+        },
+        {
+          "Id": "7eb0929a-28c7-4c75-aec7-59171d206933",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=01h26m47s",
+          "TimeStamp": "2024-10-04T12:54:06.4969733+02:00",
+          "RunType": 1,
+          "Value": "00:03:19.8610000"
+        },
+        {
+          "Id": "8ab26ec0-0012-45b5-8fcc-e12dfad153f0",
+          "Clip": "https://www.twitch.tv/videos/2267260577?t=02h45m46s",
+          "TimeStamp": "2024-10-04T14:12:37.0315982+02:00",
+          "RunType": 1,
+          "Value": "00:02:51.2540000"
+        }
+      ],
+      "Simi": [
+        {
+          "Id": "c55cd99a-4000-4d46-b484-3c966987710e",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T16:08:07.0475075+02:00",
+          "RunType": 1,
+          "Value": "00:13:09.7840000"
+        },
+        {
+          "Id": "21a34f57-3363-4b82-81dc-a8870595845c",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T16:17:50.6287224+02:00",
+          "RunType": 1,
+          "Value": "00:06:06.4480000"
+        },
+        {
+          "Id": "17402a34-bccb-4857-bf0d-51dfdf9bf385",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T16:17:51.1608394+02:00",
+          "RunType": 1,
+          "Value": "00:06:06.4480000"
+        },
+        {
+          "Id": "236849ca-bf93-4ffb-bb39-dbb9546c5fab",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T16:17:53.1883387+02:00",
+          "RunType": 1,
+          "Value": "00:06:06.4480000"
+        }
+      ]
+    }
+  },
+  {
+    "Id": 90,
+    "Name": "Goo Gun",
+    "Description": "https://cdn.discordapp.com/attachments/1288106919285882893/1288483134647701525/20240925144946_1.png?ex=66f7fbee\u0026is=66f6aa6e\u0026hm=2e0e4fe4d9f14085443a15f21dd9fa86f1c4844b3c61acfa4ef72358f0d340fa\u0026",
+    "ImageUrl": "https://cdn.discordapp.com/attachments/1288106919285882893/1288483134647701525/20240925144946_1.png?ex=66f9f62e\u0026is=66f8a4ae\u0026hm=3aac2a1889963bb817c5274f5445cbcc7a143e368568cec7cce11c011c476a00\u0026",
+    "VideoUrl": "https://www.youtube.com/embed/NpEaa2P7qZI",
+    "SingleValue": 4,
+    "MaxValue": 20,
+    "BonusValue": 8,
+    "SecondPlaceValue": 4,
+    "PlayerRuns": {
+      "GaTo": [
+        {
+          "Id": "b95905b1-9033-430e-afbf-18fcab457392",
+          "Clip": "https://www.twitch.tv/videos/2262436963?t=09h58m31s",
+          "TimeStamp": "2024-09-28T23:47:41.3431372+02:00",
+          "RunType": 1,
+          "Value": "00:04:13.5810000"
+        },
+        {
+          "Id": "e7cd5a7c-9378-431e-8209-dfd058f625bd",
+          "Clip": "https://www.twitch.tv/videos/2265826803?t=06h59m08s",
+          "TimeStamp": "2024-10-03T00:45:48.1772775+02:00",
+          "RunType": 1,
+          "Value": "00:03:13.8340000"
+        },
+        {
+          "Id": "4bd0232b-8cf2-4d2c-a13f-4ac8680e2ae5",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=18h54m00s",
+          "TimeStamp": "2024-10-04T12:41:32.9152104+02:00",
+          "RunType": 1,
+          "Value": "00:11:10.1010000"
+        },
+        {
+          "Id": "0000d9f2-0ce9-4706-b9b7-9d1eb622b1fc",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=20h15m10s",
+          "TimeStamp": "2024-10-04T13:53:34.8722273+02:00",
+          "RunType": 1,
+          "Value": "00:02:02.0870000"
+        },
+        {
+          "Id": "bd500492-17d9-4982-bff9-0831c5fd7461",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=22h27m52s",
+          "TimeStamp": "2024-10-04T16:06:04.2808138+02:00",
+          "RunType": 1,
+          "Value": "00:01:50.1610000"
+        },
+        {
+          "Id": "59b5409a-6912-4c58-8bed-1269cd8afb14",
+          "Clip": "https://www.twitch.tv/videos/2266634616?t=23h28m52s",
+          "TimeStamp": "2024-10-04T17:06:57.7174672+02:00",
+          "RunType": 1,
+          "Value": "00:01:43.5280000"
+        }
+      ],
+      "ISAR": [
+        {
+          "Id": "8e1fd79f-d02c-4e38-92ff-d8a510c16e96",
+          "Clip": "https://www.twitch.tv/videos/2263549724?t=02h31m02s",
+          "TimeStamp": "2024-09-29T22:20:58.4998153+02:00",
+          "RunType": 1,
+          "Value": "00:07:12.4760000"
+        },
+        {
+          "Id": "f5710c91-9645-440a-8f19-d57649326b0e",
+          "Clip": "https://www.twitch.tv/videos/2263549724?t=02h31m04s",
+          "TimeStamp": "2024-09-29T22:21:01.0365345+02:00",
+          "RunType": 1,
+          "Value": "00:07:12.4760000"
+        },
+        {
+          "Id": "3e971dcc-cc80-404c-be85-b473cd49f836",
+          "Clip": "https://www.twitch.tv/videos/2263549724?t=02h31m05s",
+          "TimeStamp": "2024-09-29T22:21:01.6521229+02:00",
+          "RunType": 1,
+          "Value": "00:07:12.4760000"
+        }
+      ],
+      "Penta": [
+        {
+          "Id": "886758f5-77e5-4cc6-86d2-7d2adaf83b83",
+          "Clip": "https://www.twitch.tv/videos/2263520440?t=03h09m30s",
+          "TimeStamp": "2024-09-29T22:20:58.972746+02:00",
+          "RunType": 1,
+          "Value": "00:06:00.9940000"
+        },
+        {
+          "Id": "06966d97-db19-4cb8-8207-97c119952baa",
+          "Clip": "https://www.twitch.tv/videos/2263520440?t=03h17m47s",
+          "TimeStamp": "2024-09-29T22:28:32.795987+02:00",
+          "RunType": 1,
+          "Value": "00:05:18.4380000"
+        }
+      ],
+      "kay": [
+        {
+          "Id": "22e6b3c3-bad5-4dad-9f80-ae22ada51348",
+          "Clip": "https://www.twitch.tv/videos/2265685385?t=04h38m55s",
+          "TimeStamp": "2024-10-02T17:47:31.1001195+02:00",
+          "RunType": 1,
+          "Value": "00:04:47.8950000"
+        }
+      ],
+      "Nekatus": [
+        {
+          "Id": "e1ab2ca8-018e-434d-ab94-14423f19bd50",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=23h06m56s",
+          "TimeStamp": "2024-10-02T17:48:12.7109161+02:00",
+          "RunType": 1,
+          "Value": "00:06:12.1080000"
+        },
+        {
+          "Id": "371f307f-4060-4efa-9a34-667561cd27bb",
+          "Clip": "https://www.twitch.tv/videos/2265040953?t=23h14m18s",
+          "TimeStamp": "2024-10-02T17:53:04.9321342+02:00",
+          "RunType": 1,
+          "Value": "00:03:42.5440000"
+        }
+      ],
+      "Simi": [
+        {
+          "Id": "6700601d-27e7-40d4-88ed-89e223d93c57",
+          "Clip": "https://www.twitch.tv/videos/2265871467?t=02h59m47s",
+          "TimeStamp": "2024-10-02T21:54:14.6688606+02:00",
+          "RunType": 1,
+          "Value": "00:03:58.7960000"
+        },
+        {
+          "Id": "08169c52-433c-4434-9ae9-b8afb1d23717",
+          "Clip": "https://www.twitch.tv/videos/2265871467?t=02h59m52s",
+          "TimeStamp": "2024-10-02T21:54:19.0399422+02:00",
+          "RunType": 1,
+          "Value": "00:03:58.7960000"
+        }
+      ],
+      "Hamsti": [
+        {
+          "Id": "94cf0690-5f1f-4c5d-b34b-e513ab712737",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=09h00m58s",
+          "TimeStamp": "2024-10-03T01:02:54.9117633+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.8110000"
+        },
+        {
+          "Id": "e6434366-ff3d-46a9-99cc-50d894135c3a",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=09h25m39s",
+          "TimeStamp": "2024-10-03T01:27:30.094106+02:00",
+          "RunType": 1,
+          "Value": "00:02:12.5860000"
+        },
+        {
+          "Id": "458389a2-172e-4386-b068-2edcf2cce056",
+          "Clip": "https://www.twitch.tv/videos/2265767060?t=09h35m37s",
+          "TimeStamp": "2024-10-03T01:37:22.6344089+02:00",
+          "RunType": 1,
+          "Value": "00:02:07.0820000"
+        },
+        {
+          "Id": "e1bc8980-686e-4102-9089-7e9228e880cc",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=01h28m32s",
+          "TimeStamp": "2024-10-04T14:43:46.1719269+02:00",
+          "RunType": 1,
+          "Value": "00:02:03.9260000"
+        },
+        {
+          "Id": "6abd63c8-2fe8-425a-ade5-210d049c7fff",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=02h17m57s",
+          "TimeStamp": "2024-10-04T15:33:09.7911082+02:00",
+          "RunType": 1,
+          "Value": "00:02:02.3510000"
+        },
+        {
+          "Id": "c699e308-443d-4dfb-9c96-7c9d07f0b2bb",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=02h20m59s",
+          "TimeStamp": "2024-10-04T15:36:04.714164+02:00",
+          "RunType": 1,
+          "Value": "00:01:55.0100000"
+        },
+        {
+          "Id": "80e67ea5-16e7-4e09-a5f9-ff3dc95fc45d",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h35m09s",
+          "TimeStamp": "2024-10-04T16:50:06.9154404+02:00",
+          "RunType": 1,
+          "Value": "00:01:47.8690000"
+        },
+        {
+          "Id": "2ab53930-1ac1-4243-b01d-6e5a8be9a92e",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h40m09s",
+          "TimeStamp": "2024-10-04T16:55:09.1188145+02:00",
+          "RunType": 1,
+          "Value": "00:01:49.4350000"
+        },
+        {
+          "Id": "278a6adf-ef49-48d3-b280-02d769e22efb",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h40m10s",
+          "TimeStamp": "2024-10-04T16:55:09.631876+02:00",
+          "RunType": 1,
+          "Value": "00:01:49.4350000"
+        },
+        {
+          "Id": "14b9dda7-76cb-4d65-92cc-f91e0211ebdf",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h47m19s",
+          "TimeStamp": "2024-10-04T17:02:48.0760251+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.9940000"
+        },
+        {
+          "Id": "e683b320-56bb-4dcd-92d7-93e604b74de9",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=03h47m19s",
+          "TimeStamp": "2024-10-04T17:02:48.9286265+02:00",
+          "RunType": 1,
+          "Value": "00:02:18.9940000"
+        },
+        {
+          "Id": "0249d4cf-fb1f-479d-8285-08b018324358",
+          "Clip": "https://www.twitch.tv/videos/2267295465?t=04h20m44s",
+          "TimeStamp": "2024-10-04T17:35:32.8629906+02:00",
+          "RunType": 1,
+          "Value": "00:01:38.7950000"
+        }
+      ],
+      "Fluffo": [
+        {
+          "Id": "309d6039-15c1-40e4-9ee4-e52b496af98a",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T13:16:47.5793052+02:00",
+          "RunType": 1,
+          "Value": "00:05:33.1140000"
+        },
+        {
+          "Id": "c6149fb8-03e9-44d8-beea-edc7df3bdc28",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T13:16:47.9650914+02:00",
+          "RunType": 1,
+          "Value": "00:05:33.1140000"
+        },
+        {
+          "Id": "bacbfe1a-b13d-4949-9975-e6ea938242ad",
+          "Clip": "",
+          "TimeStamp": "2024-10-03T13:16:49.1001738+02:00",
+          "RunType": 1,
+          "Value": "00:05:33.1140000"
+        }
+      ],
+      "Pur3Chr1s": [
+        {
+          "Id": "cca84ee7-5db8-4a00-8a6c-57ed340a5ee3",
+          "Clip": "https://www.twitch.tv/videos/2266590491?t=02h49m24s",
+          "TimeStamp": "2024-10-03T19:13:53.9445364+02:00",
+          "RunType": 1,
+          "Value": "00:07:40.7120000"
+        }
+      ],
+      "M4tschii": [
+        {
+          "Id": "48d6c565-2d76-4547-be49-f2cea192d4c5",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T00:40:15.0182681+02:00",
+          "RunType": 1,
+          "Value": "00:03:28.9170000"
+        }
+      ],
+      "Mounty": [
+        {
+          "Id": "f3f1be07-a230-49a5-be90-24e5e02d5fa5",
+          "Clip": "https://www.twitch.tv/videos/2266689061?t=06h20m37s",
+          "TimeStamp": "2024-10-04T01:25:18.2902808+02:00",
+          "RunType": 1,
+          "Value": "00:04:22.4580000"
+        }
+      ],
+      "Xanti": [
+        {
+          "Id": "54e7da51-e077-4aae-9eb9-2ada31c5bdab",
+          "Clip": "https://www.twitch.tv/videos/2267220038?t=00h48m29s",
+          "TimeStamp": "2024-10-04T09:53:03.9656156+02:00",
+          "RunType": 1,
+          "Value": "00:04:00.7620000"
+        }
+      ],
+      "Leyla": [
+        {
+          "Id": "dcd98aac-b700-4297-825b-5b5b67dc607e",
+          "Clip": "",
+          "TimeStamp": "2024-10-04T12:41:12.9171924+02:00",
+          "RunType": 1,
+          "Value": "00:04:41.9090000"
+        }
+      ],
+      "katisaurier": [
+        {
+          "Id": "8bb458b7-1ed0-4204-935c-7053b0e41d36",
+          "Clip": "https://www.twitch.tv/videos/2267257147?t=02h27m02s",
+          "TimeStamp": "2024-10-04T13:43:34.9326136+02:00",
+          "RunType": 1,
+          "Value": "00:05:26.6470000"
+        }
+      ],
+      "DefinitivOrfn": [
+        {
+          "Id": "2137b5dc-ec72-4db8-ac87-c41caa43142c",
+          "Clip": "https://www.twitch.tv/videos/2267284763?t=01h31m51s",
+          "TimeStamp": "2024-10-04T14:21:11.1677669+02:00",
+          "RunType": 1,
+          "Value": "00:05:17.2240000"
+        },
+        {
+          "Id": "643c6ad6-7502-4a5f-9053-f2f33dc3ceba",
+          "Clip": "https://www.twitch.tv/videos/2267284763?t=01h31m52s",
+          "TimeStamp": "2024-10-04T14:21:11.7088089+02:00",
+          "RunType": 1,
+          "Value": "00:05:17.2240000"
+        },
+        {
+          "Id": "c9173519-1ada-4685-a765-e4221144963e",
+          "Clip": "https://www.twitch.tv/videos/2267284763?t=01h31m53s",
+          "TimeStamp": "2024-10-04T14:21:12.4623053+02:00",
+          "RunType": 1,
+          "Value": "00:05:17.2240000"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "Id": 6651,
+    "Name": "Nerva",
+    "Image": "https://i.imgur.com/blc3M8m.png",
+    "MaxCompletions": 5,
+    "Points": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      4
+    ],
+    "PlayerProgress": {}
+  },
+  {
+    "Id": 6652,
+    "Name": "Alasie",
+    "Image": "https://i.imgur.com/KUyDqr6.png",
+    "MaxCompletions": 5,
+    "Points": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "PlayerProgress": {}
+  },
+  {
+    "Id": 6653,
+    "Name": "Helena",
+    "Image": "https://i.imgur.com/AfxyF7c.png",
+    "MaxCompletions": 5,
+    "Points": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "PlayerProgress": {
+      "Pur3Chr1s": 4,
+      "Nekatus": 4,
+      "SaladOfHumanFlesh": 4,
+      "Schobi": 4,
+      "RealOrchid": 3,
+      "HappySelli": 4,
+      "theddy": 4,
+      "GaTo": 4,
+      "ISAR": 4,
+      "katisaurier": 3,
+      "Bekki": 2,
+      "Smilow": 2,
+      "Penta": 4,
+      "M4tschii": 2,
+      "Nini": 3,
+      "DefinitivOrfn": 2,
+      "Xanti": 4,
+      "Grumpei": 2,
+      "kay": 4,
+      "MrMoregame": 3,
+      "Collins": 4
+    }
+  },
+  {
+    "Id": 6654,
+    "Name": "Einstein",
+    "Image": "https://i.imgur.com/IleMnJW.png",
+    "MaxCompletions": 1,
+    "Points": [
+      10
+    ],
+    "PlayerProgress": {}
+  },
+  {
+    "Id": 6655,
+    "Name": "Henry",
+    "Image": "https://i.imgur.com/QYUN9wN.png",
+    "MaxCompletions": 1,
+    "Points": [
+      5,
+      5,
+      5,
+      5,
+      15,
+      5,
+      5,
+      5
+    ],
+    "PlayerProgress": {}
+  }
+]
