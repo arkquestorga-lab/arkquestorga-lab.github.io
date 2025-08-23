@@ -20,30 +20,33 @@ body {
 		<!-- Section Navigation Bar - glued to the top of the page -->
 		<nav class="header">
 			<div class="menuLogo">
-				<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/AberrationA.png"
-					style="width: 64px; padding-top: 16px">
+				<img alt="" src="https://imgur.com/EKpbKtC.png"
+					style="width: 64px; padding-top: 8px;">
 			</div>
 			<div class="menuButton clickable"
 				onclick="location.href='index.html'">
 				<div class="menuButtonText">Start</div>
 			</div>
+			<div class="menuDivider"></div>
 			<div class="menuButton clickable"
 				onclick="location.href='teams.html'">
 				<div class="menuButtonText">Teams</div>
 			</div>
+			<div class="menuDivider"></div>
 			<div class="menuButton clickable"
 				onclick="location.href='quests.html'">
 				<div class="menuButtonText">Quests</div>
 			</div>
+			<div class="menuDivider"></div>
 			<div class="menuButton clickable" onclick="location.href='map.html'">
 				<div class="menuButtonText">Map</div>
 			</div>
 			<div class="menuButton clickable"
-				onclick="location.href='story.html'">
+				onclick="location.href='story.html'" style="display: none">
 				<div class="menuButtonText">Story</div>
 			</div>
 			<div class="menuButton clickable"
-				onclick="location.href='highlights.html'">
+				onclick="location.href='highlights.html'" style="display: none">
 				<div class="menuButtonText">Highlights</div>
 			</div>
 			<div class="menuButton clickable" onclick="location.href='orga.html'" style="display: none">
@@ -73,124 +76,164 @@ body {
 			}
 		</script>
     <div>
-      <div class="questMenuBar" style="margin-left: -10px; background-color: black; padding: 20px; padding-right: 10px; margin-top: -10px">
+    	<!--Menue mit Hoverfunktionen KEINE AENDERUNGEN an den Werten in den Skalierungsfunktionen vornehmen-->
+      	<div class="questMenuBar" style="margin: auto; background-color: black; padding: 10px; padding-right: 5px; margin-top: -10px">
+      		<!--Menu Sektion Challenges-->
 			<div class="questMenuBox clickable"	style="background-color: black; float: left;"	onmouseover="bigImg('tlt', 46, 21, 0.901); colorImg('tlb');" onmouseout="normalImg('tlt', 70, 31, 0.85); decolorImg('tlb');" onclick="location.href='#challenges'">
+				<!--Bild einer Challenge-->
 				<img id="tlb" class="bgimg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/quest.png">
+				<!--roter Viertelkreis-->
 				<img id="tlt" class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieTopLeft.png" style="scale: 0.85; translate: 70px 31px">
-      </div>
+      		</div>
+      		<!--Menu Sektion NPCs-->
 			<div class="questMenuBox clickable" style="background-color: black; position: relative;" onmouseover="bigImg('trt', -46, 21, 0.901); colorImg('trb'); colorImg('trb2');" onmouseout="normalImg('trt', -70, 31, 0.85); decolorImg('trb'); decolorImg('trb2');"	onclick="location.href='#npc'">
+				<!--Hintergrundbild-->
 				<img id="trb" class="bgimg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/questMenuNPCbg.png">
-        <img id="trb2" class="bgimg" style="position: absolute; top: 35px; left: 550px; width: 100px; height: 350px;" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/questMenuNPC.png">
-        <img id="trt"	class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieTopRight.png"	style="scale: 0.85; translate: -70px 31px">
+				<!--der NPC im Bild-->
+        		<img id="trb2" class="bgimg" style="position: absolute; top: 35px; left: 550px; width: 100px; height: 350px;" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/questMenuNPC.png">
+        		<!--gruener Viertelkreis-->
+        		<img id="trt"	class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieTopRight.png"	style="scale: 0.85; translate: -70px 31px">
 			</div>
+			<!--Menu Sektion Puzzles-->
 			<div class="questMenuBox clickable"	style="background-color: black; float: left;"	onmouseover="bigImg('blt', 46, -21, 0.901); colorImg('blb');"	onmouseout="normalImg('blt', 70, -31, 0.85); decolorImg('blb');" onclick="location.href='#puzzle'">
+				<!--Bild eines Lagerraumes-->
 				<img id="blb" class="bgimg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/puzzle.jpg">
-        <img id="blt"	class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieBottomLeft.png" style="scale: 0.85; translate: 70px -31px">
+				<!--gelber Viertelkreis-->
+        		<img id="blt"	class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieBottomLeft.png" style="scale: 0.85; translate: 70px -31px">
 			</div>
+			<!--Menu Sektion Weeklys-->
 			<div class="questMenuBox clickable" style="background-color: black;" onmouseover="bigImg('brt', -46, -21, 0.901); colorImg('brb');"	onmouseout="normalImg('brt', -70, -31, 0.85); decolorImg('brb');"	onclick="location.href='#weekly'">
+				<!--Bild einer der woechentlichen Aufgaben-->
 				<img id="brb" class="bgimg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/weeklyBg2.png">
-        <img id="brt" class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieBottomRight.png" style="scale: 0.85; translate: -70px -31px">
+				<!--blauer Viertelkreis-->
+        		<img id="brt" class="questMenuBoxImg" alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/pieBottomRight.png" style="scale: 0.85; translate: -70px -31px">
 			</div>
+			<!--Fragezeichen in der Mitte des Menues-->
 			<div style="text-align: center; position: absolute; top: 50%; left: 50%; margin-left: -95px; margin-top: -91px; width: 180px; height: 180px; border-radius: 50%; background-color: black;">
-        <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/fragezeichen_abberation.png"	style="object-fit: contain; width: 160px; height: 160px; margin-left: -12px; margin-top: 10px;">
+        		<img alt="" src="https://imgur.com/UwNYAv2.png"	style="object-fit: contain; width: 150px; height: 150px; margin-left: -7px; margin-top: 15px;">
 			</div>
 		</div>
     </div>
 		<!-- Section Challenges -->
 		<div style="margin-bottom: 120px; margin-top: 30px;">
-			<div id="challenges" style="margin-top: -80px; margin-bottom: 20px; padding-top: 25px; width: 1800px; height: 900px; margin: auto; position: relative;">
+			<div id="challenges" style="margin-top: 0px; margin-bottom: 20px; padding-top: 25px; width: 1800px; height: 1300px; margin: auto; position: relative;">
 				<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengesIcon.png" style="top: 90px; left: 0px; position: absolute;">
-			
-			<div class="horizontalBoxes"
-				style="gap: 48px; width: 1800px; margin-left: auto; margin-right: auto; margin-top: 0px;">
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge1')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/rollratb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
+			<div class="horizontalBoxes" style="gap: 48px; width: 1800px; margin-left: auto; margin-right: auto; margin-top: 120px;">
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge1')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/rollratb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
 					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- Rollrat Race-->
-            Rollrat Race
-          </div>
+            			Rollrat Race
+          			</div>
 				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge2')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/kosmosb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
+				<div class="portraitChallenge clickable" style="position: relative" onclick="openDetails('challenge2')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/kosmosb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
 					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Cosmos Swing
-          </div>
+            			Cosmos Swing
+          			</div>
 				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge3')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/ziplineb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
+				<div class="portraitChallenge clickable" style="position: relative" onclick="openDetails('challenge3')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/ziplineb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
 					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Zipline Parkour
-          </div>
+            			Zipline Parkour
+          			</div>
 				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge4')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/rocketb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
-					<div
-						style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">Shooting Range</div>
-				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge5')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/jnrEasy.png?v=1727541525183"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!---->
-          <div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Jump &amp; Run Easy
-          </div>
-				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge6')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/jnrHard.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!---->
-          <div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Jump &amp; Run Hard
-          </div>
-				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge7')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/free.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge4')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/rocketb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
 					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Freethrow
-          </div>
+						Shooting Range
+					</div>
 				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge8')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/climb&flyb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
+				<div class="portraitChallenge clickable" style="position: relative" onclick="openDetails('challenge5')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/jnrEasy.png?v=1727541525183"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+          			<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Jump &amp; Run Easy
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge6')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/jnrHard.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+          			<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Jump &amp; Run Hard
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge7')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/free.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
 					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Climb &amp; Fly
-          </div>
+            			Freethrow
+          			</div>
 				</div>
-				<div class="portraitChallenge clickable" style="position: relative"
-					onclick="openDetails('challenge9')">
-          <img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/googunb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
-          <!---->
+				<div class="portraitChallenge clickable" style="position: relative" onclick="openDetails('challenge8')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/climb&flyb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
 					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
-            <!-- -->
-            Goo Gun
-          </div>
+            			Climb &amp; Fly
+          			</div>
 				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge9')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/googunb.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Goo Gun
+          			</div>
+				</div>
+				<!---->
+				<!---->
+				<!--die neuen 6 Challenges mit aktuell noch keiner Funktion abseits der Platzhalter-->
+				<!---->
+				<!---->
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge10')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Challenge 10
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge11')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Challenge 11
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge12')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Challenge 12
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge13')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Challenge 13
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge14')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Challenge 14
+          			</div>
+				</div>
+				<div class="portraitChallenge clickable" style="position: relative"	onclick="openDetails('challenge15')">
+          			<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;">
+					<!--img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/comingSoon.png"	style="width: 100%; height: 100%; top: 0; left: 0; position: absolute;"-->
+					<div style="top: -4px; left: 10%; width: 80%; text-align: center; position: absolute;">
+            			Challenge 15
+          			</div>
+				</div>
+				<!---->
+				<!---->
+				<!--Ende der neuen 6 Challenges mit aktuell noch keiner Funktion abseits der Platzhalter-->
+				<!---->
+				<!---->
 			</div>
         </div>
 		</div>
@@ -198,21 +241,50 @@ body {
 		<div id="npc" style="margin-top: 0px; padding-top: 70px;">
 			<div style="background-color: #2d315e; margin: -7px; padding: 7px; width: 100%;">
 				<div style="position: relative; width: 1800px; height: 900px; margin: auto; padding: 1px; background-color: #2d315e;">
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 280px; left: 80px;">
+						NPC 1
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 530px; left: 80px;">
+						NPC 2
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 280px; left: 330px;">
+						NPC 3
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 530px; left: 330px;">
+						NPC 4
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 20%; height: 500px; bottom: 280px; left: 40%;">
+						MAIN NPC IN DER MITTLEREN ANSICHT
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 280px; right: 80px;">
+						NPC 5
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 530px; right: 80px;">
+						NPC 6
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 280px; right: 330px;">
+						NPC 7
+					</div>
+					<div class="clickable nodebug" style="position: absolute; width: 200px; height: 200px; bottom: 530px; right: 330px;">
+						NPC 8
+					</div>
+
+
 					<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionNHeader.png" style="top: 80px; left: 0px; position: absolute;">
-					<!-- 200 wide && 40px-->
+					<!-- 200 wide && 40px--
 					<img alt="" class="clickable highlight" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionN1.png" style="bottom: 268px; left: 40px; position: absolute;" onclick="setText(1);">
-					<!-- 210 wide / 410+gaps && 130px-->
+					<!-- 210 wide / 410+gaps && 130px--
 					<img alt="" class="clickable highlight" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionN2.png" style="bottom: 268px; left: 370px; position: absolute;" onclick="setText(2);">
-          <!-- 368 wide / 778+gaps && 120px-->
-          <img alt="" class="clickable highlight" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionN3.png" style="bottom: 268px; left: 700px; position: absolute;" onclick="setText(3);">
-					<!-- 426 wide / 1207+gaps && -20px -->
+          			<!-- 368 wide / 778+gaps && 120px--
+          			<img alt="" class="clickable highlight" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionN3.png" style="bottom: 268px; left: 700px; position: absolute;" onclick="setText(3);">
+					<!-- 426 wide / 1207+gaps && -20px --
 					<img alt="" class="clickable highlight" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionN4.png" style="bottom: 268px; left: 1048px; position: absolute;" onclick="setText(4);">
-					<!-- 272 wide / 1479+gaps && 60px-->
+					<!-- 272 wide / 1479+gaps && 60px--
 					<img alt="" class="clickable highlight" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionN5.png" style="bottom: 268px; left: 1537px; position: absolute;" onclick="setText(5);">
 					<!-- 1842 wide -->
-					<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionNFooter.png" style="bottom: 50px; left: -20px; position: absolute;">
+					<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/sectionNFooter.png" style="bottom: 40px; left: -20px; position: absolute;">
 					<!-- div for text in footers empty section filled by lorem ipsum -->
-					<div id="sectionNText" style="top: 645px; left: 550px; width: 775px; height: 180px; position: absolute; font-size: 27px;">	
+					<div id="sectionNText" style="top: 655px; left: 550px; width: 775px; height: 180px; position: absolute; font-size: 27px;">	
 							Unser Quest-NPC wurde upgradet, nun sind mehrere auf der gesamten Map verteilt. Sie bieten sowohl Tutorial- als auch Lategame-Quests an und begleiten so durch das gesamte Projekt. Es gibt Quests pro Spieler und für den gesamten Tribe. Die NPCs haben ihre eigene Story zu erzählen, die es zu entdecken gilt.
 					</div>
 				</div>
@@ -222,7 +294,7 @@ body {
 		<div style="padding-top: 20px; margin: -8px;">
 			<div id="weekly" style="margin-top: -120px; margin-bottom: 60px; padding-top: 25px; width: 1800px; height: 900px; margin: auto; position: relative;">
 				<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/weeklyIcon.png" style="top: 85px; left: 0px; position: absolute;">
-			<div class="horizontalBoxes" style="gap: 48px; width: 1200px; margin: auto">
+			<div class="horizontalBoxes" style="gap: 48px; width: 1200px; margin: auto; margin-top: 120px;">
 				<div class="portraitChallenge clickable" style="position: relative;"
 					onclick="flipContent('w1');">
 					<img alt="" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/shinehornb.png"
@@ -340,10 +412,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Rollrat Race</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge8')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge9')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge2')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge3')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge8')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative; z-index: 5">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge2')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge1', 'challenge3')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -352,6 +428,7 @@ body {
 						  <div style="padding: 20px; font-size: 20px;">Rolle mit der Roll Rat so schnell wie möglich ins Ziel. Lasse keinen Checkpoint aus.</div>
 					  </div>
 					  <div style="flex: 40%; height: 310px;">
+					  	hier könnte dann das Video stehen
 					  </div>
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
 						  <div style="height: 100%; width: 100%; border-radius: 0px;">
@@ -375,10 +452,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Cosmos Swing</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge9')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge1')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge3')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge4')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge3')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge2', 'challenge4')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -410,10 +491,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Zipline Parkour</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge1')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge2')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge4')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge5')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge2')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge4')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge3', 'challenge5')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -445,10 +530,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Shooting Range</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge2')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge3')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge5')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge6')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge2')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge3')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge5')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge4', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -480,10 +569,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Jump &amp; Run Easy</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge3')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge4')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge6')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge7')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge3')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge3.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge4')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge5', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -515,10 +608,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Jump &amp; Run Hard</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge4')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge5')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge7')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge8')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge4')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge4.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge5')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge6', 'challenge8')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -550,10 +647,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Freethrow</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge5')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge6')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge8')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge9')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge5')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge5.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge8')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge7', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -578,39 +679,44 @@ body {
 		</div>
     <!-- Rohbau Popup Challenge 8 -->
     <div id="challenge8" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
-			<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge8')"></div>
-			<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
-				<!-- Knöpfe für das Wechseln der Challenge -->
-				<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
-        <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
-			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-				  </div>
-				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
-					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
-						  <div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
-              <!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
-						  <div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
-					  </div>
-					  <div style="flex: 40%; height: 310px;">
-					  </div>
-					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
-						  <div style="height: 100%; width: 100%; border-radius: 0px;">
-							  <div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
-							  <div class="boxBox">
-								  <div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
-								  </div>
-							  </div>
-						  </div>
-					  </div>
-          </div>
-				</div>
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge8')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
 			</div>
 		</div>
+	</div>
     <!-- Rohbau Popup Challenge 9 -->
     <div id="challenge9" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
 			<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge9')"></div>
@@ -620,10 +726,14 @@ body {
 				<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Goo Gun</div>
         <div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
 			  	<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
-					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge7')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge8')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge1')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
-					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge2')" style="flex: 25%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge8')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+					  <div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+					  	<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+					  </div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+					  <div class="nodebug clickable" onclick="switchDetails('challenge9', 'challenge2')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge2.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
 				  </div>
 				  <div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
 					  <div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
@@ -645,10 +755,260 @@ body {
 				</div>
 			</div>
 		</div>
+	<!---->
+	<!---->
+	<!--Challenge 10 bis 15 muessen noch mit Inhalten und funktionen gefuellt werden-->
+	<!---->
+	<!---->
+	<!-- Rohbau Popup Challenge 10 -->
+    <div id="challenge10" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge10')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!-- Rohbau Popup Challenge 11 -->
+    <div id="challenge11" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge11')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!-- Rohbau Popup Challenge 12 -->
+    <div id="challenge12" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge12')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!-- Rohbau Popup Challenge 13 -->
+    <div id="challenge13" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge13')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!-- Rohbau Popup Challenge 14 -->
+    <div id="challenge14" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge14')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!-- Rohbau Popup Challenge 15 -->
+    <div id="challenge15" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
+		<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('challenge15')"></div>
+		<div style="cursor: auto; margin: auto; margin-top: 125px; width: 1410px; height: 715px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupBg.png)">
+			<!-- Knöpfe für das Wechseln der Challenge -->
+			<div style="width: 1120px; height: 245px; margin-left: 155px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8w.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			<div style="width: 1120px; height: 50px; margin-left: 155px; margin-top: -48px; text-align: center; font-size: 30px;">Climb &amp; Fly</div>
+        	<div style="position: absolute; top:-10px; left:-10px; width: 1430px; height: 725px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeFancyBorders.png)">
+		  		<div style="width: 96%; margin-left: 2%; margin-top: 280px; margin-bottom: 23px; display: flex; justify-content: center; gap: 0px; align-items: center; text-align: center;">
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge6')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge6.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge7')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge7.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<!--neues Element in der Mitte das aktuelle Challenge einrahmt-->
+				  	<div class="nodebug" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge8.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; position: relative;">
+				  		<img src="https://imgur.com/yWwGw8R.png" width="104%" height="119%" style="margin-left: -5px; margin-top: -8px;">
+				  	</div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge9')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge9.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+				  	<div class="nodebug clickable" onclick="switchDetails('challenge8', 'challenge1')" style="flex: 20%; height: 77px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challenge1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;"></div>
+			  	</div>
+			  	<div style="width: 90%; margin-left: 5%; margin-bottom: 30px; display: flex; justify-content: center; gap: 45px; align-items: center; text-align: center; z-index: 4">
+				  	<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupExplainBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="width: 100%; font-size: 24px; text-align: center;">Erklärung</div>
+           				<!-- Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus. -->
+					  	<div style="padding: 20px; font-size: 20px;">Finde mit Climbing Picks und dem Gleiter einen Weg durch den Parkour. Sei das Spider-Schwein. Lasse dabei keinen Checkpoint aus.</div>
+				  	</div>
+					<div style="flex: 40%; height: 310px;">
+						
+					</div>
+					<div style="flex: 30%; height: 310px; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengePopupRankingBg.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+						<div style="height: 100%; width: 100%; border-radius: 0px;">
+							<div style="width: 100%; font-size: 24px; text-align: center;">Leaderboard</div>
+							<div class="boxBox">
+								<div id="tickerRekordChallenge8" class="boxInABox" style="height: 240px">
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+			</div>
+		</div>
+	</div>
+	<!---->
+	<!---->
+	<!--Challenge 10 bis 15 muessen noch mit Inhalten und funktionen gefuellt werden-->
+	<!---->
+	<!---->
     <!-- Rohbau Popup Lagerraum 1 -->
     <div id="lager1" style="display: none; z-index: 3; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background-color: rgba(30,30,30,0.8);">
 			<div class="clickable" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; overflow: hidden;" onclick="closeDetails('lager1')"></div>
-			<div style="cursor: auto; margin: auto; margin-top: 85px; width: 1410px; height: 793px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/lager1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
+			<div class="nodebug" style="cursor: auto; margin: auto; margin-top: 85px; width: 1410px; height: 793px; position: relative; background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/lager1.png); background-size: 100% 100%; background-repeat: no-repeat; background-position: center;">
 				
 			</div>
 		</div>

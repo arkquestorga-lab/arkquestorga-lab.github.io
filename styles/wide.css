@@ -26,17 +26,28 @@ body {
 	width: 64px;
 	height: 64px;
 	margin-left: -16px;
-	margin-right: 10px;
+	margin-right: 30px;
 	float: left;
 }
 
 .menuButton {
 	height: 64px;
 	margin-top: 8px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
 	text-align: center;
 	background-color: black;
+	float: left;
+}
+
+.menuDivider {
+	width: 1px;
+	height: 64px;
+	background-color: white; 
+	height: 30px; 
+	margin: 0px;
+	margin-top: 28px;
+	text-align: center;
 	float: left;
 }
 
@@ -61,7 +72,7 @@ body {
 
 .questLogoBig {
 	width: 100%;
-	height: 900px;
+	height: 80vh;
 	text-align: center;
 	/*background-color: white;
 	/* background-image: url("https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/abeBackgroundTemp.png"); */
@@ -102,17 +113,21 @@ body {
 
 .horizontalBoxes {
 	width: 100%;
+	height: 100vh-120px;
+	margin-bottom: -4vh;
 	display: flex;
 	position: relative;
 	left: 0;
 	align-items: top;
 	justify-content: center;
 	flex-wrap: wrap;
-  padding: 120px 0px 120px 0px;
+  	/*padding: 120px 0px 120px 0px;*/
 }
 
 .flexBoxThird {
 	margin: 10px;
+	margin-bottom: 0px;
+	margin-top: 5px;
 	width: 542px;
 	height: 859px;
 	padding-left: 1px;
@@ -122,7 +137,7 @@ body {
 }
 
 .flexBoxQuart {
-	margin: 12.5px;
+	margin: 50px;
 	width: 382px;
 	height: 617px;
 	/*background-color: rgb(95,95,95);*/
@@ -849,4 +864,16 @@ body {
 	border-color: black;
 	border-style: solid;
 	border-width: 2px;
+}
+
+.noticeMe {
+	font-size: 90%;
+	color: white;
+}
+
+.noticeMe:hover {
+	font-size: 100%;	
+	color: black;
+	transition-duration: 0.2s;
+	margin-right: -19px;
 }
