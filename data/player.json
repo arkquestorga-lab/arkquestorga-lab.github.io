@@ -74,7 +74,7 @@
 		"Info": "Moin moin, ich bin Hamsti aka <q>Der Nager</q>.<br>Ruhepuls von 300 und Bester ARK-Gamer nördlich des Äquators.<br>(Hab alle lieb, TEAM GRÜN)",
 		"Socials": ["https://www.youtube.com/@Hamsti","https://www.instagram.com/hamsti_yt","None","https://www.tiktok.com/@hamstiyt"]
 	},
-	{		##########################VANORA###############################
+	{		//##########################VANORA###############################
 		"ID": 5,
 		"Team": "red",
 		"Name": "ladyvanora",
@@ -89,7 +89,7 @@
 		"Info": "Gehuhnten Tag, ich bims, die Iken euer Oberhuhn!<br>Heute schon dein Haufi betrachtet? Ein Uupsi am Tag, ist ganz normal. Mehrere sind auch total ok! ",
 		"Socials": ["https://www.youtube.com/xicanmeow","https://instagram.com/xicanmeow","None","https://www.tiktok.com/@xicanmeow?_t=8pzPQNVYLmj&_r=1"]
 	},
-	{		##########################CHASUN###############################
+	{		//##########################CHASUN###############################
 		"ID": 6,
 		"Team": "red",
 		"Name": "Chasun",
@@ -209,7 +209,7 @@
 		"Info": "Hoi, ich bin Bekki ❤️<br>Offizielle Gründerin des Süßmauskults und passionierte Dinokuschlerin.<br>Kann nicht zielen, bin dafür aber Profi im ausdiskutieren. ",
 		"Socials": ["https://www.youtube.com/@bekki_k","https://www.instagram.com/bekkii_k/?hl=de","None","None"]
 	},
-	{		##########################No2U###############################
+	{		//##########################No2U###############################
 		"ID": 14,
 		"Team": "green",
 		"Name": "NO2U_TTV",
@@ -224,7 +224,7 @@
 		"Info": "Gehuhnten Tag, ich bims, die Iken euer Oberhuhn!<br>Heute schon dein Haufi betrachtet? Ein Uupsi am Tag, ist ganz normal. Mehrere sind auch total ok! ",
 		"Socials": ["https://www.youtube.com/xicanmeow","https://instagram.com/xicanmeow","None","https://www.tiktok.com/@xicanmeow?_t=8pzPQNVYLmj&_r=1"]
 	},
-	{		##########################Ratsche###############################
+	{		//##########################Ratsche###############################
 		"ID": 15,
 		"Team": "green",
 		"Name": "RatscheYT",
@@ -269,7 +269,7 @@
 		"Info": "Grüße! Ich bin Themi (Myriam); meistens überdreht & planlos!<br>Ich mag: Essen, Musik und Animes<br>Main Games: RimWorld & Hunt: Showdown 1896<br>Streams: Mo/Di/Do - wenn es passt!",
 		"Socials": ["None","https://www.instagram.com/_mythemi","None","None"]
 	},
-	{		##########################Mellie###############################
+	{		//##########################Mellie###############################
 		"ID": 18,
 		"Team": "green",
 		"Name": "MelliePirellie",
@@ -314,7 +314,7 @@
 		"Info": "<q>Uzun yılan balığı, mangalın dumanında heyecanlı<br>titriyor.</q> - Ein Sprichwort welches den Traum eines<br>Mannes der eigenen Döner-Bude beschreibt!<br><q>şeker fareleri</q> - Die Legende sich lohnt",
 		"Socials": ["https://www.youtube.com/@orfn","https://www.instagram.com/definitiv_orfn/","None","https://www.tiktok.com/@definitiv_orfn"]
 	},
-	{		##########################DerElky###############################
+	{		//##########################DerElky###############################
 		"ID": 21,
 		"Team": "green",
 		"Name": "DerElky",
@@ -374,7 +374,7 @@
 		"Info": "Früher war ich als Perfix bekannt – bis ich unfreiwillig zu Pustefix wurde. Nach 20.000 Stunden ARK PvP kenne ich die Stimmen in meinem Kopf gut und habe mehr Zeit mit virtuellen Dinos verbracht als in der Schule.",
 		"Socials": ["https://www.youtube.com/@Perfixx","None","None","None"]
 	},
-	{		##########################NeonFirez###############################
+	{		//##########################NeonFirez###############################
 		"ID": 25,
 		"Team": "blue",
 		"Name": "NeonFirez",
@@ -449,7 +449,7 @@
 		"Info": "Frau von Kay. Ich finde das sagt schon genug über mich aus...",
 		"Socials": ["None","None","None","https://www.tiktok.com/@happyselli"]
 	},
-	{		##########################Natasha###############################
+	{		//##########################Natasha###############################
 		"ID": 30,
 		"Team": "blue",
 		"Name": "natasha",
@@ -464,7 +464,7 @@
 		"Info": "Gehuhnten Tag, ich bims, die Iken euer Oberhuhn!<br>Heute schon dein Haufi betrachtet? Ein Uupsi am Tag, ist ganz normal. Mehrere sind auch total ok! ",
 		"Socials": ["https://www.youtube.com/xicanmeow","https://instagram.com/xicanmeow","None","https://www.tiktok.com/@xicanmeow?_t=8pzPQNVYLmj&_r=1"]
 	},
-	{		##########################biersmog###############################
+	{		//##########################biersmog###############################
 		"ID": 30,
 		"Team": "blue",
 		"Name": "biersmog",
