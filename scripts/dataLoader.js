@@ -11,9 +11,9 @@ var redNPC = [0,0,0,0,0,0,0,0];
 var greenNPC = [0,0,0,0,0,0,0,0];
 var blueNPC = [0,0,0,0,0,0,0,0];
 const idLookup = new Map([
-  ["GaTo", 0],  ["ISAR", 1],  ["Bekki", 2],  ["xicanmeow", 3],  ["MrMoregame", 4],  ["Nini", 5],  ["katisaurier", 6],  ["Grumpei", 7],  ["Penta", 8],  ["Sorg", 9],  ["DefinitivOrfn", 10],  ["Smilow", 11],
-  ["Beni", 12],  ["Xanti", 13],  ["ringko", 14],  ["Hamsti", 15],  ["M4tschii", 16],  ["ChrisTheArrrow", 17],  ["Leyla", 18],  ["Themi", 19],  ["RealOrchid", 20],  ["james Tow", 21],  ["Mounty", 22],  ["Rubyduby", 23],
-  ["kay", 24],  ["theddy", 25],  ["Simi", 26], ["Pustefix", 27],  ["Nekatus", 28],  ["Schobi", 29],  ["Collins", 30],  ["Kirayli", 31],  ["HappySelli", 32],  ["Pur3Chr1s", 33],  ["SaladOfHumanFlesh", 34],  ["Fluffo", 35]
+  ["GaTo", 0],  ["ISAR", 1],  ["xicanmeow", 2],  ["MrMoregame", 3],  ["Hamsti", 4],  ["Vanora", 5],  ["Chasun", 6],  ["M4tschii", 7],  ["layrace", 8],  ["ChrisTheArrrow", 9],  ["james", 10],  ["Penta", 11],
+  ["katisaurier", 12],  ["bekki", 13],  ["No2U", 14],  ["Ratsche", 15],  ["Fluffo", 16],  ["Themi", 17],  ["MelliPirelli", 18],  ["Steff", 19],  ["Orfn", 20],  ["DerElky", 21],  ["kay", 22],  ["Nekatus", 23],
+  ["Pustefix", 24],  ["Neon", 25],  ["Kirayli", 26], ["Collins", 27],  ["Pur3Chr1s", 28],  ["HappySelli", 29],  ["natasha", 30],  ["biersmog", 31],  ["SaladOfHumanFlesh", 32]
 ]);
 
 //max points 20/Challenge 10/Record 250 NPC ?Weekly
