@@ -399,7 +399,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: justify;
-	gap: 12px;
+	gap: 5px;
 }
 
 .flexFull {
@@ -407,7 +407,7 @@ body {
 }
 
 .flexThird {
-	width: 119px;
+	width: 124px;
 }
 
 .grayBar {
