@@ -302,8 +302,8 @@ async function fillTeam() {
 			document.getElementById("captainBlue").innerHTML = captainBlue;
 			document.getElementById("playerRed").innerHTML = playerRed;
 			document.getElementById("playerGreen").innerHTML = playerGreen;
-			document.getElementById("playerBlue").innerHTML = playerBlue;
-			document.getElementById("portraitsBig").innerHTML = bigPortraits;*/
+			document.getElementById("playerBlue").innerHTML = playerBlue;*/
+			document.getElementById("portraitsBig").innerHTML = bigPortraits;
 			document.getElementById("red").innerHTML += onlineRed + offlineRed;
 			document.getElementById("green").innerHTML += onlineGreen + offlineGreen;
 			document.getElementById("blue").innerHTML += onlineBlue + offlineBlue;
