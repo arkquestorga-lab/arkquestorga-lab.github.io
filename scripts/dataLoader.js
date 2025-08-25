@@ -4,12 +4,12 @@ var personal = [];
 var score = [];
 var challenge = [];
 //var cNames = ["unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt"];
-var cNames = ["Rollrat Race", "Cosmos Swing", "Zipline Parkour", "Shooting Range", "Jump&Run Easy", "Jump&Run Hard", "Freethrow",  "Climb&Fly", "Goo Gun"];
+var cNames = ["Rollrat Race", "Cosmos Swing", "Zipline Parkour", "Shooting Range", "Jump&Run Easy", "Jump&Run Hard", "Freethrow",  "Climb&Fly", "Goo Gun", "Platzhalter 1", "Platzhalter 2", "Platzhalter 3", "Platzhalter 4", "Platzhalter 5", "Platzhalter 6"];
 var wNames = ["Tagebuch", "Pet Nameless", "Reaper Level", "Shinehorn Sammler", "Gen Sammler", "Schönbau", "Tri-Ark Turnier"];
-var nNames = ["Nerva", "Alasie", "Helena", "Einstein", "Henry"];
-var redNPC = [0,0,0,0,0];
-var greenNPC = [0,0,0,0,0];
-var blueNPC = [0,0,0,0,0];
+var nNames = ["NPC 1", "NPC 2", "NPC 3", "NPC 4", "NPC 5", "NPC 6", "NPC 7", "NPC 8"];
+var redNPC = [0,0,0,0,0,0,0,0];
+var greenNPC = [0,0,0,0,0,0,0,0];
+var blueNPC = [0,0,0,0,0,0,0,0];
 const idLookup = new Map([
   ["GaTo", 0],  ["ISAR", 1],  ["Bekki", 2],  ["xicanmeow", 3],  ["MrMoregame", 4],  ["Nini", 5],  ["katisaurier", 6],  ["Grumpei", 7],  ["Penta", 8],  ["Sorg", 9],  ["DefinitivOrfn", 10],  ["Smilow", 11],
   ["Beni", 12],  ["Xanti", 13],  ["ringko", 14],  ["Hamsti", 15],  ["M4tschii", 16],  ["ChrisTheArrrow", 17],  ["Leyla", 18],  ["Themi", 19],  ["RealOrchid", 20],  ["james Tow", 21],  ["Mounty", 22],  ["Rubyduby", 23],
