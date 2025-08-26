@@ -2,7 +2,7 @@
   {
     "ID": 0,
     "Team": "red",
-    "Score": 420,
+    "Score": 0,
     "Challenges": [
       5,
       5,
@@ -112,7 +112,7 @@
   {
     "ID": 1,
     "Team": "green",
-    "Score": 247,
+    "Score": 0,
     "Challenges": [
       5,
       5,
@@ -222,7 +222,7 @@
   {
     "ID": 2,
     "Team": "blue",
-    "Score": 69,
+    "Score": 0,
     "Challenges": [
       5,
       5,
