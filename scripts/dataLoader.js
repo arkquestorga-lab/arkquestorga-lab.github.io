@@ -4,12 +4,12 @@ var personal = [];
 var score = [];
 var challenge = [];
 //var cNames = ["unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt"];
-var cNames = ["Rollrat Race", "Cosmos Swing", "Zipline Parkour", "Shooting Range", "Jump&Run Easy", "Jump&Run Hard", "Freethrow",  "Climb&Fly", "Goo Gun", "Platzhalter 1", "Platzhalter 2", "Platzhalter 3", "Platzhalter 4", "Platzhalter 5", "Platzhalter 6"];
-var wNames = ["Tagebuch", "Pet Nameless", "Reaper Level", "Shinehorn Sammler", "Gen Sammler", "Schönbau", "Tri-Ark Turnier"];
-var nNames = ["NPC 1", "NPC 2", "NPC 3", "NPC 4", "NPC 5", "NPC 6", "NPC 7", "NPC 8"];
-var redNPC = [0,0,0,0,0,0,0,0];
-var greenNPC = [0,0,0,0,0,0,0,0];
-var blueNPC = [0,0,0,0,0,0,0,0];
+var cNames = ["Jump and Run 1", "Jump and Run 2", "Jump and Run 3", "Speerwerfen", "Karki Zielwurf", "Yi Ling Pilot", "Castle Collect",  "Manta Collect", "Kaizo Ark", "Bison Race", "Xiphactinus Akrobatik", "Cosmo Swing", "Goo Gun", "Stopwatch", "Wave of Teeth"];
+var wNames = ["Tagebuch", "Hauskatze", "Pack Opener", "Otter Sammler", "Boss Rush", "Schönbau"];
+var nNames = ["Ringko", "Chava", "John", "Henry", "Kor", "Nerva"];
+var redNPC = [5,5,5,5,5,5];
+var greenNPC = [0,0,0,0,0,0];
+var blueNPC = [0,0,0,0,0,0];
 const idLookup = new Map([
   ["GaTo", 0],  ["ISAR", 1],  ["xicanmeow", 2],  ["MrMoregame", 3],  ["Hamsti", 4],  ["Vanora", 5],  ["Chasun", 6],  ["M4tschii", 7],  ["layrace", 8],  ["ChrisTheArrrow", 9],  ["james", 10],  ["Penta", 11],
   ["katisaurier", 12],  ["bekki", 13],  ["No2U", 14],  ["Ratsche", 15],  ["Fluffo", 16],  ["Themi", 17],  ["MelliPirelli", 18],  ["Steff", 19],  ["Orfn", 20],  ["DerElky", 21],  ["kay", 22],  ["Nekatus", 23],
@@ -17,9 +17,12 @@ const idLookup = new Map([
 ]);
 
 //max points 20/Challenge 10/Record 250 NPC ?Weekly
+// TODO initialize var max with artificial first place points of Wave of Teeth
 var max = [0, 0, 0, 0, 0];
 const recordValue = 8;
 const secondValue = 4;
+const highestWaveBonus = 20;
+const secondHighestWaveBonus = 10;
 
 
 function fillTicker(tickerId) {
@@ -341,7 +344,8 @@ async function fillScore() {
 			    }   
       console.log("nach url fetch ist score");
       console.log(score);
-			for (let i = 0; i < score[0][0].Points.length; i++) {
+      		// abort on second to last entry because "Wave of Teeth" is calculated differently
+			for (let i = 0; i < score[0][0].Points.length-1; i++) {
 				//get max Challenge Points
 				max[0] += 5 * score[0][0].ChallengePoints[i];
 				max[1] += recordValue+secondValue;
@@ -383,18 +387,22 @@ async function fillScore() {
 				blockTop += "\">";
 				let blockBot = "</div>";
 				//fill challenges
-				for (let j = 0; j < score[i][0].Challenges.length; j++) {
+				// changed to "length-1" because of "Wave of Teeth"
+				for (let j = 0; j < score[i][0].Challenges.length-1; j++) {
 					//skip challenge entry if no run was made
 					//if (score[i][0].Challenges[j] != 0) {
 					//open challenge
 					let entry = "<div class=\"flexThird\">";
 					//add name
-					entry += "<div class=\"textBar\">";
-          if(score[i][0].Challenges[j] > 0) {
-              entry += cNames[j] + "</div>";
-          } else {
-              entry += "Challenge "+ (j+1) + "</div>";
-          }
+					entry += "<div class=\"textBar\">"+cNames[j]+"</div>";
+					// TEMP DISABLE for Season 3, trying out spoiler on every challenge name this iteration
+					/*
+          			if(score[i][0].Challenges[j] > 0) {
+              			entry += cNames[j] + "</div>";
+          			} else {
+              			entry += "Challenge "+ (j+1) + "</div>";
+          			}
+          			*/
 					//add gray bar
 					entry += "<div class=\"grayBar\"></div>";
 					//add red bar
@@ -402,7 +410,7 @@ async function fillScore() {
 					//add challenge name, progress, record and points
 					//calc points
 					let temp = score[i][0].Challenges[j] * score[i][0].ChallengePoints[j];
-          console.log("Challenge " + cNames[j] + " ist " + temp + " soll " + score[i][0].Points[j] + " sein");
+          			console.log("Challenge " + cNames[j] + " ist " + temp + " soll " + score[i][0].Points[j] + " sein");
 					cPoints += temp;
 					//add progress
 					let message = " Punkte (" + score[i][0].Challenges[j] + "/5) ";
@@ -428,6 +436,47 @@ async function fillScore() {
 					block += entry;
 					//
 				}
+				//TODO add challenge 15 seperately
+				let entry = "<div class=\"flexThird\">";
+					//add name
+					entry += "<div class=\"textBar\">"+cNames[j]+"</div>";
+					// TEMP DISABLE for Season 3, trying out spoiler on every challenge name this iteration
+					/*
+          			if(score[i][0].Challenges[j] > 0) {
+              			entry += cNames[j] + "</div>";
+          			} else {
+              			entry += "Challenge "+ (j+1) + "</div>";
+          			}
+          			*/
+					//add gray bar
+					entry += "<div class=\"grayBar\"></div>";
+					//add red bar
+					entry += "<div class=\"redBar\" style=\"width:" + (20 * score[i][0].Challenges[j]) + "%;\"></div>";
+					//add challenge name, progress, record and points
+					//no calc points needed, points only come from placement in relation to the other teams
+					let temp = 0;
+					//add progress
+					let message = "Welle "+score[i][0].Challenges[j]+" besiegt";
+					//add record? record currently increases shwon points
+					if (score[i][0].Records[(2 * j)] == true) {
+						rPoints += highestWaveBonus;
+						temp += highestWaveBonus;
+						message += "<span class=\"record\">&starf;</span>";
+					} else {
+						message += "<span class=\"noRecord\">&star;</span>";
+					}
+					if (score[i][0].Records[(2 * j) + 1] == true) {
+						rPoints += secondHighestWaveBonus;
+						temp += secondHighestWaveBonus;
+						message += "<span class=\"second\">&starf;</span>";
+					} else {
+						message += "<span class=\"noRecord\">&star;</span>";
+					}
+					entry += "<div class=\"textBar\">" + message + "</div>";
+					//close challenge
+					entry += "</div>";
+					block += entry;
+				//END OF TODO
 				//add text "CHALLENGES"
 				block = "<div class=\"titleBar\">Challenges (" + (cPoints + rPoints) + "/" + (max[0] + max[1]) + ")</div>" + block;
 				//add Title NPC
@@ -440,99 +489,104 @@ async function fillScore() {
 				block += "<div class=\"greenBar\" style=\"width:" + (100 * score[i][0].Npcs[0] / score[i][0].Npcs[1]) + "%;\"></div>";
 				// TODO NPCs nach Stand eintragen
 				block += "<div class=\"textBar\">";
-        for (let k = 0; k < 5; k++){
-          switch(score[i][0].Team){
-            case "red":
-              if(k<3){
-                if(redNPC[k] >= 5)
-                  block += nNames[k] + " &#10003; ";            
-              } else {
-                if(redNPC[k] != 0)
-                  block += nNames[k] + " &#10003; ";            
-              }
-              break;
-            case "green":
-              if(k<3){
-                if(greenNPC[k] >= 5)
-                  block += nNames[k] + " &#10003; ";            
-              } else {
-                if(greenNPC[k] != 0)
-                  block += nNames[k] + " &#10003; ";            
-              }
-              break;
-            case "blue":
-              if(k<3){
-                if(blueNPC[k] >= 5)
-                  block += nNames[k] + " &#10003; ";            
-              } else {
-                if(blueNPC[k] != 0)
-                  block += nNames[k] + " &#10003; ";            
-              }
-              break;
-          }
+        for (let k = 0; k < 6; k++){
+          	switch(score[i][0].Team){
+          	//
+          		//
+          			// TODO sind alle NPCs mit 5 Abschlüssen für Max Punkte geplant?
+          		//
+          	//
+            	case "red":
+              		if(k<3){
+                		if(redNPC[k] >= 5)
+                  			block += nNames[k] + " &#10003; ";            
+              		} else {
+                		if(redNPC[k] != 0)
+                  			block += nNames[k] + " &#10003; ";            
+              		}
+              		break;
+            	case "green":
+              		if(k<3){
+                		if(greenNPC[k] >= 5)
+                  			block += nNames[k] + " &#10003; ";            
+              		} else {
+                		if(greenNPC[k] != 0)
+                  			block += nNames[k] + " &#10003; ";            
+              		}
+              		break;
+            	case "blue":
+              		if(k<3){
+                		if(blueNPC[k] >= 5)
+                  			block += nNames[k] + " &#10003; ";            
+              		} else {
+                		if(blueNPC[k] != 0)
+                  			block += nNames[k] + " &#10003; ";            
+              		}
+              		break;
+          	}
         }
         block += "</div>";
-				//close progress NPC
-				block += "</div>";
-				//add weekly?
-				let tempBlock = "";
-				if (score[i][0].ShowWeekly == true) {
-					for (let j = 0; j < score[i][0].Weekly.length; j++) {
-						//open challenge
-						let entry = "<div class=\"flexThird\">";
-						//add name
-						entry += "<div class=\"textBar\">" + wNames[j] + "</div>";
-						//add gray bar
-						entry += "<div class=\"grayBar\"></div>";
-						//add cyan bar
-						entry += "<div class=\"cyanBar\" style=\"width:" + (100 * score[i][0].Weekly[j] / score[i][0].WeeklyMax[j]) + "%;\"></div>";
-						//add challenge name, progress, record and points
-						//calc points
-						wPoints += score[i][0].Weekly[j];
-						//add progress
-						entry += "<div class=\"textBar\">" + score[i][0].Weekly[j] + " Punkte</div>";
-						//close challenge
-						entry += "</div>";
-						tempBlock += entry;
-					}
-				} else {
-					//add full width text "to be determined"
-					tempBlock += "<div class=\"flexFull\"><div class=\"textBar\">Auswertung offen</div></div>";
-				}
-				//add Title WEEKLY
-				block += "<div class=\"titleBar\">Weekly (" + wPoints + "/" + max[3] + ")</div>";
-				block += tempBlock;
-				//build full Score Overview
-				let allScore = "<div class=\"flexFull\"><div class=\"titleBar\" style=\"margin-top: 10px; margin-bottom: 5px;\">Gesamtpunktzahl</div>";
-				allScore += "<div class=\"grayBigBar\"></div>";
-				let offset = 0;
-				let width = 100 * (cPoints + rPoints) / (max[0] + max[1]) * (max[0] + max[1]) / max[4];
-				//					console.log(width);
-				allScore += "<div class=\"redBigBar\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div>";
-				offset += width;
-				//width = 90 * rPoints / max[1] * max[1] / max[4];
-				//					console.log(width);
-				//allScore += "<div class=\"yellowBigBar\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div>";
-				//offset += width;
-				width = 100 * nPoints / max[2] * max[2] / max[4];
-				//					console.log(width);
-				allScore += "<div class=\"";
-				if (score[i][0].ShowWeekly == true) {
-					allScore += "greenBigBar";
-				} else {
-					allScore += "greenBigRoundBar";
-				}
-				allScore += "\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div>";
-				offset += width;
-				width = 100 * wPoints / max[3] * max[3] / max[4];
-				//					console.log(width);
-				allScore += "<div class=\"cyanBigBar\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div></div>";
-				//add all Score on top of block
-				block = allScore + block;
-				//insert content into website
-				detailDiv.innerHTML = blockTop + block + blockBot;
+		//close progress NPC
+		block += "</div>";
+		//add weekly?
+		let tempBlock = "";
+		if (score[i][0].ShowWeekly == true) {
+			for (let j = 0; j < score[i][0].Weekly.length; j++) {
+				//open challenge
+				let entry = "<div class=\"flexThird\">";
+				//add name
+				entry += "<div class=\"textBar\">" + wNames[j] + "</div>";
+				//add gray bar
+				entry += "<div class=\"grayBar\"></div>";
+				//add cyan bar
+				entry += "<div class=\"cyanBar\" style=\"width:" + (100 * score[i][0].Weekly[j] / score[i][0].WeeklyMax[j]) + "%;\"></div>";
+				//add challenge name, progress, record and points
+				//calc points
+				wPoints += score[i][0].Weekly[j];
+				//add progress
+				entry += "<div class=\"textBar\">" + score[i][0].Weekly[j] + " Punkte</div>";
+				//close challenge
+				entry += "</div>";
+				tempBlock += entry;
 			}
-			console.log(score);
+		} else {
+			//add full width text "to be determined"
+			tempBlock += "<div class=\"flexFull\"><div class=\"textBar\">Auswertung offen</div></div>";
+		}
+		//add Title WEEKLY
+		block += "<div class=\"titleBar\">Weekly (" + wPoints + "/" + max[3] + ")</div>";
+		block += tempBlock;
+		//build full Score Overview
+		let allScore = "<div class=\"flexFull\"><div class=\"titleBar\" style=\"margin-top: 10px; margin-bottom: 5px;\">Gesamtpunktzahl</div>";
+		allScore += "<div class=\"grayBigBar\"></div>";
+		let offset = 0;
+		let width = 100 * (cPoints + rPoints) / (max[0] + max[1]) * (max[0] + max[1]) / max[4];
+		//					console.log(width);
+		allScore += "<div class=\"redBigBar\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div>";
+		offset += width;
+		//width = 90 * rPoints / max[1] * max[1] / max[4];
+		//					console.log(width);
+		//allScore += "<div class=\"yellowBigBar\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div>";
+		//offset += width;
+		width = 100 * nPoints / max[2] * max[2] / max[4];
+		//					console.log(width);
+		allScore += "<div class=\"";
+		if (score[i][0].ShowWeekly == true) {
+			allScore += "greenBigBar";
+		} else {
+			allScore += "greenBigRoundBar";
+		}
+		allScore += "\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div>";
+		offset += width;
+		width = 100 * wPoints / max[3] * max[3] / max[4];
+		//					console.log(width);
+		allScore += "<div class=\"cyanBigBar\" style=\"margin-left: " + offset + "%; width:" + width + "%\"></div></div>";
+		//add all Score on top of block
+		block = allScore + block;
+		//insert content into website
+		detailDiv.innerHTML = blockTop + block + blockBot;
+		}
+		console.log(score);
         console.log(redNPC);
         console.log(greenNPC);
         console.log(blueNPC);
@@ -542,7 +596,7 @@ async function fillScore() {
 
 function fillChallenge() {
 	console.log("attempt filling challenges");
-  fetch("./data/rankingupdate.json")
+  	fetch("./data/rankingupdate.json")
 	//fetch("./data/ranking.json")
 		.then(response => response.json())
 		.then(data => {
@@ -553,7 +607,7 @@ function fillChallenge() {
 			for (let i = 0; i < challenge.length; i++) {
 				let leaderboard = document.getElementById("tickerRekordChallenge" + (i + 1));
 				for (let j = 0; j < challenge[i][0].Players.length; j++) {
-          let front = "";
+          			let front = "";
 					let rank = "";
 					switch (j) {
 						case 0:
@@ -573,20 +627,20 @@ function fillChallenge() {
 							challenge[i][0].Runs[j] + "\")>";
 					}
 					front += "<div class=\"boxInABoxTickerSmall ";
-          switch(challenge[i][0].Teams[j]){
-          case "Team Rot":
-            front += "red";
-            break;
-          case "Team Gr\u00FCn":
-            front += "green";
-            break;
-          case "Team Blau":
-            front += "blue";
-            break;
-          default:
-            front += "admins";
-          }
-          leaderboard.innerHTML += front +"Hue" + run + "<div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Players[j] + " - " + challenge[i][0].Times[j] + "</div></div>";
+          			switch(challenge[i][0].Teams[j]){
+          				case "Team Rot":
+            				front += "red";
+            			break;
+          				case "Team Gr\u00FCn":
+            				front += "green";
+            			break;
+          				case "Team Blau":
+            				front += "blue";
+            			break;
+          				default:
+            				front += "admins";
+          			}
+          			leaderboard.innerHTML += front +"Hue" + run + "<div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Players[j] + " - " + challenge[i][0].Times[j] + "</div></div>";
 				}
 				console.log(leaderboard.innerHTML);
 			}
@@ -596,23 +650,44 @@ function fillChallenge() {
 
 function setText(i) {
 	let text = document.getElementById('sectionNText');
+	let image = document.getElementById('sectionNImage');
 	switch (i) {
 		case 1:
-			text.innerHTML = "Helena begrüßt die Teams zum Start des Projekts. Sie stattet die Spieler mit verschiedenen Tools sowie einem Reittier aus. Zum Schluss verrät sie den Spielern, die Orte von Alasie und Nerva.";
+			text.innerHTML = "Text NPC 1";
+			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 2:
-			text.innerHTML = "Alasie ist eine junge Inuit, die ihr Expeditionscamp auf einer Klippe am See im Norden aufgeschlagen hat. Sie ist auf der Suche nach ihrem perfekten Begleiter und bittet darum ihr dabei zu helfen.";
+			text.innerHTML = "Text NPC 2";
+			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 3:
-			text.innerHTML = "Gaius Marcellus Nerva ist ein römischer Zenturio, der in der Nähe des großen Portals einen Pantheon errichten möchte. Für welchen Gott? Für sich selbst! Er lässt sich Ressourcen für seine Baustelle bringen im Austausch für verschiedensten Loot den er nichtmehr gebrauchen kann.";
+			text.innerHTML = "Text NPC 3";
+			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 4:
-			text.innerHTML = "Henry ist ein Abendteurer der für den Nervenkitzel die größte Herausforderung sucht. Diese Erfahrung möchte er teilen, weshalb er die Spieler auf waghalsige Missionen schickt.";
+			text.innerHTML = "Text NPC 4";
+			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 5:
-			text.innerHTML = "Von Center kannten wir Einstein nur aus Tagebüchern. Hier auf Aberration begegnen wir ihm nun in Person. Genauso wie unsere Teams sucht er nach einer Möglichkeit die Simulation zu verlassen. Einen verrückten Plan hat er bereits.";
+			text.innerHTML = "Text NPC 5";
+			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			break;
+		case 6:
+			text.innerHTML = "Text NPC 6";
+			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		default:
 			text.innerHTML = "Coming Soon...";
 	}
 }
+
+$(window).scroll(function() {
+  var scrollTop = $(this).scrollTop();
+
+  $('.header-overlay').css({
+    opacity: function() {
+      var elementHeight = $(this).height()/1.75;
+      return 0.9 - ((elementHeight - scrollTop) / elementHeight)*0.9;
+    }
+  });
+});
