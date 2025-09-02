@@ -41,9 +41,9 @@ body {
 }
 
 .menuDivider {
-	width: 1px;
+	width: 3px;
 	height: 64px;
-	background-color: white; 
+	background-color: rgba(255,255,255,0.5); 
 	height: 30px; 
 	margin: 0px;
 	margin-top: 28px;
@@ -875,4 +875,14 @@ body {
 	color: black;
 	transition-duration: 0.2s;
 	margin-right: -19px;
+}
+
+.header-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+  	width: 100%;
+  	height: 100%;
+  	background: rgb(0, 0, 0);
+  	opacity: 0;
 }
