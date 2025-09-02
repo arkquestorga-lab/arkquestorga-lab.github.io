@@ -219,7 +219,8 @@ async function fillTeam() {
 				// TODO remove * to enable progress logging
 				//for loop challenges
 				big += "<div class=\"innerShellProgressFull\"style=\"text-align: left; margin-left: 10px;\">Challenges</div>";
-				for (let j = 0; j < team[i][0].Rankings.length; j++) {
+				// CHANGE FOR QUEST 3 count to second last challenge
+				for (let j = 0; j < team[i][0].Rankings.length-1; j++) {
 					big += "<div class=\"innerShellProgressHalf\">";
 					switch (team[i][0].Rankings[j]) {
 						case 1:
@@ -237,6 +238,8 @@ async function fillTeam() {
 					}
 					big += "</div>";
 				}
+				let wot = team[i][0].Rankings.length-1;
+				(team[i][0].Times[wot]!=0) ? big += "<div class=\"innerShellProgressHalf\">Welle "+team[i][0].Times[wot]+" besiegt</div>" : big += "<div class=\"innerShellProgressHalf\">Keine Welle besiegt</div>";
 				//textboxnpc
 				big += "<div class=\"innerShellProgressFull\"style=\"text-align: left; margin-left: 10px;\">NPCs</div>";
 				//for loop npc
@@ -497,32 +500,16 @@ async function fillScore() {
           		//
           	//
             	case "red":
-              		if(k<3){
-                		if(redNPC[k] >= 5)
-                  			block += nNames[k] + " &#10003; ";            
-              		} else {
-                		if(redNPC[k] != 0)
-                  			block += nNames[k] + " &#10003; ";            
-              		}
+                	if(redNPC[k] >= 5) block += nNames[k] + " &#10003; ";
               		break;
             	case "green":
-              		if(k<3){
-                		if(greenNPC[k] >= 5)
-                  			block += nNames[k] + " &#10003; ";            
-              		} else {
-                		if(greenNPC[k] != 0)
-                  			block += nNames[k] + " &#10003; ";            
-              		}
+              		if(greenNPC[k] >= 5) block += nNames[k] + " &#10003; ";            
               		break;
             	case "blue":
-              		if(k<3){
-                		if(blueNPC[k] >= 5)
-                  			block += nNames[k] + " &#10003; ";            
-              		} else {
-                		if(blueNPC[k] != 0)
-                  			block += nNames[k] + " &#10003; ";            
-              		}
+              		if(blueNPC[k] >= 5) block += nNames[k] + " &#10003; ";            
               		break;
+              	default:
+              		console.log("what team is dis?");
           	}
         }
         block += "</div>";
