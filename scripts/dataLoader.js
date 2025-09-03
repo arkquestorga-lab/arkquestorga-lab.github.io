@@ -440,35 +440,27 @@ async function fillScore() {
 					//
 				}
 				//TODO add challenge 15 seperately
+				let wot = score[i][0].Challenges.length-1;
 				let entry = "<div class=\"flexThird\">";
 					//add name
-					entry += "<div class=\"textBar\">"+cNames[j]+"</div>";
-					// TEMP DISABLE for Season 3, trying out spoiler on every challenge name this iteration
-					/*
-          			if(score[i][0].Challenges[j] > 0) {
-              			entry += cNames[j] + "</div>";
-          			} else {
-              			entry += "Challenge "+ (j+1) + "</div>";
-          			}
-          			*/
-					//add gray bar
+					entry += "<div class=\"textBar\">"+cNames[wot]+"</div>";
 					entry += "<div class=\"grayBar\"></div>";
 					//add red bar
-					entry += "<div class=\"redBar\" style=\"width:" + (20 * score[i][0].Challenges[j]) + "%;\"></div>";
+					entry += "<div class=\"redBar\" style=\"width:" + (1 * score[i][0].Challenges[wot]) + "%;\"></div>";
 					//add challenge name, progress, record and points
 					//no calc points needed, points only come from placement in relation to the other teams
 					let temp = 0;
 					//add progress
-					let message = "Welle "+score[i][0].Challenges[j]+" besiegt";
+					let message = "Welle "+score[i][0].Challenges[wot]+" besiegt";
 					//add record? record currently increases shwon points
-					if (score[i][0].Records[(2 * j)] == true) {
+					if (score[i][0].Records[(2 * wot)] == true) {
 						rPoints += highestWaveBonus;
 						temp += highestWaveBonus;
 						message += "<span class=\"record\">&starf;</span>";
 					} else {
 						message += "<span class=\"noRecord\">&star;</span>";
 					}
-					if (score[i][0].Records[(2 * j) + 1] == true) {
+					if (score[i][0].Records[(2 * wot) + 1] == true) {
 						rPoints += secondHighestWaveBonus;
 						temp += secondHighestWaveBonus;
 						message += "<span class=\"second\">&starf;</span>";
@@ -667,14 +659,3 @@ function setText(i) {
 			text.innerHTML = "Coming Soon...";
 	}
 }
-
-$(window).scroll(function() {
-  var scrollTop = $(this).scrollTop();
-
-  $('.header-overlay').css({
-    opacity: function() {
-      var elementHeight = $(this).height()/1.75;
-      return 0.9 - ((elementHeight - scrollTop) / elementHeight)*0.9;
-    }
-  });
-});
