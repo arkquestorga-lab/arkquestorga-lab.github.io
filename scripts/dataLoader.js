@@ -536,7 +536,7 @@ async function fillScore() {
 		block += "<div class=\"titleBar\">Weekly (" + wPoints + "/" + max[3] + ")</div>";
 		block += tempBlock;
 		//build full Score Overview
-		let allScore = "<div class=\"flexFull\"><div class=\"titleBar\" style=\"margin-top: 10px; margin-bottom: 5px;\">Gesamtpunktzahl</div>";
+		let allScore = "<div class=\"flexFull\"><div class=\"titleBar\" style=\"margin-bottom: 5px;\">Gesamtpunktzahl</div>";
 		allScore += "<div class=\"grayBigBar\"></div>";
 		let offset = 0;
 		let width = 100 * (cPoints + rPoints) / (max[0] + max[1]) * (max[0] + max[1]) / max[4];
