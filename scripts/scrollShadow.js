@@ -3,8 +3,8 @@ $(window).scroll(function() {
 
   $('.header-overlay').css({
     opacity: function() {
-      var elementHeight = $(this).height()/1.75;
-      return 0.9 - ((elementHeight - scrollTop) / elementHeight)*0.9;
+      var elementHeight = $(this).height()/1.7;
+      return 0.85 - ((elementHeight - scrollTop) / elementHeight)*0.85;
     }
   });
 });
