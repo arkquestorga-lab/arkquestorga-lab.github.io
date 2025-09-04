@@ -127,9 +127,9 @@ body {
 .flexBoxThird {
 	margin: 10px;
 	margin-bottom: 0px;
-	margin-top: 5px;
-	width: 542px;
-	height: 859px;
+	margin-top: 38px;
+	width: 488px;
+	height: 773px;
 	padding-left: 1px;
 	padding-top: 1px;
 	position: relative;
@@ -329,7 +329,7 @@ body {
 	text-align: right;
 	position: absolute;
 	top: 20px;
-	left: 380px;
+	left: 333px;
 }
 
 .teamPlayer {
@@ -339,13 +339,13 @@ body {
 }
 
 .flexPlayer {
-	width: 413px;
+	width: 404px;
 	height: 53px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: left;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 4px;
 }
 
 .playerImg {
@@ -357,7 +357,7 @@ body {
 
 .playerName {
 	height: 53px;
-	width: 265px;
+	width: 259px;
 	color: white;
 	font-size: 30px;
 	text-align: left;
@@ -394,8 +394,7 @@ body {
 
 .flexScore {
 	width: 397px;
-	padding-left: 16px;
-	padding-bottom: 16px;
+	padding-left: 5px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: justify;
@@ -403,11 +402,11 @@ body {
 }
 
 .flexFull {
-	width: 381px;
+	width: 388px;
 }
 
 .flexThird {
-	width: 124px;
+	width: 126px;
 }
 
 .grayBar {
@@ -477,7 +476,7 @@ body {
 
 .cyanBigBar {
 	margin-top: -20px;
-	margin-bottom: 10px;
+	margin-bottom: -5px;
 	border-radius: 0 20px 20px 0;
 	height: 20px;
 	background-color: rgb(53,173,208);
@@ -486,14 +485,14 @@ body {
 .textBar {
 	width: 100%;
 	font-size: 95%;
-	height: 25px;
+	height: 24px;
 	text-align: center;
 }
 
 .titleBar {
 	width: 100%;
 	font-size: 22px;
-	height: 30px;
+	height: 25px;
 }
 
 .record {
@@ -866,15 +865,16 @@ body {
 }
 
 .noticeMe {
-	font-size: 90%;
+	font-size: 50px;
 	color: white;
 }
 
 .noticeMe:hover {
-	font-size: 100%;	
+	font-size: 55px;	
 	color: black;
-	transition-duration: 0.2s;
+	transition-duration: 0.3s;
 	margin-right: -19px;
+	margin-top: -4px;
 }
 
 .header-overlay {
