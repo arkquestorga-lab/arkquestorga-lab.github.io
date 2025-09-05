@@ -344,7 +344,7 @@ async function fillScore() {
       console.log("nach url fetch ist score");
       console.log(score);
       		// abort on second to last entry because "Wave of Teeth" is calculated differently
-			for (let i = 0; i < score[0][0].challenges.length-1; i++) {
+			for (let i = 0; i < score[0][0].Challenges.length-1; i++) {
 				//get max Challenge Points
 				max[0] += 5 * challengePoints[i];
 				max[1] += recordValue+secondValue;
