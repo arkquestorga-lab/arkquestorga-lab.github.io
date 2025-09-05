@@ -5,7 +5,9 @@ var score = [];
 var challenge = [];
 //var cNames = ["unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt"];
 var cNames = ["Goo Gun", "Bison Race", "Xiphactinus Akrobatik", "Speerwerfen", "Karki Zielwurf", "Yi Ling Pilot", "Jump and Run 1", "Jump and Run 2", "Jump and Run 3", "Castle Collect", "Manta Collect", "Cosmo Swing", "Stopwatch", "Kaizo Ark", "Wave of Teeth"];
+var challengePoints = [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3];
 var wNames = ["Tagebuch", "Hauskatze", "Pack Opener", "Otter Sammler", "Boss Rush", "Schönbau"];
+var weeklymax = [20, 20, 20, 20, 20, 20];
 var nNames = ["Ringko", "Chava", "John", "Henry", "Kor", "Nerva"];
 var redNPC = [5,5,5,5,5,5];
 var greenNPC = [0,0,0,0,0,0];
@@ -342,15 +344,15 @@ async function fillScore() {
       console.log("nach url fetch ist score");
       console.log(score);
       		// abort on second to last entry because "Wave of Teeth" is calculated differently
-			for (let i = 0; i < score[0][0].Points.length-1; i++) {
+			for (let i = 0; i < score[0][0].challenges.length-1; i++) {
 				//get max Challenge Points
-				max[0] += 5 * score[0][0].ChallengePoints[i];
+				max[0] += 5 * challengePoints[i];
 				max[1] += recordValue+secondValue;
 			}
 			max[2] = score[0][0].Npcs[1];
-			for (let i = 0; i < score[0][0].WeeklyMax.length; i++) {
+			for (let i = 0; i < score[0][0].Weekly.length; i++) {
 				//get max Weekly Points
-				max[3] += score[0][0].WeeklyMax[i];
+				max[3] += weeklyMax[i];
 			}
 			max[4] = max[0] + max[1] + max[2];
 			if (score[0][0].ShowWeekly == true)
@@ -406,7 +408,7 @@ async function fillScore() {
 					entry += "<div class=\"redBar\" style=\"width:" + (20 * score[i][0].Challenges[j]) + "%;\"></div>";
 					//add challenge name, progress, record and points
 					//calc points
-					let temp = score[i][0].Challenges[j] * score[i][0].ChallengePoints[j];
+					let temp = score[i][0].Challenges[j] * challengePoints[j];
           			console.log("Challenge " + cNames[j] + " ist " + temp + " soll " + score[i][0].Points[j] + " sein");
 					cPoints += temp;
 					//add progress
@@ -512,7 +514,7 @@ async function fillScore() {
 				//add gray bar
 				entry += "<div class=\"grayBar\"></div>";
 				//add cyan bar
-				entry += "<div class=\"cyanBar\" style=\"width:" + (100 * score[i][0].Weekly[j] / score[i][0].WeeklyMax[j]) + "%;\"></div>";
+				entry += "<div class=\"cyanBar\" style=\"width:" + (100 * score[i][0].Weekly[j] / weeklyMax[j]) + "%;\"></div>";
 				//add challenge name, progress, record and points
 				//calc points
 				wPoints += score[i][0].Weekly[j];
