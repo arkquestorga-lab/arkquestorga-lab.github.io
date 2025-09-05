@@ -409,7 +409,6 @@ async function fillScore() {
 					//add challenge name, progress, record and points
 					//calc points
 					let temp = score[i][0].Challenges[j] * challengePoints[j];
-          			console.log("Challenge " + cNames[j] + " ist " + temp + " soll " + score[i][0].Points[j] + " sein");
 					cPoints += temp;
 					//add progress
 					let message = " Punkte (" + score[i][0].Challenges[j] + "/5) ";
