@@ -4,7 +4,7 @@ var personal = [];
 var score = [];
 var challenge = [];
 //var cNames = ["unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt","unbekannt"];
-var cNames = ["Jump and Run 1", "Jump and Run 2", "Jump and Run 3", "Speerwerfen", "Karki Zielwurf", "Yi Ling Pilot", "Castle Collect",  "Manta Collect", "Kaizo Ark", "Bison Race", "Xiphactinus Akrobatik", "Cosmo Swing", "Goo Gun", "Stopwatch", "Wave of Teeth"];
+var cNames = ["Goo Gun", "Bison Race", "Xiphactinus Akrobatik", "Speerwerfen", "Karki Zielwurf", "Yi Ling Pilot", "Jump and Run 1", "Jump and Run 2", "Jump and Run 3", "Castle Collect", "Manta Collect", "Cosmo Swing", "Stopwatch", "Kaizo Ark", "Wave of Teeth"];
 var wNames = ["Tagebuch", "Hauskatze", "Pack Opener", "Otter Sammler", "Boss Rush", "Schönbau"];
 var nNames = ["Ringko", "Chava", "John", "Henry", "Kor", "Nerva"];
 var redNPC = [5,5,5,5,5,5];
@@ -239,7 +239,7 @@ async function fillTeam() {
 					big += "</div>";
 				}
 				let wot = team[i][0].Rankings.length-1;
-				(team[i][0].Times[wot]!=0) ? big += "<div class=\"innerShellProgressHalf\">Welle "+team[i][0].Times[wot]+" besiegt</div>" : big += "<div class=\"innerShellProgressHalf\">Keine Welle besiegt</div>";
+				(team[i][0].Times[wot] != "None") ? big += "<div class=\"innerShellProgressHalf\">Welle "+team[i][0].Times[wot]+" besiegt</div>" : big += "<div class=\"innerShellProgressHalf\">Keine Welle besiegt</div>";
 				//textboxnpc
 				big += "<div class=\"innerShellProgressFull\"style=\"text-align: left; margin-left: 10px;\">NPCs</div>";
 				//for loop npc
@@ -303,12 +303,6 @@ async function fillTeam() {
 					default:
 				}
 			}
-			/*document.getElementById("captainRed").innerHTML = captainRed;
-			document.getElementById("captainGreen").innerHTML = captainGreen;
-			document.getElementById("captainBlue").innerHTML = captainBlue;
-			document.getElementById("playerRed").innerHTML = playerRed;
-			document.getElementById("playerGreen").innerHTML = playerGreen;
-			document.getElementById("playerBlue").innerHTML = playerBlue;*/
 			document.getElementById("portraitsBig").innerHTML = bigPortraits;
 			document.getElementById("red").innerHTML += onlineRed + offlineRed;
 			document.getElementById("green").innerHTML += onlineGreen + offlineGreen;
