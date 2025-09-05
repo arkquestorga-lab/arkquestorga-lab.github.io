@@ -65,13 +65,13 @@
 		"Name": "Hamsti_yt",
 		"Icon": "https://static-cdn.jtvnw.net/jtv_user_pictures/a640d68e-123c-4992-bcde-6501e545cc53-profile_image-70x70.png",
 		"Link": "hamsti_yt",
-		"Portrait": "https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/hamsti.png",
+		"Portrait": "https://imgur.com/GMVIIB7.png",
 		"Captain": false,
 		"Live": false,
 		"Times": ["None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None"], 
 		"Rankings": [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99],
 		"Npcs": [0, 0, 0, 0, 0, 0],
-		"Info": "Moin moin, ich bin Hamsti aka <q>Der Nager</q>.<br>Ruhepuls von 300 und Bester ARK-Gamer nördlich des Äquators.<br>(Hab alle lieb, TEAM GRÜN)",
+		"Info": "Moin moin, ich bin Hamsti aka <q>Der Nager</q>.",
 		"Socials": ["https://www.youtube.com/@Hamsti","https://www.instagram.com/hamsti_yt","None","https://www.tiktok.com/@hamstiyt"]
 	},
 	{
@@ -245,7 +245,7 @@
 		"Name": "Fluffooooo",
 		"Icon": "https://static-cdn.jtvnw.net/jtv_user_pictures/5036fed1-e952-43e3-91f6-08aea89d167a-profile_image-70x70.jpeg",
 		"Link": "fluffooooo",
-		"Portrait": "https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/fluffo.png",
+		"Portrait": "https://imgur.com/xasSRQs.png",
 		"Captain": false,
 		"Live": false,
 		"Times": ["None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None"], 
@@ -491,7 +491,7 @@
 		"Times": ["None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None", "None"], 
 		"Rankings": [99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99, 99],
 		"Npcs": [0, 0, 0, 0, 0, 0],
-		"Info": "Ich bin Salad/Frau S und vor allem für mein Geschick im Umgang mit jeglichen Reittieren bekannt. Zudem bin ich generell auch noch ein Kacknoob.",
+		"Info": "Ich bin Salad und vor allem für mein Geschick im Umgang mit jeglichen Reittieren bekannt. Zudem bin ich generell auch noch ein Kacknoob.",
 		"Socials": ["None","https://www.instagram.com/menschenfleischsalat/","None","None"]
 	}
 ]
