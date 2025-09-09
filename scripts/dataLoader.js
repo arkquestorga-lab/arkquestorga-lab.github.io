@@ -103,7 +103,7 @@ async function fillTeam() {
 		    .then(response2 => response2.json())
 		    .then(data => {
 			  for (const player of data) {
-          let id = idLookup.get(player.Name);
+          let id = idLookup.get(player.ID);
           if(id != undefined){
             team[id][0].Live = player.Live;
             team[id][0].Times = player.Times;
