@@ -21,8 +21,8 @@ const idLookup = new Map([
 //max points 20/Challenge 10/Record 250 NPC ?Weekly
 // TODO initialize var max with artificial first place points of Wave of Teeth
 var max = [0, 0, 0, 0, 0];
-const recordValue = 8;
-const secondValue = 4;
+const recordValue = 6;
+const secondValue = 3;
 const highestWaveBonus = 20;
 const secondHighestWaveBonus = 10;
 
@@ -441,6 +441,7 @@ async function fillScore() {
 					entry += "<div class=\"textBar\">"+cNames[wot]+"</div>";
 					entry += "<div class=\"grayBar\"></div>";
 					//add red bar
+					max[1] += 20;
 					entry += "<div class=\"redBar\" style=\"width:" + (1 * score[i][0].Challenges[wot]) + "%;\"></div>";
 					//add challenge name, progress, record and points
 					//no calc points needed, points only come from placement in relation to the other teams
