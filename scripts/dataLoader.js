@@ -636,7 +636,7 @@ function setText(i) {
 	let image = document.getElementById('sectionNImage');
 	switch (i) {
 		case 1:
-			text.innerHTML = "Text NPC 1";
+			text.innerHTML = "Ringko ist eigentlich selbst Streamer und Ark Player, aber irgendetwas beim Serverwechsel nach Ragnarok lief schief! Er ist zwar auf dem Server aber kann sich nicht bewegen. Also müssen seine Kollegen ihm helfen. Dafür müssen sie ihm Equipment und Tames ranschaffen, für die sein Ark-Gameplay bekannt ist.";
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 2:
