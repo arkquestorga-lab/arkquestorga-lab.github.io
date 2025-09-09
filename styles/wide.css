@@ -886,3 +886,27 @@ body {
   	background: rgb(0, 0, 0);
   	opacity: 0;
 }
+
+.cardLink:link {
+  color: #c20096;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.cardLink:visited {
+  color: #c20096;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.cardLink:hover {
+  color: #c20096;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.cardLink:active {
+  color: #c20096;
+  background-color: transparent;
+  text-decoration: underline;
+}
