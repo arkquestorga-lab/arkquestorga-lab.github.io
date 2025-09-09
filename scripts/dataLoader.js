@@ -29,7 +29,8 @@ const secondHighestWaveBonus = 10;
 
 function fillTicker(tickerId) {
 	console.log("attempt filling ticker");
-	fetch("./data/ticker.json")
+	fetch("https://arkquest.me/api/public/ticker")
+	//fetch("./data/ticker.json")
 		.then(response => response.json())
 		.then(data => {
 			for (const event of data) {
@@ -93,7 +94,8 @@ async function fillTeam() {
       })
 		.catch(error => console.error('Fehler beim Abrufen der Punkte:', error));
       // TODO den Bums von API auf player überschreiben
-      const response2 = await fetch("./data/playerupdate.json")
+      // const response2 = await fetch("./data/playerupdate.json")
+      const response2 = await fetch("https://arkquest.me/api/public/players")
 		    .then(response2 => response2.json())
 		    .then(data => {
 			  for (const player of data) {
@@ -328,7 +330,8 @@ async function fillScore() {
     })
   .catch(error => console.error('Fehler beim Abrufen der Punkte:', error));
       console.log("attempt filling api score");
-      fetch("./data/score.json")
+      fetch("https://arkquest.me/api/public/scores")
+      //fetch("./data/score.json")
         .then(response => response.json())
         .then(data => {
           console.log("data2: " + data);
@@ -571,7 +574,8 @@ async function fillScore() {
 
 function fillChallenge() {
 	console.log("attempt filling challenges");
-  	fetch("./data/rankingupdate.json")
+  	fetch("https://arkquest.me/api/public/rankings")
+  	//fetch("./data/rankingupdate.json")
 	//fetch("./data/ranking.json")
 		.then(response => response.json())
 		.then(data => {
@@ -632,23 +636,23 @@ function setText(i) {
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 2:
-			text.innerHTML = "Text NPC 2";
+			text.innerHTML = "John ist ein amerikanischer Ureinwohner aus dem 19. Jahrhundert, durch seinen Stamm hat er gelernt das Hilfsbereitschaft und Zusammenhalt das Wichtigste ist. Um diese Werte an andere Zeitreisende weiterzugeben, versucht er eine Grundversorgung bereit zu stellen.";
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 3:
-			text.innerHTML = "Text NPC 3";
+			text.innerHTML = "Kor der Prophet oder wie er sich selbst gerne nennt \"der Dino-Flüsterer\" ist aus den längst vergangenen Zeiten der Dinos daher auch seine Affinität zu diesen majestätischen Wesen und diese möchte er an euch weitergeben.";
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 4:
-			text.innerHTML = "Text NPC 4";
+			text.innerHTML = "Chava ist eine Heilerin die ihr gesamtes Leben darauf ausgerichtet hat so vielen Lebewesen zu helfen wie möglich. Genau aus diesem Grund versucht sie aus allen verfügbaren Mitteln die beste Arznei zu machen.";
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 5:
-			text.innerHTML = "Text NPC 5";
+			text.innerHTML = "Henry ist ein wiederkehrender Abenteurer, der für den Nervenkitzel die größte Herausforderung sucht. Diese Erfahrung möchte er ein weiteres Mal teilen, weshalb er die Spieler auf waghalsige Missionen schickt.";
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 6:
-			text.innerHTML = "Text NPC 6";
+			text.innerHTML = "Gaius Marcellus Nerva ist ein römischer Zenturio, der, nachdem er ein Pantheon auf Abberation errichten ließ, nun eine göttliche Elite Truppe aufbaut. Für welchen Gott? Für sich selbst! Ist er mit euren Rekruten zufrieden wird er sich auch erkenntlich zeigen.";
 			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		default:
