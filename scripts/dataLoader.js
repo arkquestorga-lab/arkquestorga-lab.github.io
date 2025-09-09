@@ -13,9 +13,13 @@ var redNPC = [0,0,0,0,0,0];
 var greenNPC = [0,0,0,0,0,0];
 var blueNPC = [0,0,0,0,0,0];
 const idLookup = new Map([
-  ["GaTo", 0],  ["ISAR", 1],  ["xicanmeow", 2],  ["MrMoregame", 3],  ["Hamsti", 4],  ["Vanora", 5],  ["Chasun", 6],  ["M4tschii", 7],  ["layrace", 8],  ["ChrisTheArrrow", 9],  ["james", 10],  ["Penta", 11],
-  ["katisaurier", 12],  ["bekki", 13],  ["No2U", 14],  ["Ratsche", 15],  ["Fluffo", 16],  ["Themi", 17],  ["MelliPirelli", 18],  ["Steff", 19],  ["Orfn", 20],  ["DerElky", 21],  ["kay", 22],  ["Nekatus", 23],
-  ["Pustefix", 24],  ["Neon", 25],  ["Kirayli", 26], ["Collins", 27],  ["Pur3Chr1s", 28],  ["HappySelli", 29],  ["natasha", 30],  ["biersmog", 31],  ["SaladOfHumanFlesh", 32]
+  ["66f852d6-4824-415a-b9bf-8e0d2c445568", 0],  ["c13c474e-f1f2-4020-9bdc-6df6dc4b3a1f", 1],  ["0aed75af-2757-49c2-a5c8-03d27be0ee00", 2],  ["ff99b65f-112e-4774-b3c9-4e9063a520b0", 3],  ["f95db9a6-981f-4775-afbf-47085b515045", 4],
+  ["ca7dad2d-8ad1-439d-a42d-683f0bb1c8ff", 5],  ["be0e6603-29f0-4653-a5ff-c92b17c2f56f", 6],  ["4ffe0d1e-925e-4612-a0c7-3f888f1f0885", 7],  ["af1f9448-b626-4708-8e91-6968f7bc17db", 8],  ["eb9e293c-6636-4c76-8251-bff7a7d12b7e", 9],
+  ["198a6fd8-fbe9-4902-ae3e-b435243c48b1", 10],  ["09bfc29e-ede5-4041-b0e8-76f00baa8cb2", 11],  ["36854962-4244-4803-8103-42afe6a5a297", 12],  ["5f9d23c5-bcbf-4404-b6f5-8a64216b4bef", 13],  ["b106e18f-1d2c-43a3-8e9b-649ab526174c", 14],
+  ["216a92e3-c42b-4554-bfae-cd32b8227b0a", 15],  ["775487cc-ef8d-4853-ada0-54fb3a899484", 16],  ["2b845a47-53ca-41b5-a003-5bc18a3c6fec", 17],  ["027832ef-2238-4e66-ae47-c292fa7f4c04", 18],  ["497a04fd-b3a6-4e37-a466-320fadbc8249", 19],
+  ["86336a97-1c47-4c73-9a07-8d3277fa9b1f", 20],  ["36baf411-655e-4476-a188-f5ca231d15c5", 21],  ["6bb7fa24-087f-402d-9f36-8e494526df20", 22],  ["2ad0c5af-f18f-4369-bb6f-d50f99646047", 23],  ["b3cfde70-0556-4491-83c0-553b0cc3a82e", 24],
+  ["2afca794-7968-4bc1-97c4-25b0906066de", 25],  ["7c1e1c4c-f33e-4489-9ff7-8d3c591dabae", 26], ["0453bae3-b25b-4c81-bbe1-f6875c580e84", 27],  ["8155a2b0-4b8f-4cf6-ae33-d30c44c81efd", 28],  ["252d09cb-29c5-4278-baf1-2e6a7085a826", 29],
+  ["9ebab010-184a-408b-9af4-84edb9a144c5", 30],  ["cca2232d-22af-4b2f-95f0-ccbf6ed48b74", 31],  ["4159f7d8-8232-4276-a44f-1004c310281c", 32]
 ]);
 
 //max points 20/Challenge 10/Record 250 NPC ?Weekly
