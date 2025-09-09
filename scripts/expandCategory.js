@@ -82,6 +82,16 @@ function toggle(layer) {
 	}
 }
 
+function toggleHalf(layer) {
+	let overlay = document.getElementById("layer" + layer);
+	let marker = document.getElementById("check" + layer);
+	if (overlay.style.display === "none") {
+		overlay.style.display = "block";
+	} else {
+		overlay.style.display = "none";
+	}
+}
+
 function toggleAll(layer, count) {
 	let marker = document.getElementById("check" + layer);
 	// not all marked or shown
