@@ -13,7 +13,7 @@ body {
 </style>
 <title>Quest 2 - Karte</title>
 </head>
-<body style="background-image: url(https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/mapbg.png); background-size: cover;">
+<body style="background-image: url(https://imgur.com/3sXo38H.png); background-size: cover;">
 	<nav class="header">
 		<div class="menuLogo">
 			<img alt="" src="https://imgur.com/EKpbKtC.png" style="width: 64px; padding-top: 8px;">
@@ -55,17 +55,17 @@ body {
 
 
 					<!-- add each NPC Location --> 
-					<!-- top: px; left: px-->
+					<!-- Ringko		top: 125px; right: 150px-->
 					<img id="layernpc1" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 600px; right: -50px;">
-					<!-- top: px; left: px-->
+					<!-- Chava		top: 310px; right: 170px-->
 					<img id="layernpc2" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 640px; right: -50px;">
-					<!-- top: px; left: px-->
+					<!-- John		top: 46px; right: 2px-->
 					<img id="layernpc3" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 680px; right: -50px;">
-					<!-- top: px; left: px-->
+					<!-- Henry		top: 505px; right: 130px-->
 					<img id="layernpc4" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 720px; right: -50px;">
-					<!-- top: px; left: px-->
+					<!-- Kor		top: 215px; right: 442px-->
 					<img id="layernpc5" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 760px; right: -50px;">
-					<!-- top: px; left: px-->
+					<!-- Nerva		top: 530px; right: 640px-->
 					<img id="layernpc6" class="mapOverlay" alt="npc" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/npcMarker.png" style="display: none; top: 800px; right: -50px;">
 
 
@@ -102,9 +102,9 @@ body {
 					<!-- top:144px; left:313px;-->
         			<img id="layerchallenge15" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 560px; right: -50px;">
         			<!-- top:436px; left:258px;-->
-        			<img id="layerchallenge15" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 560px; right: -50px;">
+        			<img id="layerchallenge16" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 560px; right: -50px;">
         			<!-- top:526px; left:424px;-->
-        			<img id="layerchallenge15" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 560px; right: -50px;">
+        			<img id="layerchallenge17" class="mapOverlay" alt="challenge" src="https://cdn.glitch.global/6124399f-029d-40e4-81c6-ce140bce2f4d/challengeMarker.png" style="display: none; top: 560px; right: -50px;">
 				</div>
 				<div class="mapLegend">
         			<div class="mapLegendBox">
@@ -160,84 +160,84 @@ body {
 						</div>
 						<div class="legendItem">
 							<div style="width: 100%;">
-								<div id="checkchallenge" class=" clickable" onclick="toggleAll('challenge',15);" style="float: left;">&#9744;</div>
+								<div id="checkchallenge" class=" clickable" onclick="toggleAll('challenge',15); toggleHalf('challenge16'); toggleHalf('challenge17');" style="float: left;">&#9744;</div>
 								<div style="float: left;">Challenges</div>
 								<div id="extendChallenge" class="clickable"onclick="expand('Challenge');">&#9662;</div>
 							</div>
 							<div id="submenuChallenge" style="display: none;">
 								<div class="submenuItem">
 									<div id="checkchallenge1" class=" clickable"
-										onclick="toggle('challenge1'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge1'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Jump and Run 1</div><!-- Rollrat -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge2" class=" clickable"
-										onclick="toggle('challenge2'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge2'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Jump and Run 2</div><!-- Cosmo Swing-->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge3" class=" clickable"
-										onclick="toggle('challenge3'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge3'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Jump and Run 3</div><!-- Zipline -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge4" class=" clickable"
-										onclick="toggle('challenge4'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge4'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Speerwerfen</div><!-- Shooting Range -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge5" class=" clickable"
-										onclick="toggle('challenge5'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge5'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Karki Zielwurf</div><!-- JnR Easy -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge6" class=" clickable"
-										onclick="toggle('challenge6'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge6'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Yi LIng Pilot</div><!-- JnR Hard -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge7" class=" clickable"
-										onclick="toggle('challenge7'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge7'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Castle Collect</div><!-- Freethrow -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge8" class=" clickable"
-										onclick="toggle('challenge8'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge8'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Manta Collect</div><!-- Climb&Fly-->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge9" class=" clickable"
-										onclick="toggle('challenge9'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge9'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									  <div>Kaizo Ark</div><!-- Goo Gun -->
 								  </div>
 							  	<div class="submenuItem">
 									<div id="checkchallenge10" class=" clickable"
-										onclick="toggle('challenge10'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge10'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Bison Race</div><!-- Rollrat -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge11" class=" clickable"
-										onclick="toggle('challenge11'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge11'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Xiphactinus Akrobatik</div><!-- Cosmo Swing-->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge12" class=" clickable"
-										onclick="toggle('challenge12'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge12'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Cosmo Swing</div><!-- Zipline -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge13" class=" clickable"
-										onclick="toggle('challenge13'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge13'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Goo Gun</div><!-- Shooting Range -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge14" class=" clickable"
-										onclick="toggle('challenge14'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge14'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Stopwatch</div><!-- JnR Easy -->
 								</div>
 								<div class="submenuItem">
 									<div id="checkchallenge15" class=" clickable"
-										onclick="toggle('challenge15'); checkAll('challenge',15);" style="float: left;">&#9744;</div>
+										onclick="toggle('challenge15'); toggleHalf('challenge16'); toggleHalf('challenge17'); checkAll('challenge',15)" style="float: left;">&#9744;</div>
 									<div>Wave of Teeth</div><!-- JnR Hard -->
 								</div>
 							</div>
