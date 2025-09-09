@@ -449,7 +449,7 @@ async function fillScore() {
 					entry += "<div class=\"grayBar\"></div>";
 					//add red bar
 					max[1] += 20;
-					entry += "<div class=\"redBar\" style=\"width:" + (1 * score[i][0].Challenges[wot]) + "%;\"></div>";
+					
 					//add challenge name, progress, record and points
 					//no calc points needed, points only come from placement in relation to the other teams
 					let temp = 0;
@@ -459,6 +459,7 @@ async function fillScore() {
 					if (score[i][0].Records[(2 * wot)] == true) {
 						rPoints += highestWaveBonus;
 						temp += highestWaveBonus;
+						entry += "<div class=\"redBar\" style=\"width:100%;\"></div>";
 						message += "<span class=\"record\">&starf;</span>";
 					} else {
 						message += "<span class=\"noRecord\">&star;</span>";
@@ -466,8 +467,10 @@ async function fillScore() {
 					if (score[i][0].Records[(2 * wot) + 1] == true) {
 						rPoints += secondHighestWaveBonus;
 						temp += secondHighestWaveBonus;
+						entry += "<div class=\"redBar\" style=\"width:50%;\"></div>";
 						message += "<span class=\"second\">&starf;</span>";
 					} else {
+						entry += "<div class=\"redBar\" style=\"width:0%;\"></div>";
 						message += "<span class=\"noRecord\">&star;</span>";
 					}
 					entry += "<div class=\"textBar\">" + message + "</div>";
@@ -587,7 +590,7 @@ function fillChallenge() {
 				challenge[event.ID] = [event];
 			}
 			console.log(challenge);
-			for (let i = 0; i < challenge.length; i++) {
+			for (let i = 0; i < challenge.length-1; i++) {
 				let leaderboard = document.getElementById("tickerRekordChallenge" + (i + 1));
 				for (let j = 0; j < challenge[i][0].Players.length; j++) {
           			let front = "";
@@ -625,8 +628,37 @@ function fillChallenge() {
           			}
           			leaderboard.innerHTML += front +"Hue" + run + "<div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Players[j] + " - " + challenge[i][0].Times[j] + "</div></div>";
 				}
-				console.log(leaderboard.innerHTML);
 			}
+			let leaderboard = document.getElementById("tickerRekordChallenge" + (i + 1));
+				for (let j = 0; j < challenge[challenge.length-1][0].Teams.length; j++) {
+          			let front = "";
+					let rank = "";
+					switch (j) {
+						case 0:
+							rank = "<span class=\"record\">&starf; </span>";
+							break;
+						case 1:
+							rank = "<span class=\"second\">&starf; </span>";
+							break;
+						default:
+							rank = (j + 1) + ". ";
+					}
+					front += "<div class=\"boxInABoxTickerSmall ";
+          			switch(challenge[i][0].Teams[j]){
+          				case "Team Rot":
+            				front += "red";
+            			break;
+          				case "Team Gr\u00FCn":
+            				front += "green";
+            			break;
+          				case "Team Blau":
+            				front += "blue";
+            			break;
+          				default:
+            				front += "admins";
+          			}
+          			leaderboard.innerHTML += front +"Hue\">"<div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Teams[j] + " - " + challenge[i][0].Times[j] + " Wellen besiegt</div></div>";
+          	}
 		})
 		.catch(error => console.error('Fehler beim Abrufen der Punkte:', error));
 }
