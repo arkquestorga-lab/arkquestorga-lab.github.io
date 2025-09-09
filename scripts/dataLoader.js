@@ -657,7 +657,7 @@ function fillChallenge() {
           				default:
             				front += "admins";
           			}
-          			leaderboard.innerHTML += front +"Hue\">"<div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Teams[j] + " - " + challenge[i][0].Times[j] + " Wellen besiegt</div></div>";
+          			leaderboard.innerHTML += front +"Hue\"><div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Teams[j] + " - " + challenge[i][0].Times[j] + " Wellen besiegt</div></div>";
           	}
 		})
 		.catch(error => console.error('Fehler beim Abrufen der Punkte:', error));
