@@ -4,7 +4,7 @@ $(window).scroll(function() {
   $('.header-overlay').css({
     opacity: function() {
       var elementHeight = $(this).height()/1.7;
-      return 0.85 - ((elementHeight - scrollTop) / elementHeight)*0.85;
+      return 0.727 - ((elementHeight - scrollTop) / elementHeight)*0.727;
     }
   });
 });
