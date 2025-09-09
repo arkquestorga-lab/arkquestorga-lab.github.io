@@ -629,7 +629,7 @@ function fillChallenge() {
           			leaderboard.innerHTML += front +"Hue" + run + "<div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Players[j] + " - " + challenge[i][0].Times[j] + "</div></div>";
 				}
 			}
-			let leaderboard = document.getElementById("tickerRekordChallenge" + (i + 1));
+			let leaderboard = document.getElementById("tickerRekordChallenge" + (challenge.length-1 + 1));
 				for (let j = 0; j < challenge[challenge.length-1][0].Teams.length; j++) {
           			let front = "";
 					let rank = "";
@@ -644,7 +644,7 @@ function fillChallenge() {
 							rank = (j + 1) + ". ";
 					}
 					front += "<div class=\"boxInABoxTickerSmall ";
-          			switch(challenge[i][0].Teams[j]){
+          			switch(challenge[challenge.length-1][0].Teams[j]){
           				case "Team Rot":
             				front += "red";
             			break;
@@ -657,7 +657,7 @@ function fillChallenge() {
           				default:
             				front += "admins";
           			}
-          			leaderboard.innerHTML += front +"Hue\"><div class=\"infoboxContentLeaderboard\">" + rank + challenge[i][0].Teams[j] + " - " + challenge[i][0].Times[j] + " Wellen besiegt</div></div>";
+          			leaderboard.innerHTML += front +"Hue\"><div class=\"infoboxContentLeaderboard\">" + rank + challenge[challenge.length-1][0].Teams[j] + " - " + challenge[challenge.length-1][0].Times[j] + " Wellen besiegt</div></div>";
           	}
 		})
 		.catch(error => console.error('Fehler beim Abrufen der Punkte:', error));
