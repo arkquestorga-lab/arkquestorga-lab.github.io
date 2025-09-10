@@ -1,107 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="icon" href="https://imgur.com/giyv3pK.png">
-<link rel="stylesheet" type="text/css" href="./styles/wide.css">
-<script src="./scripts/expandCategory.js"></script>
-<script src="./scripts/dataLoader.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans"
+	<meta charset="UTF-8">
+	<link rel="icon" href="https://imgur.com/giyv3pK.png">
+	<link rel="stylesheet" type="text/css" href="./styles/wide.css">
+	<script src="./scripts/expandCategory.js"></script>
+	<script src="./scripts/dataLoader.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans"
 	rel="stylesheet">
-<style type="text/css">
-body {
-	font-family: 'Oswald';
-}
-</style>
-<title>Quest 3 - Teams</title>
+	<style type="text/css">
+		body {
+			font-family: 'Oswald';
+		}
+	</style>
+	<title>Quest 3 - Teams</title>
 </head>
 <body onload="fillTeam();" style="background-image: url('https://imgur.com/nNh0Vl7.jpg'); background-size: cover;">
-		<nav class="header ">
-			<div class="menuLogo">
-				<img alt="" src="https://imgur.com/EKpbKtC.png"
-					style="width: 64px; padding-top: 8px;">
-			</div>
-			<div class="menuButton clickable"
-				onclick="location.href='index.html'">
-				<div class="menuButtonText">Start</div>
-			</div>
-			<div class="menuDivider"></div>
-			<div class="menuButton clickable"
-				onclick="location.href='teams.html'">
-				<div class="menuButtonText">Teams</div>
-			</div>
-			<div class="menuDivider"></div>
-			<div class="menuButton clickable"
-				onclick="location.href='quests.html'">
-				<div class="menuButtonText">Quests</div>
-			</div>
-			<div class="menuDivider"></div>
-			<div class="menuButton clickable" onclick="location.href='map.html'">
-				<div class="menuButtonText">Map</div>
-			</div>
-			<div class="menuDivider"></div>
-			<div class="menuButton clickable" onclick="location.href='cards.html'">
-				<div class="menuButtonText">Sammelkarten</div>
-			</div>
-		</nav>
-  	<div class="main">
+	<nav class="header ">
+		<div class="menuLogo">
+			<img alt="" src="https://imgur.com/EKpbKtC.png"	style="width: 64px; padding-top: 8px;">
+		</div>
+		<div class="menuButton clickable" onclick="location.href='index.html'">
+			<div class="menuButtonText">Start</div>
+		</div>
+		<div class="menuDivider"></div>
+		<div class="menuButton clickable">
+			<div class="menuButtonText">Teams</div>
+		</div>
+		<div class="menuDivider"></div>
+		<div class="menuButton clickable" onclick="location.href='quests.html'">
+			<div class="menuButtonText">Quests</div>
+		</div>
+		<div class="menuDivider"></div>
+		<div class="menuButton clickable" onclick="location.href='map.html'">
+			<div class="menuButtonText">Map</div>
+		</div>
+		<div class="menuDivider"></div>
+		<div class="menuButton clickable" onclick="location.href='cards.html'">
+			<div class="menuButtonText">Sammelkarten</div>
+		</div>
+	</nav>
+	<div class="main">
 		<div class="horizontalBoxes">
 			<div class="flexBoxThird teamRed ">
 
 				<div class="teamHeaderPoints clickable noticeMe"
-					onclick="hide('redScoreDetail', 'redArrow'); flipContent('red');">
-					<div>
-						<span id="redScore" style="margin-right: -14px;"></span>
-						<span id="redArrow" style="margin: -10px;">&#9662;</span>
-					</div>
-				</div>
-				<div id="red"
-					style="display: block; margin-left: 40px; margin-top: 85px;"></div>
-				<div id="redScoreDetail" class="scoreDetails"
-					style="margin-left: 41px; margin-top: 83px; display: none;">
-					<!-- START POINTS RED -->
-					<!-- END POINTS RED -->
+				onclick="hide('redScoreDetail', 'redArrow'); flipContent('red');">
+				<div>
+					<span id="redScore" style="margin-right: -14px;"></span>
+					<span id="redArrow" style="margin: -10px;">&#9662;</span>
 				</div>
 			</div>
-
-			<div class="flexBoxThird teamGreen ">
-
-				<div class="teamHeaderPoints clickable noticeMe"
-					onclick="hide('greenScoreDetail', 'greenArrow'); flipContent('green');">
-					<div>
-						<span id="greenScore" style="margin-right: -14px;"></span>
-						<span id="greenArrow" style="margin: -10px;">&#9662;</span>
-					</div>
-				</div>
-				<div id="green"
-					style="display: block; margin-left: 40px; margin-top: 85px;"></div>
-				<div id="greenScoreDetail" class="scoreDetails"
-					style="margin-left: 41px; margin-top: 83px; display: none;">
-					<!-- START POINTS GREEN -->
-					<!-- END POINTS GREEN -->
-				</div>
-			</div>
-			<div class="flexBoxThird teamBlue ">
-
-				<div class="teamHeaderPoints clickable noticeMe"
-					onclick="hide('blueScoreDetail', 'blueArrow'); flipContent('blue');">
-					<div>
-						<span id="blueScore" style="margin-right: -14px;"></span>
-						<span id="blueArrow" style="margin: -10px;">&#9662;</span>
-					</div>
-				</div>
-				<div id="blue"
-					style="display: block; margin-left: 40px; margin-top: 85px;"></div>
-				<div id="blueScoreDetail" class="scoreDetails"
-					style="margin-left: 41px; margin-top: 83px; display: none">
-					<!-- START POINTS BLUE -->
-					<!-- END POINTS BLUE -->
-				</div>
-
-			</div>
+			<div id="red"
+			style="display: block; margin-left: 40px; margin-top: 85px;"></div>
+			<div id="redScoreDetail" class="scoreDetails"
+			style="margin-left: 41px; margin-top: 83px; display: none;">
+			<!-- START POINTS RED -->
+			<!-- END POINTS RED -->
 		</div>
-		<!-- bigger portarit for each player -->
-		<div id="portraitsBig"></div>
 	</div>
+
+	<div class="flexBoxThird teamGreen ">
+
+		<div class="teamHeaderPoints clickable noticeMe"
+		onclick="hide('greenScoreDetail', 'greenArrow'); flipContent('green');">
+		<div>
+			<span id="greenScore" style="margin-right: -14px;"></span>
+			<span id="greenArrow" style="margin: -10px;">&#9662;</span>
+		</div>
+	</div>
+	<div id="green"
+	style="display: block; margin-left: 40px; margin-top: 85px;"></div>
+	<div id="greenScoreDetail" class="scoreDetails"
+	style="margin-left: 41px; margin-top: 83px; display: none;">
+	<!-- START POINTS GREEN -->
+	<!-- END POINTS GREEN -->
+</div>
+</div>
+<div class="flexBoxThird teamBlue ">
+
+	<div class="teamHeaderPoints clickable noticeMe"
+	onclick="hide('blueScoreDetail', 'blueArrow'); flipContent('blue');">
+	<div>
+		<span id="blueScore" style="margin-right: -14px;"></span>
+		<span id="blueArrow" style="margin: -10px;">&#9662;</span>
+	</div>
+</div>
+<div id="blue"
+style="display: block; margin-left: 40px; margin-top: 85px;"></div>
+<div id="blueScoreDetail" class="scoreDetails"
+style="margin-left: 41px; margin-top: 83px; display: none">
+<!-- START POINTS BLUE -->
+<!-- END POINTS BLUE -->
+</div>
+
+</div>
+</div>
+<!-- bigger portarit for each player -->
+<div id="portraitsBig"></div>
+</div>
 </body>
 </html>
