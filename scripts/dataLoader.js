@@ -669,27 +669,27 @@ function setText(i) {
 	switch (i) {
 		case 1:
 			text.innerHTML = "Ringko ist eigentlich selbst Streamer und Ark Player, aber irgendetwas beim Serverwechsel nach Ragnarok lief schief! Er ist zwar auf dem Server aber kann sich nicht bewegen. Also müssen seine Kollegen ihm helfen. Dafür müssen sie ihm Equipment und Tames ranschaffen, für die sein Ark-Gameplay bekannt ist.";
-			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			image.innerHTML = "<img src=\"https://imgur.com/MKTKNN4.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 2:
 			text.innerHTML = "John ist ein amerikanischer Ureinwohner aus dem 19. Jahrhundert, durch seinen Stamm hat er gelernt das Hilfsbereitschaft und Zusammenhalt das Wichtigste ist. Um diese Werte an andere Zeitreisende weiterzugeben, versucht er eine Grundversorgung bereit zu stellen.";
-			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			image.innerHTML = "<img src=\"https://imgur.com/YYMfwcH.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 3:
 			text.innerHTML = "Kor der Prophet oder wie er sich selbst gerne nennt \"der Dino-Flüsterer\" ist aus den längst vergangenen Zeiten der Dinos daher auch seine Affinität zu diesen majestätischen Wesen und diese möchte er an euch weitergeben.";
-			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			image.innerHTML = "<img src=\"https://imgur.com/jNTqcJs.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 4:
 			text.innerHTML = "Chava ist eine Heilerin die ihr gesamtes Leben darauf ausgerichtet hat so vielen Lebewesen zu helfen wie möglich. Genau aus diesem Grund versucht sie aus allen verfügbaren Mitteln die beste Arznei zu machen.";
-			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			image.innerHTML = "<img src=\"https://imgur.com/EdKCwh2.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 5:
 			text.innerHTML = "Henry ist ein wiederkehrender Abenteurer, der für den Nervenkitzel die größte Herausforderung sucht. Diese Erfahrung möchte er ein weiteres Mal teilen, weshalb er die Spieler auf waghalsige Missionen schickt.";
-			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			image.innerHTML = "<img src=\"https://imgur.com/h1fapV1.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		case 6:
 			text.innerHTML = "Gaius Marcellus Nerva ist ein römischer Zenturio, der, nachdem er ein Pantheon auf Abberation errichten ließ, nun eine göttliche Elite Truppe aufbaut. Für welchen Gott? Für sich selbst! Ist er mit euren Rekruten zufrieden wird er sich auch erkenntlich zeigen.";
-			image.innerHTML = "<img src=\"NPC1.png\" style=\"width: 100%; height: 100%;\">";
+			image.innerHTML = "<img src=\"https://imgur.com/W4X06An.png\" style=\"width: 100%; height: 100%;\">";
 			break;
 		default:
 			text.innerHTML = "Coming Soon...";
