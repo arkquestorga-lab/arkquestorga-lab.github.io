@@ -350,6 +350,8 @@ async function fillScore() {
 			    }   
       console.log("nach url fetch ist score");
       console.log(score);
+			// add 20 points for WoT once thrice
+			max[1] += 20;
       		// abort on second to last entry because "Wave of Teeth" is calculated differently
 			for (let i = 0; i < score[0][0].Challenges.length-1; i++) {
 				//get max Challenge Points
@@ -448,7 +450,6 @@ async function fillScore() {
 					entry += "<div class=\"textBar\">"+cNames[wot]+"</div>";
 					entry += "<div class=\"grayBar\"></div>";
 					//add red bar
-					max[1] += 20;
 					
 					//add challenge name, progress, record and points
 					//no calc points needed, points only come from placement in relation to the other teams
