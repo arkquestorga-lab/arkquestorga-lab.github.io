@@ -49,7 +49,11 @@ function fillTicker(tickerId) {
 				switch (ticker[i].Type) {
 					case "Rekord":
 						messageA += "Rekord: " + ticker[i].Event + " +++";
-						messageB += ticker[i].Player + " - " + ticker[i].Score;
+						if (ticker[i].Player != "None") {
+							messageB += ticker[i].Player + " - " + ticker[i].Score;
+						} else {
+							messageB += "Welle " + ticker[i].Score + " erreicht";
+						}					
 						break;
 					case "NPC":
 						messageA += "NPC beendet: " + ticker[i].Event + " +++";
